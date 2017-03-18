@@ -5,8 +5,7 @@ class AppCard extends Component {
     constructor(options) {
         super(options);
         this._render();
-        //this._randomInteger = this._randomInteger.bind(this);
-        this._el.addEventListener('click', this._onStartButtonClick.bind(this));
+        //this._el.addEventListener('click', this._onStartButtonClick.bind(this));
     }
 
 
@@ -14,46 +13,68 @@ class AppCard extends Component {
 
     }
 
-    _onStartButtonClick(event) {
+    formSetToTrain(settings) {
 
-        let target = event.target;
-
-        if (!target.dataset.action || target.dataset.action !== 'start') return;
-
-        this._formSetToTrain();
-
-    }
-
-    _formSetToTrain() {
+        let chosenLevels = settings.levels;
+        let chosenTences = settings.tences;
+        let chosenSentTypes = settings.sentenceTypes;
 
         let words = [{
             'en': 'table',
             'ru': 'стол',
-            'level': '1'
+            'level': 16
         }, {
             'en': 'chin',
             'ru': 'подбородок',
-            'level': '2'
+            'level': 2
         }, {
             'en': 'spoon',
             'ru': 'ложка',
-            'level': '1'
+            'level': 15
         }, {
             'en': 'kind',
             'ru': 'добрый',
-            'level': '2'
+            'level': 2
         }, {
             'en': 'annoying',
             'ru': 'раздражающий',
-            'level': '3'
+            'level': 3
+        }, {
+            'en': 'dress up',
+            'ru': 'наряжаться',
+            'level': 8
+        }, {
+            'en': 'hit on',
+            'ru': 'флиртовать',
+            'level': 3
+        }, {
+            'en': 'wound',
+            'ru': 'рана',
+            'level': 3
         }];
 
-        let tences = ['Present Simple', 'Past Simple', 'Future Simple'];
+        let tences = ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues'];
 
-        let word = words[Randomizer.getRandomInteger(0, words.length - 1)].en;
-        let tence = tences[Randomizer.getRandomInteger(0, tences.length - 1)];
+        // выбираем слова только из выбранных в настройках левелов
+        let wordsToChooseOf = words.filter((word) => {
+            return chosenLevels.indexOf(word.level) !== -1;
+        });
 
-        alert("word : " + word + ", tence : " + tence);
+        // выбираем времена только из выбранных в настройках времен
+        let tencesToChooseOf = tences.filter((tence) => {
+            return chosenTences.indexOf(tence) !== -1;
+        });
+
+        let chosenWords = Randomizer.getArrayOfRandomElements(wordsToChooseOf,3);
+        let tence = Randomizer.getRandomElementFromArray(tencesToChooseOf);
+
+        let str = 'words : ';
+
+        chosenWords.forEach((item) => {
+            str += item.en + ', ';
+        });
+
+        alert(str + "tence : " + tence);
 
     }
 
