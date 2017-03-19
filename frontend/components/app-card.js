@@ -5,6 +5,7 @@ class AppCard extends Component {
     constructor(options) {
         super(options);
         this._render();
+        this._words = null; // Объект со словами загруженными с сервера
         //this._el.addEventListener('click', this._onStartButtonClick.bind(this));
     }
 
@@ -13,47 +14,52 @@ class AppCard extends Component {
 
     }
 
+    loadWords(){
+
+        let xhr = new XMLHttpRequest();
+
+        xhr.open('GET','../data/words.json',true);
+
+        xhr.onload = () => {
+            let data = JSON.parse(xhr.responseText);
+            this._words = data;
+        }
+
+        xhr.onerror = () => {
+            console.log(new Error(xhr.status + ' ' + xhr.statusText));
+        }
+
+        xhr.send();
+
+    }
+
     formSetToTrain(settings) {
+
+        // если по какой-то причине слова не получены с сервера то не продолжаем
+        if (!this._words) return;
 
         let chosenLevels = settings.levels;
         let chosenTences = settings.tences;
         let chosenSentTypes = settings.sentenceTypes;
 
-        let words = [{
-            'en': 'table',
-            'ru': 'стол',
-            'level': 16
-        }, {
-            'en': 'chin',
-            'ru': 'подбородок',
-            'level': 2
-        }, {
-            'en': 'spoon',
-            'ru': 'ложка',
-            'level': 15
-        }, {
-            'en': 'kind',
-            'ru': 'добрый',
-            'level': 2
-        }, {
-            'en': 'annoying',
-            'ru': 'раздражающий',
-            'level': 3
-        }, {
-            'en': 'dress up',
-            'ru': 'наряжаться',
-            'level': 8
-        }, {
-            'en': 'hit on',
-            'ru': 'флиртовать',
-            'level': 3
-        }, {
-            'en': 'wound',
-            'ru': 'рана',
-            'level': 3
-        }];
+
 
         let tences = ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues'];
+
+
+        let words = [];
+
+        // из объекта со словами сделаем массив со словами, так как с числовыми индексами работать удобнее
+        for (let wordObj in this._words) {
+
+            let obj = {
+                en : wordObj,
+                ru : this._words[wordObj].ru,
+                level : +this._words[wordObj].level
+            };
+            words.push(obj);
+
+        }
 
         // выбираем слова только из выбранных в настройках левелов
         let wordsToChooseOf = words.filter((word) => {

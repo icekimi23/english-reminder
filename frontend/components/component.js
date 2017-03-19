@@ -15,6 +15,14 @@ class Component{
         this._el.removeEventListener(eventName,handler);
     }
 
+    show(){
+        this._el.classList.remove('js-hidden');
+    }
+
+    hide(){
+        this._el.classList.add('js-hidden');
+    }
+
     trigger(eventName,data){
 
         let myEvent = new CustomEvent(eventName,{
