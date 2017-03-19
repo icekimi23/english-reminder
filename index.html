@@ -10,6 +10,10 @@
             padding: 0px;
         }
 
+        .levels li{
+            display : inline;
+        }
+
         .card {
 
         }
@@ -20,6 +24,7 @@
 
     </style>
 
+    <script src="frontend/services/cookie.js" defer></script>
     <script src="frontend/services/randomizer-service.js" defer></script>
     <script src="frontend/components/component.js" defer></script>
     <script src="frontend/components/app-settings.js" defer></script>
@@ -30,27 +35,46 @@
 </head>
 
 <body>
-
+test
 <div class="card" data-component="card">
     <button data-action = "start"> Start </button>
     <button data-action = "show-settings"> Settings </button>
 </div>
 
 <div class="settings js-hidden" data-component="settings">
+
     <button data-action = "back"> Back </button>
     <br>
-    <span> Choose levels: </span>
-    <input type="checkbox"> 1 </input>
-    <input type="checkbox"> 2 </input>
-    <input type="checkbox"> 3 </input>
+
+    <ul class = "levels" data-item = "settings-levels"><span> Choose levels: </span>
+        <label><li><input type="checkbox"> 1 </input></li></label>
+        <label><li><input type="checkbox"> 2 </input></li></label>
+        <label><li><input type="checkbox"> 3 </input></li></label>
+        <label><li><input type="checkbox"> 4 </input></li></label>
+        <label><li><input type="checkbox"> 5 </input></li></label>
+        <label><li><input type="checkbox"> 6 </input></li></label>
+        <label><li><input type="checkbox"> 7 </input></li></label>
+        <label><li><input type="checkbox"> 8 </input></li></label>
+        <label><li><input type="checkbox"> 9 </input></li></label>
+        <label><li><input type="checkbox"> 10 </input></li></label>
+        <label><li><input type="checkbox"> 11 </input></li></label>
+        <label><li><input type="checkbox"> 12 </input></li></label>
+        <label><li><input type="checkbox"> 13 </input></li></label>
+        <label><li><input type="checkbox"> 14 </input></li></label>
+        <label><li><input type="checkbox"> 15 </input></li></label>
+        <label><li><input type="checkbox"> 16 </input></li></label>
+    </ul>
 
     <br>
 
-    <ul>
+    <ul data-item = "settings-tences">
         <span> Choose tences: </span>
-        <li><input type="checkbox"> Present Simple </input></li>
-        <li><input type="checkbox"> Past Simple </input></li>
-        <li><input type="checkbox"> Future Simple </input></li>
+        <label><li><input type="checkbox"> Present Simple </input></li></label>
+        <label><li><input type="checkbox"> Past Simple </input></li></label>
+        <label><li><input type="checkbox"> Future Simple </input></li></label>
+        <label><li><input type="checkbox"> Present Perfect </input></li></label>
+        <label><li><input type="checkbox"> Present Continues </input></li></label>
+        <label><li><input type="checkbox"> Past Continues </input></li></label>
     </ul>
 </div>
 
