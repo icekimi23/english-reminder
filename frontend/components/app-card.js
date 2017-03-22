@@ -71,16 +71,26 @@ class AppCard extends Component {
             return chosenTences.indexOf(tence) !== -1;
         });
 
+        // случайные слова, которые в конце вращения слот машины отобразятся пользователю
         let chosenWords = Randomizer.getArrayOfRandomElements(wordsToChooseOf,3);
+
+        // случайные слова для вращения в слот машине, перед тем как выпадет нужное
+        let wordsForSlots = Randomizer.getArrayOfRandomElements(wordsToChooseOf,50);
         let tence = Randomizer.getRandomElementFromArray(tencesToChooseOf);
 
-        let str = 'words : ';
+        return {
+            'chosenWords' : chosenWords,
+            'wordsForSlotMachine' : wordsForSlots,
+            'tence' : tence
+        }
+
+        /*let str = 'words : ';
 
         chosenWords.forEach((item) => {
             str += item.en + ', ';
         });
 
-        alert(str + "tence : " + tence);
+        alert(str + "tence : " + tence);*/
 
     }
 
