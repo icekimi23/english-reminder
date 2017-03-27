@@ -13,8 +13,16 @@ class AppSettings extends Component{
             'sentenceTypes' : ['positive','negative','question']
         };
 
+        //this._el.onmousedown = () => false;
+
         this._getSettings();
         this._render();
+    }
+
+    // поменяем внешний вид после выбора или отмены выбора элемента и отразим это в настройках
+    changeItemStatusAndApperance(li){
+        li.classList.toggle('settings_picked');
+        li.firstElementChild.checked = !li.firstElementChild.checked;
     }
 
     // установим cookie с текущими настройками
@@ -53,11 +61,13 @@ class AppSettings extends Component{
         let TencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
 
         LevelsItems.forEach((liElem)=>{
-            if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) liElem.firstElementChild.checked = true;
+            //if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) liElem.firstElementChild.checked = true;
+            if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) this.changeItemStatusAndApperance(liElem);
         });
 
         TencesItems.forEach((liElem)=>{
-            if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
+            //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
+            if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) this.changeItemStatusAndApperance(liElem);
         });
 
 
@@ -87,14 +97,23 @@ class AppSettings extends Component{
 
     _onBackClick(event){
 
-        let target = event.target;
+        /*let target = event.target;
 
         if (!target.dataset.action) return;
 
         if (target.dataset.action === 'back') {
             // запишем настройки в cookie
             this._setSettings();
-        }
+        }*/
+
+        let target = event.target;
+
+        let backEl = target.closest('[data-action = "back"]');
+
+        if (!backEl) return;
+
+        this._setSettings();
+
 
     }
 

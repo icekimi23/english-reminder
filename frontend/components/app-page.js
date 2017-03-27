@@ -45,10 +45,14 @@ class AppPage extends Component{
 
                 let settings = this._settings.returnCurrentSettings();
 
-                let dataForSlots = this._card.formSetToTrain(settings);
+                if (settings.levels.length > 0) {
+                    let dataForSlots = this._card.formSetToTrain(settings);
+                    this._slotMachine.loadDataForSlots(dataForSlots);
+                    this._slotMachine.rotateSlots();
+                } else {
+                    alert("Choose at least one level in settings!");
+                }
 
-                this._slotMachine.loadDataForSlots(dataForSlots);
-                this._slotMachine.rotateSlots();
             }
 
         });
@@ -63,13 +67,26 @@ class AppPage extends Component{
 
             let target = event.target;
 
-            if (!target.dataset.action) return;
+            let backEl = target.closest('[data-action = "back"]');
 
-            if (target.dataset.action === 'back') {
-                window.history.back();
-                this._settings.hide();
-                this._card.show();
-            }
+            if (!backEl) return;
+
+            window.history.back();
+            this._settings.hide();
+            this._card.show();
+
+        });
+
+        // назначение обработчиков на кнопки
+        this._settings.on('click',(event) => {
+
+            let target = event.target;
+
+            let li = target.closest('[data-item = "settings-level"]') || target.closest('[data-item = "settings-tence"]');
+
+            if (!li) return;
+
+            this._settings.changeItemStatusAndApperance(li);
 
         });
     }

@@ -14,6 +14,7 @@ class SlotMachine{
         // длина прокрутки после которой нужно замедлить скорость прокрутки, вплоть до полной остановки в конце
         this._oneSpinStepHeight = 0;
 
+        // 3 слота(блоки в которых крутятся слова)
         this._slot1 = new Slot( { el : this._el.querySelector('.slot1'), minSpeedAddition : 0, maxSpeedAddition : 100} );
         this._slot2 = new Slot( { el : this._el.querySelector('.slot2'), minSpeedAddition : 100, maxSpeedAddition : 200} );
         this._slot3 = new Slot( { el : this._el.querySelector('.slot3'), minSpeedAddition : 200, maxSpeedAddition : 300} );
@@ -35,40 +36,21 @@ class SlotMachine{
     }
 
     rotateSlots(){
-        
-        // зяполняем слот для очередной прокрутки
-        this._prepareSlot( this._slot1.el, {
-            'words' : this._dataForSlots.wordsForSlotMachine,
-            'theOne' : this._dataForSlots.chosenWords[0]
-        } );
-
-        // зяполняем слот для очередной прокрутки
-        this._prepareSlot( this._slot2.el, {
-            'words' : this._dataForSlots.wordsForSlotMachine,
-            'theOne' : this._dataForSlots.chosenWords[1]
-        } );
-
-        // зяполняем слот для очередной прокрутки
-        this._prepareSlot( this._slot3.el, {
-            'words' : this._dataForSlots.wordsForSlotMachine,
-            'theOne' : this._dataForSlots.chosenWords[2]
-        } );
 
         this._inProgress = true;
 
+        //зяполняем слот для очередной прокрутки
+        this._allSlots.forEach((slot,i,arr)=>{
+            this._prepareSlot( slot.el, {
+                'words' : this._dataForSlots.wordsForSlotMachine,
+                'theOne' : this._dataForSlots.chosenWords[i]
+            });
+        });
 
+        // начинаем крутить все слоты
         this._allSlots.forEach((slot)=>{
             slot.startSpining(this._slotHeight, this._oneSpinStepHeight);
         });
-
-        //
-        //this._slot1.startSpining(this._slotHeight, this._oneSpinStepHeight);
-
-        // пробуем прокрутить слот 2
-        //$(this._slot2.el).css('top', -this._slotHeight).animate({ 'top' : '0px' },1500,'linear',() => {this._inProgress = false});
-
-        // пробуем прокрутить слот 3
-        //$(this._slot3.el).css('top', -this._slotHeight).animate({ 'top' : '0px' },1500,'linear',() => {this._inProgress = false});
 
     }
 
@@ -79,17 +61,15 @@ class SlotMachine{
 
         let words = options.words || [];
 
-        const wordsInSlot = words.length;
+        let wordsInSlot = words.length;
 
-        //let liHeight = slot.querySelector('li').clientHeight;
-        // выстоту li берем как заданную высоту внешнего div'a
         let liHeight = this._el.querySelector('.slot_machine_wrapper').clientHeight;
 
         // общая длина ul прокрутки
         this._slotHeight = -(liHeight * wordsInSlot);
 
         // длина прокрутки после которой нужно замедлить скорость прокрутки, вплоть до полной остановки в конце
-        this._oneSpinStepHeight = this._slotHeight / (wordsInSlot / 5);
+        this._oneSpinStepHeight = this._slotHeight / (wordsInSlot / 10);
 
         let slotItems = slot.querySelectorAll('li');
 
@@ -120,10 +100,10 @@ class SlotMachine{
 
 
 class Slot {
+
     constructor(options){
         this.el = options.el;
         this._randomSpeenAddition = Randomizer.getRandomInteger(options.minSpeedAddition,options.maxSpeedAddition);
-        this.speed = 300 + this._randomSpeenAddition;
     }
 
     _spinOnce(){

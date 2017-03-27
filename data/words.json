@@ -1,83 +1,1122 @@
 {
-  "table": {
-    "ru": "стол",
-    "level": "16"
+  "I was wondering…": {
+    "ru": "Интересно… Не подскажете ли мне… (оч. вежливо)",
+    "level": 11
   },
-  "chin": {
-    "ru": "подбородок",
-    "level": "2"
+  "rehearsal": {
+    "ru": "репетиция",
+    "level": 11
   },
-  "spoon": {
-    "ru": "ложка",
-    "level": "15"
+  "ruin smth": {
+    "ru": "разрушать, портить что-то",
+    "level": 11
   },
-  "kind": {
-    "ru": "добрый",
-    "level": "2"
+  "subway (Am); tube (Br)": {
+    "ru": "метро",
+    "level": 11
   },
-  "annoying": {
-    "ru": "раздражающий",
-    "level": "3"
+  "stepmom": {
+    "ru": "мачеха",
+    "level": 11
+  },
+  "self-involved": {
+    "ru": "эгоцентричный, поглощ. собой",
+    "level": 11
+  },
+  "homesick": {
+    "ru": "тоскующий по дому, родине",
+    "level": 11
+  },
+  "enjoy yourself": {
+    "ru": "веселиться (не наслаждаться собой)",
+    "level": 11
+  },
+  "liquor": {
+    "ru": "алкогольные напитки (не ликёр)",
+    "level": 11
+  },
+  "remodel a house": {
+    "ru": "сделать ремонт в доме",
+    "level": 11
+  },
+  "fare (on a ticket)": {
+    "ru": "оплата за проезд",
+    "level": 11
+  },
+  "take advantage of smb": {
+    "ru": "извлечь выгоду, использовать в своих интересах",
+    "level": 11
+  },
+  "split smth with smb.": {
+    "ru": "поделить (с кем-то)",
+    "level": 11
+  },
+  "Face it!": {
+    "ru": "да пойми же ты!",
+    "level": 11
+  },
+  "lawn ornaments": {
+    "ru": "украшения для лужайки",
+    "level": 11
+  },
+  "bridesmaid": {
+    "ru": "подружка невесты",
+    "level": 11
+  },
+  "best man": {
+    "ru": "шафер",
+    "level": 11
+  },
+  "settle smth": {
+    "ru": "уладить что-то",
+    "level": 11
+  },
+  "sedative": {
+    "ru": "успокоительное",
+    "level": 11
+  },
+  "No good can come of this!": {
+    "ru": "Ничего хорошего из этого не выйдет!",
+    "level": 11
+  },
+  "You want a piece of me?": {
+    "ru": "Ты нарываешься?",
+    "level": 11
+  },
+  "thumb": {
+    "ru": "большой палец",
+    "level": 11
+  },
+  "to increase": {
+    "ru": "увеличивать, повышать",
+    "level": 11
+  },
+  "extremely rare": {
+    "ru": "крайне редкий",
+    "level": 11
+  },
+  "household": {
+    "ru": "семья, хозяйство",
+    "level": 11
+  },
+  "beyond": {
+    "ru": "вне, за пределами",
+    "level": 11
+  },
+  "stuffed animal": {
+    "ru": "плюшевая игрушка",
+    "level": 11
+  },
+  "cuddle/snuggle": {
+    "ru": "обниматься",
+    "level": 11
+  },
+  "lick": {
+    "ru": "лизать",
+    "level": 11
+  },
+  "infectious disease": {
+    "ru": "инфекционное заболевание",
+    "level": 11
+  },
+  "replacement": {
+    "ru": "замена",
+    "level": 11
+  },
+  "according to": {
+    "ru": "по утверждению, по мнению",
+    "level": 11
+  },
+  "throughout my life": {
+    "ru": "на протяжении всей моей жизни",
+    "level": 11
+  },
+  "reckon": {
+    "ru": "считать",
+    "level": 11
+  },
+  "benefit": {
+    "ru": "польза, выгода",
+    "level": 11
+  },
+  "(far) outweigh": {
+    "ru": "(намного) перевешивать",
+    "level": 11
+  },
+  "dressing gown": {
+    "ru": "халат",
+    "level": 11
+  },
+  "remove": {
+    "ru": "убирать",
+    "level": 11
+  },
+  "beans": {
+    "ru": "фасоль",
+    "level": 11
+  },
+  "chemist’s": {
+    "ru": "аптека",
+    "level": 11
+  },
+  "pharmacist": {
+    "ru": "фармацевт, аптекарь",
+    "level": 11
+  },
+  "tip the contents of your wallet": {
+    "ru": "вытряхнуть содержимое кошелька",
+    "level": 11
+  },
+  "counter": {
+    "ru": "прилавок",
+    "level": 11
+  },
+  "help oneself to smth": {
+    "ru": "брать себе; угощаться",
+    "level": 11
+  },
+  "arrange": {
+    "ru": "договориться",
+    "level": 11
+  },
+  "head office": {
+    "ru": "главный офис",
+    "level": 11
+  },
+  "to nag": {
+    "ru": "донимать придирками, капать на мозги",
+    "level": 11
+  },
+  "pile up": {
+    "ru": "складывать в кучу",
+    "level": 11
+  },
+  "chop": {
+    "ru": "мелко нарезать",
+    "level": 11
+  },
+  "grate": {
+    "ru": "потереть на терке",
+    "level": 11
+  },
+  "approximately": {
+    "ru": "приблизительно",
+    "level": 11
+  },
+  "obnoxious": {
+    "ru": "отвратительный, оскорбительный, очень неприятный",
+    "level": 11
+  },
+  "cheerful": {
+    "ru": "веселый, жизнерадостный",
+    "level": 11
+  },
+  "octopus": {
+    "ru": "осьминог",
+    "level": 11
+  },
+  "groceries": {
+    "ru": "продукты",
+    "level": 11
+  },
+  "goat": {
+    "ru": "козёл",
+    "level": 11
+  },
+  "the nearest thing to …": {
+    "ru": "самое близкое (похожее) на",
+    "level": 11
+  },
+  "intend": {
+    "ru": "намереваться",
+    "level": 11
+  },
+  "let smth out of sight": {
+    "ru": "выпускать к-то из виду",
+    "level": 11
+  },
+  "destroy": {
+    "ru": "разрушать",
+    "level": 11
+  },
+  "suspend": {
+    "ru": "подвесить",
+    "level": 11
+  },
+  "ceiling": {
+    "ru": "потолок",
+    "level": 11
+  },
+  "swing": {
+    "ru": "качать(ся)",
+    "level": 11
+  },
+  "bowl": {
+    "ru": "миска",
+    "level": 11
+  },
+  "(in) lap": {
+    "ru": "колени (на которых м. сидеть)",
+    "level": 11
+  },
+  "smear": {
+    "ru": "размазать, измазать",
+    "level": 11
+  },
+  "flowerbed": {
+    "ru": "клумба",
+    "level": 11
+  },
+  "stain": {
+    "ru": "пятно",
+    "level": 11
+  },
+  "crayon": {
+    "ru": "цветной карандаш",
+    "level": 11
+  },
+  "drag": {
+    "ru": "тащить",
+    "level": 11
+  },
+  "randomly": {
+    "ru": "без разбора",
+    "level": 11
+  },
+  "toddler": {
+    "ru": "ребенок, начинающий ходить",
+    "level": 11
+  },
+  "accomplish smth": {
+    "ru": "выполнять, достигать",
+    "level": 11
+  },
+  "affectionately": {
+    "ru": "нежно; ласково; с любовью",
+    "level": 11
+  },
+  "refer to each other": {
+    "ru": "обращаться друг к другу",
+    "level": 11
+  },
+  "bill (Br.)/ check (Am.)": {
+    "ru": "счет в ресторане",
+    "level": 11
+  },
+  "item": {
+    "ru": "предмет, вещь",
+    "level": 11
+  },
+  "razor": {
+    "ru": "бритва",
+    "level": 11
+  },
+  "identify": {
+    "ru": "определять, устанавливать",
+    "level": 11
+  },
+  "argument": {
+    "ru": "ссора, спор; аргумент, довод",
+    "level": 11
+  },
+  "funeral": {
+    "ru": "похороны",
+    "level": 11
+  },
+  "deteriorate": {
+    "ru": "ухудшаться, портиться",
+    "level": 11
+  },
+  "vaguely": {
+    "ru": "неясно, смутно, расплывчато",
+    "level": 11
+  },
+  "be aware (of smth)": {
+    "ru": "быть в курсе ч-то",
+    "level": 11
+  },
+  "to witness": {
+    "ru": "быть свидетелем",
+    "level": 11
+  },
+  "put away": {
+    "ru": "откладывать, копить (деньги)",
+    "level": 11
+  },
+  "laundry": {
+    "ru": "стирка",
+    "level": 11
+  },
+  "to pace": {
+    "ru": "ходить взад-вперед",
+    "level": 11
+  },
+  "irritated": {
+    "ru": "раздраженный",
+    "level": 11
+  },
+  "faucet": {
+    "ru": "кран",
+    "level": 11
+  },
+  "hunt": {
+    "ru": "охота, охотиться",
+    "level": 11
+  },
+  "spin": {
+    "ru": "крутиться",
+    "level": 11
+  },
+  "on command": {
+    "ru": "по команде",
+    "level": 11
+  },
+  "stubborn": {
+    "ru": "упрямый",
+    "level": 11
+  },
+  "reward": {
+    "ru": "награждать, награда",
+    "level": 11
+  },
+  "ignore": {
+    "ru": "игнорировать",
+    "level": 11
+  },
+  "the same goes for": {
+    "ru": "то же самое относится к…",
+    "level": 11
+  },
+  "hop": {
+    "ru": "прыгать",
+    "level": 11
+  },
+  "to land": {
+    "ru": "приземляться",
+    "level": 11
+  },
+  "incompatible": {
+    "ru": "несовместимый",
+    "level": 11
+  },
+  "simultaneously": {
+    "ru": "одновременно",
+    "level": 11
+  },
+  "stand still": {
+    "ru": "стоять не двигаясь",
+    "level": 11
+  },
+  "to fuel": {
+    "ru": "усугублять, разжигать",
+    "level": 11
   },
   "dress up": {
     "ru": "наряжаться",
-    "level": "8"
+    "level": 10
   },
-  "hit on": {
-    "ru": "флиртовать",
-    "level": "3"
+  "hit on smb.": {
+    "ru": "флиртовать с кем-то",
+    "level": 10
   },
-  "wound": {
-    "ru": "рана",
-    "level": "3"
+  "fit into": {
+    "ru": "влезть (в одежду)",
+    "level": 10
+  },
+  "give out": {
+    "ru": "раздавать",
+    "level": 10
+  },
+  "start over": {
+    "ru": "начать заново",
+    "level": 10
+  },
+  "beat smb up": {
+    "ru": "побить",
+    "level": 10
+  },
+  "be maxed out": {
+    "ru": "достичь предела, я выдохся",
+    "level": 10
+  },
+  "put on": {
+    "ru": "надевать",
+    "level": 10
+  },
+  "Hurry up!": {
+    "ru": "поторопись!",
+    "level": 10
+  },
+  "two years in a row": {
+    "ru": "два года подряд",
+    "level": 10
+  },
+  "be supposed to do smth": {
+    "ru": "должен что-то делать",
+    "level": 10
+  },
+  "appreciate": {
+    "ru": "ценить, быть благодарным",
+    "level": 10
+  },
+  "solar system": {
+    "ru": "солнечная система",
+    "level": 10
+  },
+  "a masseuse": {
+    "ru": "массажистка",
+    "level": 10
+  },
+  "temper": {
+    "ru": "нрав, характер",
+    "level": 10
+  },
+  "This isn’t fair!": {
+    "ru": "Это несправедливо!",
+    "level": 10
+  },
+  "sweat": {
+    "ru": "потеть, пот",
+    "level": 10
+  },
+  "get a crush on smb": {
+    "ru": "влюбиться в кого-то",
+    "level": 10
+  },
+  "He got so excited!": {
+    "ru": "Он так обрадовался!",
+    "level": 10
+  },
+  "stage": {
+    "ru": "ступень, этап",
+    "level": 10
+  },
+  "adjustment": {
+    "ru": "приспособление, адаптация",
+    "level": 10
+  },
+  "recover (from)": {
+    "ru": "приходить в себя, выздоравл.",
+    "level": 10
+  },
+  "preoccupied": {
+    "ru": "озабочен (чистотой)",
+    "level": 10
+  },
+  "rob": {
+    "ru": "ограбить",
+    "level": 10
+  },
+  "cheat": {
+    "ru": "обманывать",
+    "level": 10
+  },
+  "confused": {
+    "ru": "смущенный, растерянный",
+    "level": 10
+  },
+  "expatriate": {
+    "ru": "экспатриант; человек, покинувший родину",
+    "level": 10
+  },
+  "eventually": {
+    "ru": "в конце концов",
+    "level": 10
+  },
+  "deal (with smth)": {
+    "ru": "разобраться, уладитьпроблему",
+    "level": 10
+  },
+  "integrate": {
+    "ru": "интегрировать, объединять, включать",
+    "level": 10
+  },
+  "occasional": {
+    "ru": "редкий, случайный, происх. время от времени",
+    "level": 10
+  },
+  "": {
+    "ru": "аcceptance  принятие, одобрение",
+    "level": 10
+  },
+  "fit in": {
+    "ru": "приспособиться, вписаться, подстраиваться",
+    "level": 10
+  },
+  "identity": {
+    "ru": "личность, самосознание",
+    "level": 10
+  },
+  "fascinating": {
+    "ru": "вызывающий острый интерес; захватывающий",
+    "level": 10
+  },
+  "frustrated": {
+    "ru": "раздраженный, разочарованный, обозлённый",
+    "level": 10
+  },
+  "frustration": {
+    "ru": "досада, чувство безысходности",
+    "level": 10
+  },
+  "weird": {
+    "ru": "странный, чокнутый",
+    "level": 10
+  },
+  "casual": {
+    "ru": "непринужденный, повседневный",
+    "level": 10
+  },
+  "fancy": {
+    "ru": "модный, необычный, шикарный",
+    "level": 10
+  },
+  "complicated": {
+    "ru": "сложный, трудный",
+    "level": 10
+  },
+  "steam": {
+    "ru": "пар",
+    "level": 10
+  },
+  "to demand": {
+    "ru": "требовать",
+    "level": 10
+  },
+  "(social) background": {
+    "ru": "происхождение",
+    "level": 10
+  },
+  "particularly": {
+    "ru": "особенно, прежде всего",
+    "level": 10
+  },
+  "behaviour": {
+    "ru": "поведение",
+    "level": 10
+  },
+  "emerge": {
+    "ru": "появляться, возникать",
+    "level": 10
+  },
+  "split up": {
+    "ru": "расставаться, разрывать отношения",
+    "level": 10
+  },
+  "inappropriate": {
+    "ru": "неуместный",
+    "level": 10
+  },
+  "list": {
+    "ru": "список, включать в список, перечислять",
+    "level": 10
+  },
+  "address smb": {
+    "ru": "обращаться к кому-то",
+    "level": 10
+  },
+  "class-conscious": {
+    "ru": "рассм. себя как члена опр. соц. группы",
+    "level": 10
+  },
+  "counterpart": {
+    "ru": "коллега, человек, наход. на аналогич должности; аналог",
+    "level": 10
+  },
+  "make a toast": {
+    "ru": "говорить тост (на празднике)",
+    "level": 10
+  },
+  "make some toast": {
+    "ru": "готовить тосты (из хлеба)",
+    "level": 10
+  },
+  "irrelevant": {
+    "ru": "несоответствующий, неуместный, не имеющий отношения",
+    "level": 10
+  },
+  "actual": {
+    "ru": "действительный, фактический, настоящий",
+    "level": 10
+  },
+  "make eye contact": {
+    "ru": "встретиться взглядом",
+    "level": 10
+  },
+  "genuine": {
+    "ru": "настоящий, неподдельный, искренний",
+    "level": 10
+  },
+  "set foot in/on": {
+    "ru": "ступить",
+    "level": 10
+  },
+  "it’s commonplace": {
+    "ru": "это обычное явление",
+    "level": 10
+  },
+  "immediate": {
+    "ru": "немедленный, мгновенный",
+    "level": 10
+  },
+  "perception": {
+    "ru": "ощущение, осознание, восприятие",
+    "level": 10
+  },
+  "family gatherings": {
+    "ru": "семейные собрания",
+    "level": 10
+  },
+  "take place": {
+    "ru": "происходить",
+    "level": 10
+  },
+  "day off": {
+    "ru": "выходной",
+    "level": 10
+  },
+  "yell": {
+    "ru": "кричать",
+    "level": 10
+  },
+  "to address smb": {
+    "ru": "обращаться к кому-то",
+    "level": 10
+  },
+  "extended period": {
+    "ru": "продолжительный период",
+    "level": 10
+  },
+  "way more": {
+    "ru": "(разг) намного больше",
+    "level": 10
+  },
+  "entire": {
+    "ru": "весь, целый",
+    "level": 10
+  },
+  "so/as long as": {
+    "ru": "если только; при условии, что",
+    "level": 10
+  },
+  "even number": {
+    "ru": "чётное число",
+    "level": 10
+  },
+  "biscuits / cookies": {
+    "ru": "печенье",
+    "level": 10
+  },
+  "return ticket / round trip ticket": {
+    "ru": "билеты в оба конца",
+    "level": 10
+  },
+  "lift / elevator": {
+    "ru": "лифт",
+    "level": 10
+  },
+  "cinema / movies": {
+    "ru": "кино(театр)",
+    "level": 10
+  },
+  "trousers / pants": {
+    "ru": "брюки",
+    "level": 10
+  },
+  "holiday / vacation": {
+    "ru": "отпуск",
+    "level": 10
+  },
+  "queue / line": {
+    "ru": "очередь",
+    "level": 10
+  },
+  "autumn / fall": {
+    "ru": "осень",
+    "level": 10
+  },
+  "jumper / sweater": {
+    "ru": "свитер, кофта",
+    "level": 10
+  },
+  "sweets / candies": {
+    "ru": "конфеты",
+    "level": 10
+  },
+  "flat / apartment": {
+    "ru": "квартира",
+    "level": 10
+  },
+  "chips / (French) fries": {
+    "ru": "картофель фри",
+    "level": 10
+  },
+  "crisps / chips": {
+    "ru": "чипсы",
+    "level": 10
+  },
+  "rubbish / garbage": {
+    "ru": "мусор",
+    "level": 10
+  },
+  "football / soccer": {
+    "ru": "футбол",
+    "level": 10
+  },
+  "to post / mail": {
+    "ru": "отправить почтой",
+    "level": 10
+  },
+  "parcel / package": {
+    "ru": "посылка",
+    "level": 10
+  },
+  "telly": {
+    "ru": "телевизор",
+    "level": 10
+  },
+  "terrific / awesome": {
+    "ru": "классный",
+    "level": 10
+  },
+  "film / movie": {
+    "ru": "фильм",
+    "level": 10
+  },
+  "petrol / gas": {
+    "ru": "бензин",
+    "level": 10
+  },
+  "loo / restroom": {
+    "ru": "туалет",
+    "level": 10
+  },
+  "bill / check": {
+    "ru": "счёт",
+    "level": 10
+  },
+  "regard as": {
+    "ru": "относиться, рассматривать как",
+    "level": 10
+  },
+  "suburbs": {
+    "ru": "пригород, окраина",
+    "level": 10
+  },
+  "recall": {
+    "ru": "вспоминать",
+    "level": 10
+  },
+  "overhear": {
+    "ru": "случайно услышать",
+    "level": 10
+  },
+  "refer to": {
+    "ru": "ссылаться на",
+    "level": 10
+  },
+  "steer clear (of smth/smb)": {
+    "ru": "держаться подальше от",
+    "level": 10
+  },
+  "prestigious": {
+    "ru": "престижный",
+    "level": 10
+  },
+  "aspire to": {
+    "ru": "стремиться к ч-л, добиваться ч-то",
+    "level": 10
+  },
+  "in the meantime": {
+    "ru": "а пока; между тем",
+    "level": 10
+  },
+  "psychic": {
+    "ru": "экстрасенс",
+    "level": 9
+  },
+  "preferably": {
+    "ru": "желательно; предпочтительно",
+    "level": 9
+  },
+  "insecure": {
+    "ru": "неуверенный в себе",
+    "level": 9
   },
   "involve": {
-    "ru": "вовлекать",
-    "level": "3"
+    "ru": "вовлекать, быть связанным с",
+    "level": 9
   },
-  "imagine": {
-    "ru": "представлять",
-    "level": "3"
+  "tension": {
+    "ru": "напряженность, натянутые отношения, противоречия",
+    "level": 9
   },
-  "dog": {
-    "ru": "собака",
-    "level": "3"
+  "abdomen": {
+    "ru": "живот(мед.)",
+    "level": 9
   },
-  "cat": {
-    "ru": "рана",
-    "level": "3"
+  "blame (it) on": {
+    "ru": "обвинять к-то, сваливать вину на к-то, ч-то",
+    "level": 9
   },
-  "spirit": {
-    "ru": "рана",
-    "level": "3"
+  "forgetfulness": {
+    "ru": "забывчивость",
+    "level": 9
   },
-  "want": {
-    "ru": "рана",
-    "level": "3"
+  "confirm": {
+    "ru": "подтверждать",
+    "level": 9
   },
-  "send": {
-    "ru": "рана",
-    "level": "3"
+  "common": {
+    "ru": "распространенный",
+    "level": 9
   },
-  "built": {
-    "ru": "рана",
-    "level": "3"
+  "deduce (from)": {
+    "ru": "делать вывод (из ч-то), догадаться",
+    "level": 9
   },
-  "become": {
-    "ru": "рана",
-    "level": "3"
+  "come up with smth": {
+    "ru": "предложить, придумать",
+    "level": 9
   },
-  "nose": {
-    "ru": "рана",
-    "level": "3"
+  "What’s eating you?": {
+    "ru": "Какая муха тебя укусила? / Что тебя гложет?",
+    "level": 9
   },
-  "get": {
-    "ru": "рана",
-    "level": "3"
+  "get smth off your chest": {
+    "ru": "облегчить душу, признаться",
+    "level": 9
   },
-  "freeze": {
-    "ru": "рана",
-    "level": "3"
+  "have the guts to do smth": {
+    "ru": "решиться, иметь мужество сделать что-то",
+    "level": 9
+  },
+  "give it a shot": {
+    "ru": "попробовать",
+    "level": 9
+  },
+  "I wouldn’t be caught dead (with him / Ving smth)": {
+    "ru": "Я лучше умру, чем…; ни за что на свете",
+    "level": 9
+  },
+  "Skip it!": {
+    "ru": "Неважно! / Забудь!",
+    "level": 9
+  },
+  "bite the bullet": {
+    "ru": "решиться сделать что-то неприятное, сделать что-то собрав волю в кулак",
+    "level": 9
+  },
+  "put it off": {
+    "ru": "откладывать что-то",
+    "level": 9
+  },
+  "hit it off": {
+    "ru": "понравиться друг другу, ладить с кем-то",
+    "level": 9
+  },
+  "That'll be the day!": {
+    "ru": "После дождичка в четверг, этому никогда не бывать",
+    "level": 9
+  },
+  "take the initiative": {
+    "ru": "брать на себя инициативу",
+    "level": 9
+  },
+  "Now you're talking!": {
+    "ru": "Вот это другой разговор!",
+    "level": 9
+  },
+  "be bound to": {
+    "ru": "рано или поздно, наверняка",
+    "level": 9
+  },
+  "pass up": {
+    "ru": "отказаться, пропустить",
+    "level": 9
+  },
+  "keep things bottled up": {
+    "ru": "скрывать, сдерживать чувства",
+    "level": 9
+  },
+  "chat": {
+    "ru": "болтать",
+    "level": 9
+  },
+  "gossip": {
+    "ru": "сплетничать",
+    "level": 9
+  },
+  "make small talk": {
+    "ru": "болтать о том-о сем, вести «светскую беседу»",
+    "level": 9
+  },
+  "greet someone": {
+    "ru": "приветствовать к-то",
+    "level": 9
+  },
+  "give someone a compliment": {
+    "ru": "делать комплимент",
+    "level": 9
+  },
+  "boast": {
+    "ru": "хвастать",
+    "level": 9
+  },
+  "mumble": {
+    "ru": "бормотать, бурчать",
+    "level": 9
+  },
+  "speak up": {
+    "ru": "говорить громко, говорить внятно и отчетливо",
+    "level": 9
+  },
+  "talk down to someone": {
+    "ru": "говорить с кем-то свысока",
+    "level": 9
+  },
+  "stumble over your words": {
+    "ru": "спотыкаться на словах, говорить с запинками",
+    "level": 9
+  },
+  "treat people": {
+    "ru": "обращаться с людьми",
+    "level": 9
+  },
+  "judgemental": {
+    "ru": "категоричный, нетерпимый",
+    "level": 9
+  },
+  "unconscious": {
+    "ru": "бессознательный, подсознательный",
+    "level": 9
+  },
+  "ridiculous": {
+    "ru": "смехотворный, нелепый",
+    "level": 9
+  },
+  "reflect": {
+    "ru": "отражать",
+    "level": 9
+  },
+  "evolve": {
+    "ru": "развиваться, формироваться",
+    "level": 9
+  },
+  "self": {
+    "ru": "личность, сущность",
+    "level": 9
+  },
+  "prominent": {
+    "ru": "крупный, выдающийся",
+    "level": 9
+  },
+  "imply": {
+    "ru": "значить, подразумевать",
+    "level": 9
+  },
+  "space": {
+    "ru": "пространство",
+    "level": 9
+  },
+  "legible / illegible": {
+    "ru": "разборчивый/неразборч. (о почерке)",
+    "level": 9
+  },
+  "descend": {
+    "ru": "опускаться",
+    "level": 9
+  },
+  "angle": {
+    "ru": "угол (наклона)",
+    "level": 9
+  },
+  "keep things separate": {
+    "ru": "не смешивать что-то",
+    "level": 9
+  },
+  "disorganized": {
+    "ru": "неорганизованный",
+    "level": 9
+  },
+  "indecisive": {
+    "ru": "нерешительный",
+    "level": 9
+  },
+  "determined": {
+    "ru": "решительный, целеустремленный",
+    "level": 9
+  },
+  "assertive": {
+    "ru": "напористый, самоуверенный",
+    "level": 9
+  },
+  "ambitious": {
+    "ru": "честолюбивый, целеустремленный",
+    "level": 9
+  },
+  "lack self-confidence": {
+    "ru": "не иметь уверенности в себе",
+    "level": 9
+  },
+  "stable": {
+    "ru": "твердый, непоколебимый",
+    "level": 9
+  },
+  "well-balanced": {
+    "ru": "уравновешенный, спокойный",
+    "level": 9
+  },
+  "self-confident": {
+    "ru": "уверенный в себе",
+    "level": 9
+  },
+  "arrogant": {
+    "ru": "высокомерный, надменный",
+    "level": 9
+  },
+  "have low self-esteem": {
+    "ru": "иметь заниженную самооценку",
+    "level": 9
+  },
+  "secretive": {
+    "ru": "скрытный, замкнутый",
+    "level": 9
+  },
+  "big-headed": {
+    "ru": "самодовольный",
+    "level": 9
+  },
+  "disheartened": {
+    "ru": "унылый",
+    "level": 9
+  },
+  "make a good impression": {
+    "ru": "произвести хорошее впечатление",
+    "level": 9
+  },
+  "form opinions about smb": {
+    "ru": "сформировать мнение о ком-то",
+    "level": 9
+  },
+  "proper etiquette": {
+    "ru": "хорошие манеры",
+    "level": 9
+  },
+  "judge smb based on his appearance": {
+    "ru": "судить о ком-то по внешности",
+    "level": 9
+  },
+  "professional-lookingattire": {
+    "ru": "профессионально выглядящая одежда",
+    "level": 9
+  },
+  "make a lasting impression on someone": {
+    "ru": "произвести неизгладимое впечатление на к-то",
+    "level": 9
+  },
+  "a neat and tidy appearance": {
+    "ru": "чистый и аккуратный внешний вид",
+    "level": 9
   }
-
 }
