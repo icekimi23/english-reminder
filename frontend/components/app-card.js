@@ -41,8 +41,7 @@ class AppCard extends Component {
         let chosenLevels = settings.levels;
         let chosenTences = settings.tences;
         let chosenSentTypes = settings.sentenceTypes;
-
-
+        let rusFrequency = settings.rusFrequency;
 
         let tences = ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues'];
 
@@ -62,8 +61,15 @@ class AppCard extends Component {
         }
 
         // выбираем слова только из выбранных в настройках левелов
-        let wordsToChooseOf = words.filter((word) => {
+        /*let wordsToChooseOf = words.filter((word) => {
             return chosenLevels.indexOf(word.level) !== -1;
+        });*/
+
+        // импользуем map и возвращаем не объект, а значение, английской или русское в зависимости от параметра rusFrequency
+        let wordsToChooseOf = words.map((word) => {
+             if (chosenLevels.indexOf(word.level) !== -1) {
+                 return (Math.random() > rusFrequency) ? word.en : word.ru;
+             }
         });
 
         // выбираем времена только из выбранных в настройках времен

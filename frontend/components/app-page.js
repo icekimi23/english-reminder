@@ -41,8 +41,6 @@ class AppPage extends Component{
 
             if (target.closest('[data-action = "start"]')) {
 
-                /*if (this._slotMachine.checkStatus()) return;*/
-
                 let settings = this._settings.returnCurrentSettings();
 
                 if (settings.levels.length > 0) {
@@ -78,7 +76,7 @@ class AppPage extends Component{
         });
 
         // назначение обработчиков на кнопки
-        this._settings.on('click',(event) => {
+        /*this._settings.on('click',(event) => {
 
             let target = event.target;
 
@@ -86,9 +84,9 @@ class AppPage extends Component{
 
             if (!li) return;
 
-            this._settings.changeItemStatusAndApperance(li);
+            this._settings.changeItemStatus(li);
 
-        });
+        });*/
     }
 
     _initSlotMachine() {

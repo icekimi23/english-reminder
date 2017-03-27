@@ -81,13 +81,13 @@ class SlotMachine{
         // добавляем новые элементы в слот
         words.forEach( (item) => {
             let newLi = document.createElement('li');
-            newLi.innerHTML = item.en;
+            newLi.innerHTML = item;
             slot.appendChild(newLi);
         });
 
         // элемент, который должен отобразиться последним, в конце вращения
         let theLastLi = document.createElement('li');
-        theLastLi.innerHTML = theOne.en;
+        theLastLi.innerHTML = theOne;
         slot.insertBefore(theLastLi,slot.firstElementChild);
 
     }

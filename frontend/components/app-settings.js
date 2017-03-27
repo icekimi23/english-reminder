@@ -10,7 +10,8 @@ class AppSettings extends Component{
         this._currentSettings = {
             'levels' : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
             'tences' : ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues'],
-            'sentenceTypes' : ['positive','negative','question']
+            'sentenceTypes' : ['positive','negative','question'],
+            'rusFrequency' : 0.25
         };
 
         //this._el.onmousedown = () => false;
@@ -20,8 +21,7 @@ class AppSettings extends Component{
     }
 
     // поменяем внешний вид после выбора или отмены выбора элемента и отразим это в настройках
-    changeItemStatusAndApperance(li){
-        li.classList.toggle('settings_picked');
+    changeItemStatus(li){
         li.firstElementChild.checked = !li.firstElementChild.checked;
     }
 
@@ -35,12 +35,14 @@ class AppSettings extends Component{
 
         setCookie('levels',this._currentSettings.levels.toString(),{ expires : expirationDate });
         setCookie('tences',this._currentSettings.tences.toString(),{ expires : expirationDate });
+        setCookie('rusFrequency',this._currentSettings.rusFrequency,{ expires : expirationDate });
     }
 
     // получим настройки хранимые в cookie
     _getSettings(){
         let levelsCookie = getCookie('levels');
         let tencesCookie = getCookie('tences');
+        let rusFrequencyCookie = getCookie('rusFrequency');
 
         if (levelsCookie) {
             this._currentSettings.levels =  levelsCookie.split(',');
@@ -51,25 +53,34 @@ class AppSettings extends Component{
             this._currentSettings.tences =  tencesCookie.split(',');
         }
 
+        if (rusFrequencyCookie) {
+            this._currentSettings.rusFrequency = +rusFrequencyCookie;
+        }
+
         // заполним чекбоксы согласно настройкам
         this._displaySettingsFlags();
     }
 
     _displaySettingsFlags(){
 
-        let LevelsItems = this._el.querySelector('[data-item = "settings-levels"]').querySelectorAll('li');
-        let TencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
+        let levelsItems = this._el.querySelector('[data-item = "settings-levels"]').querySelectorAll('li');
+        let tencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
+        let frequencyItems = this._el.querySelector('[data-item = "settings-frequencies"]').querySelectorAll('li');
 
-        LevelsItems.forEach((liElem)=>{
+        levelsItems.forEach((liElem)=>{
             //if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) this.changeItemStatusAndApperance(liElem);
+            if (this._currentSettings.levels.indexOf(+liElem.firstElementChild.value) !== -1) this.changeItemStatus(liElem);
         });
 
-        TencesItems.forEach((liElem)=>{
+        tencesItems.forEach((liElem)=>{
             //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) this.changeItemStatusAndApperance(liElem);
+            if (this._currentSettings.tences.indexOf(liElem.firstElementChild.value.trim()) !== -1) this.changeItemStatus(liElem);
         });
 
+        frequencyItems.forEach((liElem)=>{
+            //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
+            if (this._currentSettings.rusFrequency === +liElem.firstElementChild.value) this.changeItemStatus(liElem);
+        });
 
     }
 
@@ -78,19 +89,29 @@ class AppSettings extends Component{
         this._currentSettings.levels.length = 0;
         this._currentSettings.tences.length = 0;
 
-        let LevelsItems = this._el.querySelector('[data-item = "settings-levels"]').querySelectorAll('li');
-        let TencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
+        let levelsItems = this._el.querySelector('[data-item = "settings-levels"]').querySelectorAll('li');
+        let tencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
+        let frequencyItems = this._el.querySelector('[data-item = "settings-frequencies"]').querySelectorAll('li');
 
-        for (let i = 0; i < LevelsItems.length ; i++) {
-            if (!LevelsItems[i].firstElementChild.checked) continue;
+        for (let i = 0; i < levelsItems.length ; i++) {
 
-            this._currentSettings.levels.push(+LevelsItems[i].lastChild.data);
+            let input = levelsItems[i].firstElementChild;
+            if (!input.checked) continue;
+            this._currentSettings.levels.push(+input.value);
         }
 
-        for (let i = 0; i < TencesItems.length ; i++) {
-            if (!TencesItems[i].firstElementChild.checked) continue;
+        for (let i = 0; i < tencesItems.length ; i++) {
 
-            this._currentSettings.tences.push(TencesItems[i].lastChild.data.trim());
+            let input = tencesItems[i].firstElementChild;
+            if (!input.checked) continue;
+            this._currentSettings.tences.push(input.value.trim());
+        }
+
+        for (let i = 0; i < frequencyItems.length ; i++) {
+            let input = frequencyItems[i].firstElementChild;
+            if (!input.checked) continue;
+            this._currentSettings.rusFrequency = (+input.value);
+            break;
         }
 
     }

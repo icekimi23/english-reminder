@@ -50,6 +50,10 @@
             margin-top : 50px;
         }
 
+        .settings_item_wrapper li {
+            display : inline-block;
+        }
+
         .settings span {
             text-align: center;
             display: block;
@@ -57,13 +61,27 @@
             color: #337ab7;
         }
 
-        .settings li{
-            display: inline-block;
+        input{
+            vertical-align: top;
+            margin: 0 3px 0 0;
+            width: 17px;
+            height: 17px;
+            display: none;
+        }
+
+        input + label{
+            border : 1px solid black;
+            padding : 5px;
             cursor: pointer;
         }
 
-        .settings input{
-            cursor: pointer;
+        label{
+            font-weight: normal;
+        }
+
+        input:checked + label{
+            color : red;
+            border-color: red;
         }
 
         .levels {
@@ -71,7 +89,7 @@
             margin : 20px auto;
         }
 
-        .levels li {
+        .levels label {
             width: 50px;
             height: 50px;
             border: 1px solid rgba(0, 63, 71, .7);
@@ -87,19 +105,24 @@
             margin : 20px auto;
         }
 
-        .tences li {
+        .tences label {
             padding: 10px;
             border: 1px solid rgba(0, 63, 71, .7);
             border-radius: 5px;
             margin: 2px;
         }
 
-        input[type=checkbox] {
-            display: none;
+        .frequencies {
+            max-width : 600px;
+            margin : 20px auto;
+            text-align: center;
         }
 
-        .settings_picked {
-            color: red;
+        .frequencies label {
+            padding : 5px;
+            border: 1px solid rgba(0, 63, 71, .7);
+            border-radius: 5px;
+            font-weight: normal;
         }
 
         .js-hidden {
@@ -114,8 +137,10 @@
 
         .slot_machine_wrapper {
             overflow: hidden;
-            height: 38px;
-            width: 360px;
+           /* height: 38px;
+            width: 360px;*/
+            height: 80px;
+            width: 440px;
             border: 2px solid rgba(0, 63, 71, .7);
             border-radius: 5px;
             margin: 10px auto;
@@ -128,7 +153,16 @@
 
         }
 
+        .slot_machine_wrapper .slot li{
+            height: 78px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
         .slot_machine_wrapper li {
+            height: 80px;
             font-size: 26px;
             text-align: center;
             font-family: 'Gravitas One', serif;
@@ -220,7 +254,6 @@
 
             <div class="settings js-hidden" data-component="settings">
 
-                <!--<button data-action="back"> Back</button>-->
                 <a href="#!/" data-action="back"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
                 <br>
 
@@ -228,22 +261,100 @@
 
                     <span> Choose levels: </span>
                     <ul class="levels" data-item="settings-levels">
-                        <li data-item="settings-level"><input type="checkbox"> 1 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 2 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 3 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 4 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 5 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 6 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 7 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 8 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 9 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 10 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 11 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 12 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 13 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 14 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 15 </li>
-                        <li data-item="settings-level"><input type="checkbox"> 16 </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-1" value = "1">
+                            <label for="level-1">1</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-2" value = "2">
+                            <label for="level-2">2</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-3" value = "3">
+                            <label for="level-3">3</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-4" value = "4">
+                            <label for="level-4">4</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-5" value = "5">
+                            <label for="level-5">5</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-6" value = "6">
+                            <label for="level-6">6</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-7" value = "7">
+                            <label for="level-7">7</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-8" value = "8">
+                            <label for="level-8">8</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-9" value = "9">
+                            <label for="level-9">9</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-10" value = "10">
+                            <label for="level-10">10</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-11" value = "11">
+                            <label for="level-11">11</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-12" value = "12">
+                            <label for="level-12">12</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-13" value = "13">
+                            <label for="level-13">13</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-14" value = "14">
+                            <label for="level-14">14</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-15" value = "15">
+                            <label for="level-15">15</label>
+                        </li>
+                        <li data-item="settings-level">
+                            <input type="checkbox" id = "level-16" value = "16">
+                            <label for="level-16">16</label>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class = "settings_item_wrapper">
+
+                    <span> Choose frequency: </span>
+                    <ul class = "frequencies" data-item="settings-frequencies">
+
+                        <li data-item="settings-frequency">
+                            <input type="radio" id = "freq-only-english" name = "frequency" value = "0">
+                            <label for="freq-only-english">Only English</label>
+                        </li>
+                        <li data-item="settings-frequency">
+                            <input type="radio" id = "freq-more-english" name = "frequency" value = "0.25">
+                            <label for="freq-more-english">More English</label>
+                        </li>
+                        <li data-item="settings-frequency">
+                            <input type="radio" id = "freq-equaly-english" name = "frequency" value = "0.5">
+                            <label for="freq-equaly-english">Equaly</label>
+                        </li>
+                        <li data-item="settings-frequency">
+                            <input type="radio" id = "freq-more-russian" name = "frequency" value = "0.75">
+                            <label for="freq-more-russian">More Russian</label>
+                        </li>
+                        <li data-item="settings-frequency">
+                            <input type="radio" id = "freq-only-russian" name = "frequency" value = "1">
+                            <label for="freq-only-russian">Only Russian</label>
+                        </li>
+
                     </ul>
 
                 </div>
@@ -253,20 +364,35 @@
                     <span> Choose tences: </span>
                     <ul class = "tences" data-item="settings-tences">
 
-                        <!--<li><input type="checkbox"> Present Simple</li>
-                        <li><input type="checkbox"> Past Simple</li>
-                        <li><input type="checkbox"> Future Simple</li>
-                        <li><input type="checkbox"> Present Perfect</li>
-                        <li><input type="checkbox"> Present Continues</li>
-                        <li><input type="checkbox"> Past Continues</li>-->
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-present-simple" value = "Present Simple">
+                            <label for="tence-present-simple">Present Simple</label>
+                        </li>
 
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-past-simple" value = "Past Simple">
+                            <label for="tence-past-simple">Past Simple</label>
+                        </li>
 
-                        <li data-item="settings-tence"><input type="checkbox"> Present Simple</li>
-                        <li data-item="settings-tence"><input type="checkbox"> Past Simple</li>
-                        <li data-item="settings-tence"><input type="checkbox"> Future Simple</li>
-                        <li data-item="settings-tence"><input type="checkbox"> Present Perfect</li>
-                        <li data-item="settings-tence"><input type="checkbox"> Present Continues</li>
-                        <li data-item="settings-tence"><input type="checkbox"> Past Continues</li>
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-future-simple" value = "Future Simple">
+                            <label for="tence-future-simple">Future Simple</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-present-perfect" value = "Present Perfect">
+                            <label for="tence-present-perfect">Present Perfect</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-present-continues" value = "Present Continues">
+                            <label for="tence-present-continues">Present Continues</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-past-continues" value = "Past Continues">
+                            <label for="tence-past-continues">Past Continues</label>
+                        </li>
                         
                     </ul>
 
@@ -291,4 +417,5 @@
 
 </body>
 
-</html>  
+</html>
+
