@@ -46,18 +46,25 @@ class AppCard extends Component {
         let tences = ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues'];
 
 
-        let words = [];
+        let wordsToChooseOf = [];
 
-        // из объекта со словами сделаем массив со словами, так как с числовыми индексами работать удобнее
+        // из объекта со словами сделаем массив со словами, так как с числовыми индексами работать удобнее, но
+        // сразу отберем только те слова, которые подъодят под выбранные левелы
         for (let wordObj in this._words) {
 
-            let obj = {
-                en : wordObj,
-                ru : this._words[wordObj].ru,
-                level : +this._words[wordObj].level
-            };
-            words.push(obj);
+            if (chosenLevels.indexOf(+this._words[wordObj].level) !== -1){
 
+                let randomNumber = Math.random();
+
+                let toShow = (randomNumber > rusFrequency) ? wordObj : this._words[wordObj].ru;
+                let translation = (randomNumber > rusFrequency) ? this._words[wordObj].ru : wordObj;
+
+                let obj = {
+                    'toShow' : toShow,
+                    'translation' : translation
+                };
+                wordsToChooseOf.push(obj);
+            }
         }
 
         // выбираем слова только из выбранных в настройках левелов
@@ -66,11 +73,11 @@ class AppCard extends Component {
         });*/
 
         // импользуем map и возвращаем не объект, а значение, английской или русское в зависимости от параметра rusFrequency
-        let wordsToChooseOf = words.map((word) => {
+        /*let wordsToChooseOf = words.map((word) => {
              if (chosenLevels.indexOf(word.level) !== -1) {
                  return (Math.random() > rusFrequency) ? word.en : word.ru;
              }
-        });
+        });*/
 
         // выбираем времена только из выбранных в настройках времен
         let tencesToChooseOf = tences.filter((tence) => {

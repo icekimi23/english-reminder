@@ -91,6 +91,28 @@ class AppPage extends Component{
 
     _initSlotMachine() {
         this._slotMachine = new SlotMachine( { el : this._el.querySelector('[data-component = "slot-machine"]') } );
+
+        // обработчик нажатия на кнопку смены перевода
+        this._slotMachine.on('click',(event) => {
+
+            let target = event.target;
+
+            let translationBtn = target.closest('[data-action = "switch-translation"]');
+
+            if (!translationBtn) return;
+
+            // найдем сначала слот в котором находимся, а уже в нем нужный li
+            let li = translationBtn.closest('.slot_machine_wrapper').querySelector('[translation]');
+
+            // меняем местами английский и русский вариант
+            if (li) {
+                let savedInnerHTML = li.innerHTML;
+                li.innerHTML = li.getAttribute('translation');
+                li.setAttribute('translation',savedInnerHTML);
+            }
+
+
+        });
     }
 
 

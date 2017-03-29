@@ -70,7 +70,7 @@
         }
 
         input + label{
-            border : 1px solid black;
+            border : 2px solid black;
             padding : 5px;
             cursor: pointer;
         }
@@ -80,8 +80,8 @@
         }
 
         input:checked + label{
-            color : red;
-            border-color: red;
+            color : green;
+            border-color: green;
         }
 
         .levels {
@@ -92,7 +92,7 @@
         .levels label {
             width: 50px;
             height: 50px;
-            border: 1px solid rgba(0, 63, 71, .7);
+            border: 2px solid rgba(0, 63, 71, .7);
             border-radius: 50%;
             text-align: center;
             padding-top: 7px;
@@ -107,7 +107,7 @@
 
         .tences label {
             padding: 10px;
-            border: 1px solid rgba(0, 63, 71, .7);
+            border: 2px solid rgba(0, 63, 71, .7);
             border-radius: 5px;
             margin: 2px;
         }
@@ -120,7 +120,7 @@
 
         .frequencies label {
             padding : 5px;
-            border: 1px solid rgba(0, 63, 71, .7);
+            border: 2px solid rgba(0, 63, 71, .7);
             border-radius: 5px;
             font-weight: normal;
         }
@@ -140,7 +140,7 @@
            /* height: 38px;
             width: 360px;*/
             height: 80px;
-            width: 440px;
+            max-width: 440px;
             border: 2px solid rgba(0, 63, 71, .7);
             border-radius: 5px;
             margin: 10px auto;
@@ -150,7 +150,24 @@
         .slot_machine_wrapper .slot {
             position: relative;
             /*position: absolute;*/
+            float : left;
+            width : 85%;
 
+
+        }
+
+        .slot_machine_wrapper .translation_btn_wrapper {
+            float : right;
+            width : 15%;
+            padding-top: 20px;
+            color : #337ab7;
+            text-align: center;
+            cursor : pointer;
+            opacity: 0.85;
+        }
+
+        .slot_machine_wrapper .translation_btn_wrapper:hover {
+            opacity: 1;
         }
 
         .slot_machine_wrapper .slot li{
@@ -233,14 +250,23 @@
                     <div class="slot_machine_wrapper">
                         <ul class="slot slot1">
                         </ul>
+                        <div class = "translation_btn_wrapper" data-action="switch-translation">
+                            <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
+                        </div>
                     </div>
                     <div class="slot_machine_wrapper">
                         <ul class="slot slot2">
                         </ul>
+                        <div class = "translation_btn_wrapper" data-action="switch-translation">
+                            <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
+                        </div>
                     </div>
                     <div class="slot_machine_wrapper">
                         <ul class="slot slot3">
                         </ul>
+                        <div class = "translation_btn_wrapper" data-action="switch-translation">
+                            <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
+                        </div>
                     </div>
 
                     <ul class="start_btn">

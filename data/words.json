@@ -535,8 +535,8 @@
     "ru": "редкий, случайный, происх. время от времени",
     "level": 10
   },
-  "": {
-    "ru": "аcceptance  принятие, одобрение",
+  "аcceptance": {
+    "ru": " принятие, одобрение",
     "level": 10
   },
   "fit in": {
@@ -1118,5 +1118,3777 @@
   "a neat and tidy appearance": {
     "ru": "чистый и аккуратный внешний вид",
     "level": 9
+  },
+  "stubborn": {
+    "ru": "упрямый",
+    "level": 8
+  },
+  "sly": {
+    "ru": "хитрый",
+    "level": 8
+  },
+  "wise": {
+    "ru": "мудрый",
+    "level": 8
+  },
+  "exciting": {
+    "ru": "захватывающий, волнующий",
+    "level": 8
+  },
+  "skunk": {
+    "ru": "скунс",
+    "level": 8
+  },
+  "snail": {
+    "ru": "улитка",
+    "level": 8
+  },
+  "owl": {
+    "ru": "сова",
+    "level": 8
+  },
+  "peacock": {
+    "ru": "павлин",
+    "level": 8
+  },
+  "cash": {
+    "ru": "наличные",
+    "level": 8
+  },
+  "by check": {
+    "ru": "чеком",
+    "level": 8
+  },
+  "by credit card": {
+    "ru": "кредитной картой",
+    "level": 8
+  },
+  "current account": {
+    "ru": "текущий счет",
+    "level": 8
+  },
+  "withdraw money": {
+    "ru": "снимать деньги",
+    "level": 8
+  },
+  "pay everyday bills": {
+    "ru": "оплачивать каждодневные счета",
+    "level": 8
+  },
+  "avoid doing smth": {
+    "ru": "избегать делать ч.-л.",
+    "level": 8
+  },
+  "to be in the red": {
+    "ru": "превысить кредит (лимит)",
+    "level": 8
+  },
+  "loan": {
+    "ru": "кредит",
+    "level": 8
+  },
+  "society": {
+    "ru": "общество",
+    "level": 8
+  },
+  "mortgage": {
+    "ru": "ипотека",
+    "level": 8
+  },
+  "purchase": {
+    "ru": "покупка, покупать",
+    "level": 8
+  },
+  "discount on…": {
+    "ru": "скидка в 5 % на что-либо",
+    "level": 8
+  },
+  "fee": {
+    "ru": "плата за услуги",
+    "level": 8
+  },
+  "fare": {
+    "ru": "плата за проезд",
+    "level": 8
+  },
+  "reasonably  priced": {
+    "ru": "по разумной цене",
+    "level": 8
+  },
+  "high-quality product": {
+    "ru": "продукт высокого качества",
+    "level": 8
+  },
+  "bargain": {
+    "ru": "выгодная покупка",
+    "level": 8
+  },
+  "it is definitely not worth what you paid for it": {
+    "ru": "это определенно не стоит того, что вы за это заплатили",
+    "level": 8
+  },
+  "what a rip-off!": {
+    "ru": "что за обдираловка!",
+    "level": 8
+  },
+  "tax": {
+    "ru": "налог",
+    "level": 8
+  },
+  "income (incometax)": {
+    "ru": "доход (подоходный налог)",
+    "level": 8
+  },
+  "wage/salary": {
+    "ru": "зарплата",
+    "level": 8
+  },
+  "inherit sth from": {
+    "ru": "унаследовать ч-то от к-то",
+    "level": 8
+  },
+  "customs": {
+    "ru": "таможенные пошлины",
+    "level": 8
+  },
+  "people in need": {
+    "ru": "нуждающиеся люди",
+    "level": 8
+  },
+  "unemployment benefit": {
+    "ru": "пособие по безработице",
+    "level": 8
+  },
+  "scholarship": {
+    "ru": "стипендия",
+    "level": 8
+  },
+  "currency": {
+    "ru": "валюта",
+    "level": 8
+  },
+  "rate of exchange": {
+    "ru": "обменный курс",
+    "level": 8
+  },
+  "debt": {
+    "ru": "долг",
+    "level": 8
+  },
+  "servant": {
+    "ru": "слуга",
+    "level": 8
+  },
+  "slave": {
+    "ru": "раб",
+    "level": 8
+  },
+  "temptation": {
+    "ru": "искушение",
+    "level": 8
+  },
+  "to be tempted": {
+    "ru": "быть искушаемым",
+    "level": 8
+  },
+  "at smb's disposal": {
+    "ru": "в чьем-либо распоряжении",
+    "level": 8
+  },
+  "to lack smth": {
+    "ru": "испытывать недостаток",
+    "level": 8
+  },
+  "to bribe smb": {
+    "ru": "подкупать",
+    "level": 8
+  },
+  "cheat": {
+    "ru": "обманывать",
+    "level": 8
+  },
+  "peer": {
+    "ru": "ровня, ровесник",
+    "level": 8
+  },
+  "be under pressure": {
+    "ru": "испытывать давление",
+    "level": 8
+  },
+  "to gamble": {
+    "ru": "играть в азартные игры",
+    "level": 8
+  },
+  "addictive": {
+    "ru": "вызывающий зависимость",
+    "level": 8
+  },
+  "handle": {
+    "ru": "управлять, справляться",
+    "level": 8
+  },
+  "sensibly": {
+    "ru": "разумно, умно",
+    "level": 8
+  },
+  "ahead": {
+    "ru": "заранее, наперед",
+    "level": 8
+  },
+  "elsewhere": {
+    "ru": "еще где-нибудь",
+    "level": 8
+  },
+  "assets": {
+    "ru": "ценные средства, имущество",
+    "level": 8
+  },
+  "break a 5 dollar bill": {
+    "ru": "разменять купюру в 5 долларов",
+    "level": 8
+  },
+  "change": {
+    "ru": "сдача; мелочь",
+    "level": 8
+  },
+  "to impact": {
+    "ru": "влиять",
+    "level": 8
+  },
+  "overall": {
+    "ru": "всеобщий, полный",
+    "level": 8
+  },
+  "measure": {
+    "ru": "мера измерения",
+    "level": 8
+  },
+  "on a daily basis": {
+    "ru": "ежедневно",
+    "level": 8
+  },
+  "to experience": {
+    "ru": "испытывать",
+    "level": 8
+  },
+  "raise": {
+    "ru": "повышать",
+    "level": 8
+  },
+  "take for granted": {
+    "ru": "не ценить, принимать как должное",
+    "level": 8
+  },
+  "accumulate": {
+    "ru": "накапливать, наращивать",
+    "level": 8
+  },
+  "consume": {
+    "ru": "потреблять",
+    "level": 8
+  },
+  "live beyond means": {
+    "ru": "жить не по средствам",
+    "level": 8
+  },
+  "reshape": {
+    "ru": "изменить, перестроить",
+    "level": 8
+  },
+  "to matter": {
+    "ru": "иметь значение, значить",
+    "level": 8
+  },
+  "research": {
+    "ru": "исследование",
+    "level": 8
+  },
+  "commitment": {
+    "ru": "преданность",
+    "level": 8
+  },
+  "lead to": {
+    "ru": "приводить к",
+    "level": 8
+  },
+  "discontent": {
+    "ru": "недовольство",
+    "level": 8
+  },
+  "insecurity": {
+    "ru": "комплекс, неувер-ть в себе",
+    "level": 8
+  },
+  "achievement": {
+    "ru": "достижение",
+    "level": 8
+  },
+  "figure out": {
+    "ru": "выяснить, понять",
+    "level": 8
+  },
+  "imply": {
+    "ru": "подразумевать",
+    "level": 8
+  },
+  "determine": {
+    "ru": "определять",
+    "level": 8
+  },
+  "charity": {
+    "ru": "благотворительность",
+    "level": 8
+  },
+  "meet basic needs": {
+    "ru": "отвечать основным потребностям",
+    "level": 8
+  },
+  "dependent": {
+    "ru": "зависимый",
+    "level": 8
+  },
+  "fruits of labour": {
+    "ru": "плоды труда",
+    "level": 8
+  },
+  "check-in desk": {
+    "ru": "стойка регистрации",
+    "level": 8
+  },
+  "check in": {
+    "ru": "регистрироваться",
+    "level": 8
+  },
+  "carry-on luggage": {
+    "ru": "ручная кладь",
+    "level": 8
+  },
+  "gate": {
+    "ru": "выход на посадку",
+    "level": 8
+  },
+  "flight (direct": {
+    "ru": "непрямой)",
+    "level": 8
+  },
+  "boarding pass": {
+    "ru": "посадочный талон",
+    "level": 8
+  },
+  "aisle seat": {
+    "ru": "место в проходе",
+    "level": 8
+  },
+  "window seat": {
+    "ru": "место у окна",
+    "level": 8
+  },
+  "security check point": {
+    "ru": "зона досмотра",
+    "level": 8
+  },
+  "miss one’s flight": {
+    "ru": "пропустить рейс (опоздать на самолет)",
+    "level": 8
+  },
+  "flight is delayed": {
+    "ru": "рейс задерживается",
+    "level": 8
+  },
+  "Lost Baggage Claim": {
+    "ru": "востребование утерянного багажа",
+    "level": 8
+  },
+  "suitcase": {
+    "ru": "чемодан, сумка",
+    "level": 8
+  },
+  "excess weight": {
+    "ru": "превышение веса",
+    "level": 8
+  },
+  "value of content": {
+    "ru": "оценка содержимого (багажа)",
+    "level": 8
+  },
+  "to take off": {
+    "ru": "взлетать",
+    "level": 8
+  },
+  "ticket counter": {
+    "ru": "билетная стойка (касса)",
+    "level": 8
+  },
+  "proceed to": {
+    "ru": "следовать к",
+    "level": 8
+  },
+  "lost-and-found office": {
+    "ru": "бюро находок",
+    "level": 8
+  },
+  "transfer": {
+    "ru": "пересесть на другой рейс",
+    "level": 8
+  },
+  "departure": {
+    "ru": "вылет",
+    "level": 8
+  },
+  "arrival": {
+    "ru": "прилёт",
+    "level": 8
+  },
+  "to be content with": {
+    "ru": "быть довольным чем либо",
+    "level": 8
+  },
+  "part-time": {
+    "ru": "частичная занятость",
+    "level": 8
+  },
+  "including the tax": {
+    "ru": "включая налог",
+    "level": 8
+  },
+  "life-time warranty": {
+    "ru": "пожизненная гарантия",
+    "level": 8
+  },
+  "PIN pad": {
+    "ru": "банковский терминал для оплаты",
+    "level": 8
+  },
+  "temporarily": {
+    "ru": "временно",
+    "level": 8
+  },
+  "nagging works": {
+    "ru": "нытье работает",
+    "level": 7
+  },
+  "maid": {
+    "ru": "служанка, горничная",
+    "level": 7
+  },
+  "to be anxious (about smth)": {
+    "ru": "озабоченный, беспокоящийся",
+    "level": 7
+  },
+  "annoying": {
+    "ru": "раздражающий; надоедливый",
+    "level": 7
+  },
+  "annoy": {
+    "ru": "раздражать, надоедать",
+    "level": 7
+  },
+  "fiancé": {
+    "ru": "жених",
+    "level": 7
+  },
+  "fiancée": {
+    "ru": "невеста",
+    "level": 7
+  },
+  "ask smb out": {
+    "ru": "приглашать к-то на свидание",
+    "level": 7
+  },
+  "available": {
+    "ru": "доступный; имеющийся в распоряжении",
+    "level": 7
+  },
+  "view": {
+    "ru": "вид; пейзаж",
+    "level": 7
+  },
+  "permission": {
+    "ru": "позволение, разрешение",
+    "level": 7
+  },
+  "pass away": {
+    "ru": "скончаться, умереть",
+    "level": 7
+  },
+  "ink stain": {
+    "ru": "пятно от чернил",
+    "level": 7
+  },
+  "tear out": {
+    "ru": "вырывать что-либо (страницу)",
+    "level": 7
+  },
+  "blurry": {
+    "ru": "неясный, туманный; расплывчатый",
+    "level": 7
+  },
+  "fair": {
+    "ru": "светлый, справедливый",
+    "level": 7
+  },
+  "blame smb for smth": {
+    "ru": "обвинять кого-то в чем-то",
+    "level": 7
+  },
+  "miss smb": {
+    "ru": "скучать по к-либо",
+    "level": 7
+  },
+  "bra": {
+    "ru": "бюстгальтер",
+    "level": 7
+  },
+  "rip": {
+    "ru": "разрез, разрыв, рвать(ся)",
+    "level": 7
+  },
+  "quit (a job)": {
+    "ru": "оставлять, уходить, прекращать",
+    "level": 7
+  },
+  "loud": {
+    "ru": "громкий",
+    "level": 7
+  },
+  "seriously wounded": {
+    "ru": "серьезно ранен",
+    "level": 7
+  },
+  "pay a visit": {
+    "ru": "навестить",
+    "level": 7
+  },
+  "Little Red Riding Hood": {
+    "ru": "Красная Шапочка",
+    "level": 7
+  },
+  "murder": {
+    "ru": "убивать, убийство",
+    "level": 7
+  },
+  "recall": {
+    "ru": "вспоминать",
+    "level": 7
+  },
+  "fur": {
+    "ru": "мех, меховой",
+    "level": 7
+  },
+  "elderly": {
+    "ru": "пожилой",
+    "level": 7
+  },
+  "under suspicion": {
+    "ru": "под подозрением",
+    "level": 7
+  },
+  "cruel crime": {
+    "ru": "жестокое преступление",
+    "level": 7
+  },
+  "guilty": {
+    "ru": "виновный",
+    "level": 7
+  },
+  "innocent": {
+    "ru": "невиновный",
+    "level": 7
+  },
+  "vacant room": {
+    "ru": "свободная комната",
+    "level": 7
+  },
+  "less": {
+    "ru": "менее",
+    "level": 7
+  },
+  "hard": {
+    "ru": "сильно",
+    "level": 7
+  },
+  "change (my, his) mind": {
+    "ru": "передумать",
+    "level": 7
+  },
+  "peacefully": {
+    "ru": "спокойно, мирно",
+    "level": 7
+  },
+  "suddenly": {
+    "ru": "внезапно, вдруг",
+    "level": 7
+  },
+  "loud noise": {
+    "ru": "громкий звук (шум)",
+    "level": 7
+  },
+  "What’s the matter?": {
+    "ru": "В чем дело?",
+    "level": 7
+  },
+  "in addition": {
+    "ru": "к тому же",
+    "level": 7
+  },
+  "look for": {
+    "ru": "искать",
+    "level": 7
+  },
+  "moan": {
+    "ru": "стонать",
+    "level": 7
+  },
+  "at last": {
+    "ru": "наконец",
+    "level": 7
+  },
+  "weaker and weaker": {
+    "ru": "слабее и слабее",
+    "level": 7
+  },
+  "in horror": {
+    "ru": "в ужасе",
+    "level": 7
+  },
+  "immediately": {
+    "ru": "сразу же, тотчас же",
+    "level": 7
+  },
+  "grateful": {
+    "ru": "благодарный",
+    "level": 7
+  },
+  "broken to pieces": {
+    "ru": "разбитый на кусочки",
+    "level": 7
+  },
+  "drawer": {
+    "ru": "выдвижная полка, ящик в шкафу",
+    "level": 7
+  },
+  "internationally famous": {
+    "ru": "всемирно известный",
+    "level": 7
+  },
+  "be close to someone": {
+    "ru": "быть близким с кем-то",
+    "level": 7
+  },
+  "be good at languages": {
+    "ru": "хорошо знать языки",
+    "level": 7
+  },
+  "join smb/smth": {
+    "ru": "присоединиться к к-то/ч-то",
+    "level": 7
+  },
+  "have a bad heart": {
+    "ru": "иметь проблемы с сердцем",
+    "level": 7
+  },
+  "at least he knew": {
+    "ru": "по крайней мере он знал",
+    "level": 7
+  },
+  "create": {
+    "ru": "создавать",
+    "level": 7
+  },
+  "advertisement, ad": {
+    "ru": "реклама",
+    "level": 7
+  },
+  "advertise": {
+    "ru": "рекламировать",
+    "level": 7
+  },
+  "commercial": {
+    "ru": "рекламный видео-ролик",
+    "level": 7
+  },
+  "in ten years": {
+    "ru": "через 10 лет",
+    "level": 7
+  },
+  "pay bills": {
+    "ru": "оплачивать счета",
+    "level": 7
+  },
+  "well-paid job": {
+    "ru": "хорошо оплачиваемая работа",
+    "level": 7
+  },
+  "accountant": {
+    "ru": "бухгалтер",
+    "level": 7
+  },
+  "improve": {
+    "ru": "улучшать",
+    "level": 7
+  },
+  "standard of living": {
+    "ru": "уровень жизни",
+    "level": 7
+  },
+  "white lie": {
+    "ru": "невинная ложь",
+    "level": 7
+  },
+  "every man for himself": {
+    "ru": "каждый сам за себя",
+    "level": 7
+  },
+  "wealth": {
+    "ru": "богатство",
+    "level": 7
+  },
+  "hand luggage": {
+    "ru": "ручная кладь",
+    "level": 7
+  },
+  "it's over there": {
+    "ru": "это (находится) вон там",
+    "level": 7
+  },
+  "label": {
+    "ru": "бирка",
+    "level": 7
+  },
+  "Here you are!": {
+    "ru": "Вот! Держите!",
+    "level": 7
+  },
+  "carry": {
+    "ru": "нести",
+    "level": 7
+  },
+  "charge": {
+    "ru": "взимать плату",
+    "level": 7
+  },
+  "sliced loaf": {
+    "ru": "нарезанная буханка хлеба",
+    "level": 7
+  },
+  "we only have … left": {
+    "ru": "у нас остался только …",
+    "level": 7
+  },
+  "greasy": {
+    "ru": "жирный",
+    "level": 7
+  },
+  "letters of the alphabet": {
+    "ru": "буквы алфавита",
+    "level": 7
+  },
+  "write in": {
+    "ru": "вписывать",
+    "level": 7
+  },
+  "fill": {
+    "ru": "заполнять",
+    "level": 7
+  },
+  "stick": {
+    "ru": "приклеивать; наклеивать",
+    "level": 7
+  },
+  "bits of paper": {
+    "ru": "кусочки бумаги",
+    "level": 7
+  },
+  "all over my house": {
+    "ru": "по всему дому",
+    "level": 7
+  },
+  "door handle": {
+    "ru": "дверная ручка",
+    "level": 7
+  },
+  "What’s the matter with her?": {
+    "ru": "Что с ней случилось?",
+    "level": 7
+  },
+  "take out": {
+    "ru": "вытаскивать",
+    "level": 7
+  },
+  "record": {
+    "ru": "записывать",
+    "level": 7
+  },
+  "look up": {
+    "ru": "смотреть в словаре",
+    "level": 7
+  },
+  "desperate": {
+    "ru": "отчаянно желающий ч-л",
+    "level": 7
+  },
+  "seek": {
+    "ru": "искать",
+    "level": 7
+  },
+  "high-flier": {
+    "ru": "«птица высокого полета»",
+    "level": 7
+  },
+  "high-powered (job)": {
+    "ru": "высокооплачиваемая, влиятельная (работа)",
+    "level": 7
+  },
+  "documentary": {
+    "ru": "документальный фильм",
+    "level": 7
+  },
+  "get on well with smb": {
+    "ru": "ладить с кем-либо",
+    "level": 7
+  },
+  "degree": {
+    "ru": "степень (научная и т.д.)",
+    "level": 7
+  },
+  "be fed up with smth": {
+    "ru": "быть сытым по горло ч-то",
+    "level": 7
+  },
+  "considerate": {
+    "ru": "внимательный к чувствам других людей",
+    "level": 7
+  },
+  "of average build": {
+    "ru": "среднего телосложения",
+    "level": 7
+  },
+  "once in a while": {
+    "ru": "иногда, время от времени",
+    "level": 7
+  },
+  "see-how-it-goes relationship": {
+    "ru": "отношения «посмотрим, что получится»",
+    "level": 7
+  },
+  "similar qualities": {
+    "ru": "похожие качества",
+    "level": 7
+  },
+  "be stuck doing the same thing": {
+    "ru": "застрять, делая одно и то же",
+    "level": 7
+  },
+  "6 days out of 7": {
+    "ru": "шесть дней из семи",
+    "level": 7
+  },
+  "kinda, kind of": {
+    "ru": "что-то типа",
+    "level": 7
+  },
+  "grouchy": {
+    "ru": "ворчливый",
+    "level": 7
+  },
+  "moody": {
+    "ru": "угрюмый, c переменчивым настроением",
+    "level": 7
+  },
+  "LOL (Laughing Out Loud)": {
+    "ru": "я умираю от смеха",
+    "level": 7
+  },
+  "of athletic build": {
+    "ru": "атлетического телосложения",
+    "level": 7
+  },
+  "explore": {
+    "ru": "изучать, исследовать",
+    "level": 7
+  },
+  "sense of humor": {
+    "ru": "чувство юмора",
+    "level": 7
+  },
+  "might lead to romance": {
+    "ru": "может привести к романтическим отношениям",
+    "level": 7
+  },
+  "outgoing": {
+    "ru": "коммуникабельный, общительный",
+    "level": 7
+  },
+  "the rest is up to you": {
+    "ru": "остальное - ваше дело",
+    "level": 7
+  },
+  "cute": {
+    "ru": "хорошенький, милый",
+    "level": 7
+  },
+  "creative": {
+    "ru": "креативный",
+    "level": 7
+  },
+  "appreciate": {
+    "ru": "ценить",
+    "level": 7
+  },
+  "sensual": {
+    "ru": "чувственный",
+    "level": 7
+  },
+  "to be in a good mood": {
+    "ru": "быть в хорошем настроении",
+    "level": 7
+  },
+  "get in touch with me": {
+    "ru": "связаться со мной",
+    "level": 7
+  },
+  "look forward to Ving": {
+    "ru": "ждать чего-то с нетерпением",
+    "level": 7
+  },
+  "award": {
+    "ru": "награда",
+    "level": 7
+  },
+  "adventurous": {
+    "ru": "любящий приключения",
+    "level": 7
+  },
+  "snoopy": {
+    "ru": "чрезмерно любопытный",
+    "level": 7
+  },
+  "pull": {
+    "ru": "тянуть",
+    "level": 7
+  },
+  "cope with": {
+    "ru": "совладать, справляться с",
+    "level": 7
+  },
+  "admit": {
+    "ru": "признавать",
+    "level": 7
+  },
+  "look back": {
+    "ru": "оглядываться",
+    "level": 7
+  },
+  "caring": {
+    "ru": "внимательный, заботливый",
+    "level": 7
+  },
+  "sincere": {
+    "ru": "искренний",
+    "level": 7
+  },
+  "supportive": {
+    "ru": "поддерживающий",
+    "level": 7
+  },
+  "honesty": {
+    "ru": "честность",
+    "level": 7
+  },
+  "although": {
+    "ru": "хотя",
+    "level": 7
+  },
+  "hang out": {
+    "ru": "зависать, проводить время",
+    "level": 7
+  },
+  "desires": {
+    "ru": "желания",
+    "level": 7
+  },
+  "blond": {
+    "ru": "блондин",
+    "level": 7
+  },
+  "rare": {
+    "ru": "редкий, недожаренный",
+    "level": 6
+  },
+  "medium": {
+    "ru": "средний",
+    "level": 6
+  },
+  "on the menu": {
+    "ru": "в меню",
+    "level": 6
+  },
+  "it would be…": {
+    "ru": "это было бы",
+    "level": 6
+  },
+  "Ukrainian": {
+    "ru": "украинский",
+    "level": 6
+  },
+  "necklace": {
+    "ru": "ожерелье",
+    "level": 6
+  },
+  "single": {
+    "ru": "холостой",
+    "level": 6
+  },
+  "yell at smb": {
+    "ru": "орать на кого-то",
+    "level": 6
+  },
+  "to fire smb": {
+    "ru": "увольнять кого-то",
+    "level": 6
+  },
+  "to grab": {
+    "ru": "хватать",
+    "level": 6
+  },
+  "you owe me": {
+    "ru": "ты должен мне",
+    "level": 6
+  },
+  "awkward": {
+    "ru": "неуклюжий, неловкий",
+    "level": 6
+  },
+  "stroke": {
+    "ru": "гладить",
+    "level": 6
+  },
+  "What’s funny about that?": {
+    "ru": "Что в этом смешного?",
+    "level": 6
+  },
+  "dump smb": {
+    "ru": "кинуть, оставить, бросить кого-то",
+    "level": 6
+  },
+  "weird": {
+    "ru": "странный",
+    "level": 6
+  },
+  "doughnut": {
+    "ru": "пончик",
+    "level": 6
+  },
+  "memory loss": {
+    "ru": "потеря памяти",
+    "level": 6
+  },
+  "successful": {
+    "ru": "успешный",
+    "level": 6
+  },
+  "that’s (un)fair": {
+    "ru": "это (не)честно",
+    "level": 6
+  },
+  "no matter what": {
+    "ru": "неважно что",
+    "level": 6
+  },
+  "Give me a hand!": {
+    "ru": "помоги мне!",
+    "level": 6
+  },
+  "slutty": {
+    "ru": "вульгарный",
+    "level": 6
+  },
+  "cheer smb up": {
+    "ru": "подбодрить кого-то",
+    "level": 6
+  },
+  "throw up": {
+    "ru": "рвать; вырвать",
+    "level": 6
+  },
+  "break up with": {
+    "ru": "разорвать отношения с кем-то",
+    "level": 6
+  },
+  "earrings": {
+    "ru": "сережки",
+    "level": 6
+  },
+  "brand-new": {
+    "ru": "совершенно новый",
+    "level": 6
+  },
+  "Who cares?": {
+    "ru": "Кому какое дело?",
+    "level": 6
+  },
+  "anyway": {
+    "ru": "по-любому",
+    "level": 6
+  },
+  "embarrass": {
+    "ru": "смущать",
+    "level": 6
+  },
+  "grocery list": {
+    "ru": "список продуктов (для покупок)",
+    "level": 6
+  },
+  "chewing gum": {
+    "ru": "жевательная резинка",
+    "level": 6
+  },
+  "handkerchief": {
+    "ru": "носовой платок",
+    "level": 6
+  },
+  "matches": {
+    "ru": "спички",
+    "level": 6
+  },
+  "comb": {
+    "ru": "расческа",
+    "level": 6
+  },
+  "cell phone": {
+    "ru": "мобильный телефон",
+    "level": 6
+  },
+  "receipt": {
+    "ru": "чек",
+    "level": 6
+  },
+  "picture of a close relative": {
+    "ru": "фото близкого родственника",
+    "level": 6
+  },
+  "contact lens case": {
+    "ru": "контейнер для линз",
+    "level": 6
+  },
+  "ID": {
+    "ru": "удостоверение личности",
+    "level": 6
+  },
+  "planning calendar": {
+    "ru": "планировщик",
+    "level": 6
+  },
+  "tissues": {
+    "ru": "бумажные носовые платки",
+    "level": 6
+  },
+  "lipstick": {
+    "ru": "губнаяпомада",
+    "level": 6
+  },
+  "50 ruble note   50": {
+    "ru": "рублевая банкнота",
+    "level": 6
+  },
+  "whistle": {
+    "ru": "свисток",
+    "level": 6
+  },
+  "socks": {
+    "ru": "носки",
+    "level": 6
+  },
+  "gun": {
+    "ru": "пистолет,",
+    "level": 6
+  },
+  "knife": {
+    "ru": "нож",
+    "level": 6
+  },
+  "mirror": {
+    "ru": "зеркало",
+    "level": 6
+  },
+  "pills": {
+    "ru": "таблетки",
+    "level": 6
+  },
+  "dangerous": {
+    "ru": "опасный",
+    "level": 6
+  },
+  "to be worried about smth": {
+    "ru": "волноваться о чем-либо",
+    "level": 6
+  },
+  "it’s far away": {
+    "ru": "это очень далеко",
+    "level": 6
+  },
+  "a sort of": {
+    "ru": "типа, вроде",
+    "level": 6
+  },
+  "ballet  course": {
+    "ru": "курс балета",
+    "level": 6
+  },
+  "I don’t like that at all": {
+    "ru": "мне это совсем не нравится",
+    "level": 6
+  },
+  "earn extra money": {
+    "ru": "заработать дополнительные деньги",
+    "level": 6
+  },
+  "manage": {
+    "ru": "удаваться",
+    "level": 6
+  },
+  "turned off": {
+    "ru": "выключенный",
+    "level": 6
+  },
+  "careful": {
+    "ru": "осторожный",
+    "level": 6
+  },
+  "journey": {
+    "ru": "путешествие",
+    "level": 6
+  },
+  "for the rest of my life": {
+    "ru": "до конца жизни",
+    "level": 6
+  },
+  "to be pregnant": {
+    "ru": "быть беременной",
+    "level": 6
+  },
+  "to get divorced": {
+    "ru": "разводиться",
+    "level": 6
+  },
+  "bride": {
+    "ru": "невеста",
+    "level": 6
+  },
+  "freedom": {
+    "ru": "свобода",
+    "level": 6
+  },
+  "adjust to smth": {
+    "ru": "приспосабливаться",
+    "level": 6
+  },
+  "translator": {
+    "ru": "переводчик",
+    "level": 6
+  },
+  "fluently": {
+    "ru": "бегло (говорить)",
+    "level": 6
+  },
+  "attitude to": {
+    "ru": "отношение к",
+    "level": 6
+  },
+  "life of my  own": {
+    "ru": "собственная жизнь",
+    "level": 6
+  },
+  "baby sit": {
+    "ru": "работать няней",
+    "level": 6
+  },
+  "adapt to smth": {
+    "ru": "адаптироваться к ч-то",
+    "level": 6
+  },
+  "lend a hand with": {
+    "ru": "помогать (одалживать руку)",
+    "level": 6
+  },
+  "however": {
+    "ru": "однако",
+    "level": 6
+  },
+  "chef": {
+    "ru": "главный повар",
+    "level": 6
+  },
+  "imagine": {
+    "ru": "воображать",
+    "level": 6
+  },
+  "miserable": {
+    "ru": "жалкий",
+    "level": 6
+  },
+  "insist on": {
+    "ru": "настаивать на",
+    "level": 6
+  },
+  "follow fashion": {
+    "ru": "следовать моде",
+    "level": 6
+  },
+  "appreciation": {
+    "ru": "признательность, благодарность",
+    "level": 6
+  },
+  "full-time housewife": {
+    "ru": "домохозяйка на полный рабочий день",
+    "level": 6
+  },
+  "kindergarten": {
+    "ru": "детсад",
+    "level": 6
+  },
+  "draught": {
+    "ru": "сквозняк",
+    "level": 6
+  },
+  "litter": {
+    "ru": "мусор на улице",
+    "level": 6
+  },
+  "she is addicted to it": {
+    "ru": "она пристрастилась к этому",
+    "level": 6
+  },
+  "the world we live in": {
+    "ru": "мир, в котором мы живем",
+    "level": 6
+  },
+  "find out": {
+    "ru": "узнать, обнаружить",
+    "level": 6
+  },
+  "They say that…": {
+    "ru": "Говорят, что…",
+    "level": 6
+  },
+  "for lots of reasons": {
+    "ru": "по многим причинам",
+    "level": 6
+  },
+  "attitude to jobs": {
+    "ru": "отношение к работе",
+    "level": 6
+  },
+  "surely": {
+    "ru": "точно",
+    "level": 6
+  },
+  "to retire": {
+    "ru": "уходить на пенсию",
+    "level": 6
+  },
+  "atmosphere": {
+    "ru": "атмосфера",
+    "level": 6
+  },
+  "less relaxed": {
+    "ru": "менее расслабленная",
+    "level": 6
+  },
+  "more competitive": {
+    "ru": "более соревновательная",
+    "level": 6
+  },
+  "discipline": {
+    "ru": "дисциплина",
+    "level": 6
+  },
+  "quite strict": {
+    "ru": "довольно строгий",
+    "level": 6
+  },
+  "sit in rows": {
+    "ru": "сидеть в рядах (рядами)",
+    "level": 6
+  },
+  "bow to the teacher": {
+    "ru": "кланятьсяучителю",
+    "level": 6
+  },
+  "take notes": {
+    "ru": "делатьзаписи",
+    "level": 6
+  },
+  "It’s considered rude": {
+    "ru": "считается грубым",
+    "level": 6
+  },
+  "to question a teacher": {
+    "ru": "задавать вопросы учителю",
+    "level": 6
+  },
+  "most of the time": {
+    "ru": "бОльшая часть времени",
+    "level": 6
+  },
+  "They have no time to be bored": {
+    "ru": "у них нет времени скучать",
+    "level": 6
+  },
+  "respect": {
+    "ru": "уважение",
+    "level": 6
+  },
+  "politeness": {
+    "ru": "вежливость",
+    "level": 6
+  },
+  "just as": {
+    "ru": "также, как",
+    "level": 6
+  },
+  "shopkeeper": {
+    "ru": "продавец",
+    "level": 4
+  },
+  "customer": {
+    "ru": "клиент",
+    "level": 4
+  },
+  "ma'am": {
+    "ru": "мэм",
+    "level": 4
+  },
+  "sir": {
+    "ru": "сэр",
+    "level": 4
+  },
+  "decide": {
+    "ru": "решить что-то сделать",
+    "level": 4
+  },
+  "It tastes so good!": {
+    "ru": "Это так вкусно!",
+    "level": 4
+  },
+  "Can I have…?": {
+    "ru": "Можно мне…",
+    "level": 4
+  },
+  "Here you are": {
+    "ru": "Вот пожалуйста.",
+    "level": 4
+  },
+  "There must be a mistake": {
+    "ru": "Должно быть, здесь ошибка.",
+    "level": 4
+  },
+  "It’s my fault": {
+    "ru": "Это моя вина.",
+    "level": 4
+  },
+  "have breakfast/dinner": {
+    "ru": "завтракать, обедать, ужинать",
+    "level": 4
+  },
+  "fried eggs": {
+    "ru": "яичница",
+    "level": 4
+  },
+  "boiled eggs": {
+    "ru": "вареные яйца",
+    "level": 4
+  },
+  "omelet": {
+    "ru": "омлет",
+    "level": 4
+  },
+  "roll": {
+    "ru": "булочка",
+    "level": 4
+  },
+  "sandwich": {
+    "ru": "сэндвич, бутерброд",
+    "level": 4
+  },
+  "semolina": {
+    "ru": "манная каша",
+    "level": 4
+  },
+  "porridge": {
+    "ru": "овсянка",
+    "level": 4
+  },
+  "toast": {
+    "ru": "тост",
+    "level": 4
+  },
+  "cheese": {
+    "ru": "сыр",
+    "level": 4
+  },
+  "sausage(s)": {
+    "ru": "колбаса (сосиски)",
+    "level": 4
+  },
+  "cereal": {
+    "ru": "хлопья",
+    "level": 4
+  },
+  "honey": {
+    "ru": "мед",
+    "level": 4
+  },
+  "yogurt": {
+    "ru": "йогурт",
+    "level": 4
+  },
+  "pancakes": {
+    "ru": "блины",
+    "level": 4
+  },
+  "syrup": {
+    "ru": "сироп",
+    "level": 4
+  },
+  "mustard": {
+    "ru": "горчица",
+    "level": 4
+  },
+  "ketchup": {
+    "ru": "кетчуп",
+    "level": 4
+  },
+  "mayonnaise, mayo": {
+    "ru": "майонез",
+    "level": 4
+  },
+  "butter": {
+    "ru": "сливочное масло",
+    "level": 4
+  },
+  "cream": {
+    "ru": "сливки",
+    "level": 4
+  },
+  "Fruits and Vegetables": {
+    "ru": "Фрукты и Овощи",
+    "level": 4
+  },
+  "cabbage": {
+    "ru": "капуста",
+    "level": 4
+  },
+  "lettuce": {
+    "ru": "салат (зелень)",
+    "level": 4
+  },
+  "cucumber": {
+    "ru": "огурец",
+    "level": 4
+  },
+  "tomato": {
+    "ru": "помидор",
+    "level": 4
+  },
+  "potatoes": {
+    "ru": "картошка",
+    "level": 4
+  },
+  "pepper": {
+    "ru": "перец",
+    "level": 4
+  },
+  "radish": {
+    "ru": "редис",
+    "level": 4
+  },
+  "garliс": {
+    "ru": "чеснок",
+    "level": 4
+  },
+  "carrot": {
+    "ru": "морковка",
+    "level": 4
+  },
+  "onion": {
+    "ru": "лук",
+    "level": 4
+  },
+  "peas": {
+    "ru": "горох",
+    "level": 4
+  },
+  "mushrooms": {
+    "ru": "грибы",
+    "level": 4
+  },
+  "pickles": {
+    "ru": "маринованные огурцы",
+    "level": 4
+  },
+  "strawberries": {
+    "ru": "клубника",
+    "level": 4
+  },
+  "grapes": {
+    "ru": "виноград",
+    "level": 4
+  },
+  "orange": {
+    "ru": "апельсин",
+    "level": 4
+  },
+  "pear": {
+    "ru": "груша",
+    "level": 4
+  },
+  "peach": {
+    "ru": "персик",
+    "level": 4
+  },
+  "watermelon, melon": {
+    "ru": "арбуз, дыня",
+    "level": 4
+  },
+  "plum": {
+    "ru": "слива",
+    "level": 4
+  },
+  "lemon": {
+    "ru": "лимон",
+    "level": 4
+  },
+  "banana": {
+    "ru": "банан",
+    "level": 4
+  },
+  "pineapple": {
+    "ru": "ананас",
+    "level": 4
+  },
+  "cherry": {
+    "ru": "вишня",
+    "level": 4
+  },
+  "chew": {
+    "ru": "жевать",
+    "level": 4
+  },
+  "starter": {
+    "ru": "первое блюдо,",
+    "level": 4
+  },
+  "maincourse": {
+    "ru": "второе блюдо",
+    "level": 4
+  },
+  "side dish": {
+    "ru": "гарнир",
+    "level": 4
+  },
+  "soup, broth": {
+    "ru": "суп, бульон",
+    "level": 4
+  },
+  "chips (Br)/ fries (Am.)": {
+    "ru": "картофель фри",
+    "level": 4
+  },
+  "mashed potatoes": {
+    "ru": "картофельное пюре",
+    "level": 4
+  },
+  "pasta": {
+    "ru": "макароны",
+    "level": 4
+  },
+  "spaghetti": {
+    "ru": "макароны",
+    "level": 4
+  },
+  "macaroni": {
+    "ru": "макароны",
+    "level": 4
+  },
+  "noodles": {
+    "ru": "лапша",
+    "level": 4
+  },
+  "buckwheat": {
+    "ru": "гречка",
+    "level": 4
+  },
+  "rice": {
+    "ru": "рис",
+    "level": 4
+  },
+  "meat": {
+    "ru": "мясо",
+    "level": 4
+  },
+  "chicken": {
+    "ru": "курица",
+    "level": 4
+  },
+  "turkey": {
+    "ru": "индейка",
+    "level": 4
+  },
+  "pork": {
+    "ru": "свинина",
+    "level": 4
+  },
+  "beef": {
+    "ru": "говядина",
+    "level": 4
+  },
+  "lamb": {
+    "ru": "баранина",
+    "level": 4
+  },
+  "hamburger": {
+    "ru": "гамбургер",
+    "level": 4
+  },
+  "meatballs": {
+    "ru": "тефтели",
+    "level": 4
+  },
+  "(beef)steak": {
+    "ru": "(говяжий) стейк",
+    "level": 4
+  },
+  "honest": {
+    "ru": "честный",
+    "level": 4
+  },
+  "in that case": {
+    "ru": "в таком случае",
+    "level": 4
+  },
+  "be on holiday": {
+    "ru": "на каникулах/в отпуске",
+    "level": 4
+  },
+  "too big": {
+    "ru": "слишком большой",
+    "level": 4
+  },
+  "the same": {
+    "ru": "такой же",
+    "level": 4
+  },
+  "each other": {
+    "ru": "друг друга",
+    "level": 4
+  },
+  "Pardon?": {
+    "ru": "Простите (не понял)",
+    "level": 4
+  },
+  "… as well": {
+    "ru": "так же, тоже",
+    "level": 4
+  },
+  "Why didn’t you say so?": {
+    "ru": "Почему вы так и не сказали?",
+    "level": 4
+  },
+  "satisfied with": {
+    "ru": "удовлетворенный чем-то",
+    "level": 4
+  },
+  "How much is that?": {
+    "ru": "Сколько это стоит?",
+    "level": 4
+  },
+  "annoyed": {
+    "ru": "раздраженный",
+    "level": 4
+  },
+  "a pair": {
+    "ru": "пара",
+    "level": 4
+  },
+  "furious": {
+    "ru": "взбешенный",
+    "level": 4
+  },
+  "remind of": {
+    "ru": "напоминать что-то",
+    "level": 4
+  },
+  "suicidal": {
+    "ru": "очень расстроенный",
+    "level": 4
+  },
+  "extremely": {
+    "ru": "крайне",
+    "level": 4
+  },
+  "similar": {
+    "ru": "похожий",
+    "level": 4
+  },
+  "I have a better idea.": {
+    "ru": "У меня идея получше!",
+    "level": 4
+  },
+  "owe smb smth": {
+    "ru": "бытьдолжным",
+    "level": 4
+  },
+  "completely stupid": {
+    "ru": "совершенно тупой",
+    "level": 4
+  },
+  "What do you mean exactly?": {
+    "ru": "Что вы точно имеете в виду?",
+    "level": 4
+  },
+  "annoying stuff": {
+    "ru": "раздражающие вещи",
+    "level": 4
+  },
+  "It makes me crazy!": {
+    "ru": "Это сводит меня с ума!",
+    "level": 4
+  },
+  "It gets on my nerves.": {
+    "ru": "Это действует мне на нервы",
+    "level": 4
+  },
+  "It doesn’t bother me.": {
+    "ru": "меня это не беспокоит",
+    "level": 4
+  },
+  "I can’t stand it": {
+    "ru": "Яневыношуэтого!",
+    "level": 4
+  },
+  "break promises": {
+    "ru": "не сдерживать обещания",
+    "level": 4
+  },
+  "talk during movies": {
+    "ru": "разговариватьвовр. фильмов",
+    "level": 4
+  },
+  "turn on": {
+    "ru": "выключать свет",
+    "level": 4
+  },
+  "too slowly": {
+    "ru": "слишком медленно",
+    "level": 4
+  },
+  "take smth seriously": {
+    "ru": "относиться серьезно",
+    "level": 4
+  },
+  "snore": {
+    "ru": "храпеть",
+    "level": 4
+  },
+  "interrupt": {
+    "ru": "перебивать",
+    "level": 4
+  },
+  "speak loudly on the phone": {
+    "ru": "громко говорить по телефону",
+    "level": 4
+  },
+  "return smth": {
+    "ru": "возвращать что-то",
+    "level": 4
+  },
+  "use smth without asking": {
+    "ru": "пользоваться чем-то без разрешения",
+    "level": 4
+  },
+  "surf": {
+    "ru": "заниматься серфингом",
+    "level": 4
+  },
+  "be seasick": {
+    "ru": "укачало",
+    "level": 4
+  },
+  "climb a mountain": {
+    "ru": "залазить на гору",
+    "level": 4
+  },
+  "kiss a foreigner": {
+    "ru": "целовать иностранца",
+    "level": 4
+  },
+  "break a bone": {
+    "ru": "сломать кость",
+    "level": 4
+  },
+  "goabroad": {
+    "ru": "ездить за границу",
+    "level": 4
+  },
+  "copy in an exam": {
+    "ru": "списывать на экзамене",
+    "level": 4
+  },
+  "prison": {
+    "ru": "тюрьма",
+    "level": 4
+  },
+  "get lost": {
+    "ru": "потеряться",
+    "level": 4
+  },
+  "win a competition": {
+    "ru": "выигрывать соревнование",
+    "level": 4
+  },
+  "be in a desert": {
+    "ru": "быть в пустыне",
+    "level": 4
+  },
+  "It tastes fantastic!": {
+    "ru": "Фантастический вкус!",
+    "level": 4
+  },
+  "That looks delicious!": {
+    "ru": "Выглядит аппетитно!",
+    "level": 4
+  },
+  "That's so tasty!": {
+    "ru": "Это так вкусно!",
+    "level": 4
+  },
+  "It’s absolutely delicious!": {
+    "ru": "Это очень вкусно!",
+    "level": 4
+  },
+  "That’s lovely!": {
+    "ru": "Это прекрасно!",
+    "level": 4
+  },
+  "boil/boiled": {
+    "ru": "варить, вареный",
+    "level": 4
+  },
+  "fry/fried": {
+    "ru": "жарить, жареный",
+    "level": 4
+  },
+  "stew/stewed": {
+    "ru": "тушить, тушеный",
+    "level": 4
+  },
+  "grill/grilled": {
+    "ru": "готовить на гриле, приготовленный на гриле",
+    "level": 4
+  },
+  "roast/roasted": {
+    "ru": "запекать, печеный (мясо)",
+    "level": 4
+  },
+  "bake/baked": {
+    "ru": "печь, печеный (торт, пирог)",
+    "level": 4
+  },
+  "jam": {
+    "ru": "джем, варенье",
+    "level": 4
+  },
+  "ice-cream": {
+    "ru": "мороженое",
+    "level": 4
+  },
+  "chocolate": {
+    "ru": "шоколад",
+    "level": 4
+  },
+  "juice": {
+    "ru": "сок",
+    "level": 4
+  },
+  "cookies (Am), biscuits (Br)": {
+    "ru": "печенье",
+    "level": 4
+  },
+  "candies (Am), sweets (Br)": {
+    "ru": "конфеты",
+    "level": 4
+  },
+  "cake": {
+    "ru": "торт",
+    "level": 4
+  },
+  "dressing": {
+    "ru": "заправка",
+    "level": 4
+  },
+  "sauce": {
+    "ru": "соус",
+    "level": 4
+  },
+  "pizza": {
+    "ru": "пицца",
+    "level": 4
+  },
+  "vinegar": {
+    "ru": "уксус",
+    "level": 4
+  },
+  "cut in pieces": {
+    "ru": "резать на кусочки",
+    "level": 4
+  },
+  "recipe": {
+    "ru": "рецепт",
+    "level": 4
+  },
+  "pan": {
+    "ru": "кастрюля",
+    "level": 4
+  },
+  "frying pan": {
+    "ru": "сковорода",
+    "level": 4
+  },
+  "mix": {
+    "ru": "перемешивать",
+    "level": 4
+  },
+  "add": {
+    "ru": "добавлять",
+    "level": 4
+  },
+  "pour": {
+    "ru": "наливать",
+    "level": 4
+  },
+  "beet": {
+    "ru": "свекла",
+    "level": 4
+  },
+  "shark": {
+    "ru": "акула",
+    "level": 4
+  },
+  "furniture": {
+    "ru": "мебель",
+    "level": 4
+  },
+  "baggage": {
+    "ru": "багаж",
+    "level": 4
+  },
+  "advice": {
+    "ru": "совет (неисч)",
+    "level": 4
+  },
+  "news": {
+    "ru": "новости (неисч)",
+    "level": 4
+  },
+  "a paper": {
+    "ru": "газета",
+    "level": 4
+  },
+  "key": {
+    "ru": "ключ",
+    "level": 4
+  },
+  "sofa": {
+    "ru": "диван",
+    "level": 4
+  },
+  "rug": {
+    "ru": "коврик",
+    "level": 4
+  },
+  "floor": {
+    "ru": "пол",
+    "level": 4
+  },
+  "pillow": {
+    "ru": "подушка",
+    "level": 4
+  },
+  "cupboard": {
+    "ru": "шкаф",
+    "level": 4
+  },
+  "backpack": {
+    "ru": "рюкзак",
+    "level": 4
+  },
+  "ticket": {
+    "ru": "билет",
+    "level": 4
+  },
+  "wallet": {
+    "ru": "бумажник, кошелек",
+    "level": 4
+  },
+  "map": {
+    "ru": "карта",
+    "level": 4
+  },
+  "guidebook": {
+    "ru": "путеводитель",
+    "level": 4
+  },
+  "suitcase": {
+    "ru": "чемодан",
+    "level": 4
+  },
+  "behind": {
+    "ru": "за (чем-то)",
+    "level": 4
+  },
+  "Seasons": {
+    "ru": "времена года",
+    "level": 3
+  },
+  "in winter": {
+    "ru": "зимой",
+    "level": 3
+  },
+  "in spring": {
+    "ru": "весной",
+    "level": 3
+  },
+  "in summer": {
+    "ru": "летом",
+    "level": 3
+  },
+  "in autumn/fall": {
+    "ru": "осенью",
+    "level": 3
+  },
+  "days of the week": {
+    "ru": "дни недели",
+    "level": 3
+  },
+  "on Monday": {
+    "ru": "в понедельник",
+    "level": 3
+  },
+  "on Tuesday": {
+    "ru": "во вторник",
+    "level": 3
+  },
+  "on Wednesday": {
+    "ru": "в среду",
+    "level": 3
+  },
+  "on Thursday": {
+    "ru": "в четверг",
+    "level": 3
+  },
+  "on Friday": {
+    "ru": "в пятницу",
+    "level": 3
+  },
+  "on Saturday": {
+    "ru": "в субботу",
+    "level": 3
+  },
+  "on Sunday": {
+    "ru": "в воскресенье",
+    "level": 3
+  },
+  "Months": {
+    "ru": "Месяцы",
+    "level": 3
+  },
+  "in January, in February": {
+    "ru": "в январе, в феврале",
+    "level": 3
+  },
+  "in March, in April, in May": {
+    "ru": "в марте, в апреле, в мае",
+    "level": 3
+  },
+  "in June, in July, in August": {
+    "ru": "в июне, в июле, в августе",
+    "level": 3
+  },
+  "in September, in October": {
+    "ru": "в сентябре, в октябре",
+    "level": 3
+  },
+  "in November, in December": {
+    "ru": "в ноябре, в декабре",
+    "level": 3
+  },
+  "on the 16th of May": {
+    "ru": "16го мая",
+    "level": 3
+  },
+  "at midnight": {
+    "ru": "в полночь",
+    "level": 3
+  },
+  "in 2014": {
+    "ru": "в 2014 году",
+    "level": 3
+  },
+  "I like … best/most": {
+    "ru": "Больше всего я люблю …",
+    "level": 3
+  },
+  "I like … least": {
+    "ru": "Меньше всего я люблю…",
+    "level": 3
+  },
+  "waitress/waiter": {
+    "ru": "официантка/официант",
+    "level": 3
+  },
+  "t-shirt": {
+    "ru": "футболка",
+    "level": 3
+  },
+  "shirt": {
+    "ru": "рубашка",
+    "level": 3
+  },
+  "blouse": {
+    "ru": "блузка",
+    "level": 3
+  },
+  "coat": {
+    "ru": "пальто, пиджак",
+    "level": 3
+  },
+  "jacket": {
+    "ru": "куртка",
+    "level": 3
+  },
+  "suit": {
+    "ru": "костюм",
+    "level": 3
+  },
+  "tracksuit": {
+    "ru": "спортивный костюм",
+    "level": 3
+  },
+  "dress": {
+    "ru": "платье",
+    "level": 3
+  },
+  "jumper": {
+    "ru": "джемпер",
+    "level": 3
+  },
+  "trousers": {
+    "ru": "брюки",
+    "level": 3
+  },
+  "jeans": {
+    "ru": "джинсы",
+    "level": 3
+  },
+  "shorts": {
+    "ru": "шорты",
+    "level": 3
+  },
+  "skirt": {
+    "ru": "юбка",
+    "level": 3
+  },
+  "shoes": {
+    "ru": "обувь, туфли",
+    "level": 3
+  },
+  "boots": {
+    "ru": "сапоги",
+    "level": 3
+  },
+  "trainers": {
+    "ru": "кроссовки",
+    "level": 3
+  },
+  "sandals": {
+    "ru": "сандалии",
+    "level": 3
+  },
+  "slippers": {
+    "ru": "тапочки",
+    "level": 3
+  },
+  "hat": {
+    "ru": "шапка, шляпа",
+    "level": 3
+  },
+  "cap": {
+    "ru": "бейсболка",
+    "level": 3
+  },
+  "underwear": {
+    "ru": "белье",
+    "level": 3
+  },
+  "tights": {
+    "ru": "колготки",
+    "level": 3
+  },
+  "socks": {
+    "ru": "носки",
+    "level": 3
+  },
+  "bathrobe": {
+    "ru": "халат",
+    "level": 3
+  },
+  "pyjamas": {
+    "ru": "пижама",
+    "level": 3
+  },
+  "swimsuit": {
+    "ru": "купальный костюм (жен)",
+    "level": 3
+  },
+  "sunbathing": {
+    "ru": "загорать",
+    "level": 3
+  },
+  "going hiking": {
+    "ru": "ходить в походы",
+    "level": 3
+  },
+  "going camping": {
+    "ru": "ходить в поход с палаткой",
+    "level": 3
+  },
+  "going skiing": {
+    "ru": "кататься на лыжах",
+    "level": 3
+  },
+  "going skating": {
+    "ru": "кататься на коньках",
+    "level": 3
+  },
+  "be mad about smth": {
+    "ru": "быть без ума от…",
+    "level": 3
+  },
+  "take up a hobby": {
+    "ru": "начать заниматься хобби",
+    "level": 3
+  },
+  "I’m all ears": {
+    "ru": "я весь во внимании",
+    "level": 3
+  },
+  "delicious": {
+    "ru": "вкусный",
+    "level": 3
+  },
+  "right now": {
+    "ru": "прямо сейчас",
+    "level": 3
+  },
+  "it makes sense": {
+    "ru": "в этом есть смысл",
+    "level": 3
+  },
+  "roller skating": {
+    "ru": "кататься на роликах",
+    "level": 3
+  },
+  "this (these)": {
+    "ru": "этот (эти)",
+    "level": 3
+  },
+  "that (those)": {
+    "ru": "тот (те)",
+    "level": 3
+  },
+  "laugh": {
+    "ru": "смеяться",
+    "level": 3
+  },
+  "accident": {
+    "ru": "несчастный случай, авария",
+    "level": 3
+  },
+  "ceiling": {
+    "ru": "потолок",
+    "level": 3
+  },
+  "scarf": {
+    "ru": "шарф",
+    "level": 3
+  },
+  "belt": {
+    "ru": "ремень",
+    "level": 3
+  },
+  "sunglasses": {
+    "ru": "солнечные очки",
+    "level": 3
+  },
+  "mittens": {
+    "ru": "варежки",
+    "level": 3
+  },
+  "gloves": {
+    "ru": "перчатки",
+    "level": 3
+  },
+  "What are you wearing?": {
+    "ru": "Что на тебе надето?",
+    "level": 3
+  },
+  "His shoes are rather (quite)…": {
+    "ru": "Его обувь довольно…",
+    "level": 3
+  },
+  "fashionable": {
+    "ru": "модный",
+    "level": 3
+  },
+  "unfashionable": {
+    "ru": "немодный",
+    "level": 3
+  },
+  "cozy": {
+    "ru": "уютный",
+    "level": 3
+  },
+  "I’m lost": {
+    "ru": "я потерялся",
+    "level": 3
+  },
+  "Hobbies": {
+    "ru": "Хобби",
+    "level": 3
+  },
+  "playing cards": {
+    "ru": "играть в карты",
+    "level": 3
+  },
+  "playing board games": {
+    "ru": "играть в настольные игры",
+    "level": 3
+  },
+  "playing chess": {
+    "ru": "играть в шахматы",
+    "level": 3
+  },
+  "playing musical instruments": {
+    "ru": "игратьнамуз. инстр.",
+    "level": 3
+  },
+  "collecting stamps": {
+    "ru": "собирать марки",
+    "level": 3
+  },
+  "collecting coins": {
+    "ru": "собирать монеты",
+    "level": 3
+  },
+  "collecting antiques": {
+    "ru": "собирать антиквариат",
+    "level": 3
+  },
+  "diving": {
+    "ru": "дайвинг",
+    "level": 3
+  },
+  "hunting": {
+    "ru": "охота",
+    "level": 3
+  },
+  "photography": {
+    "ru": "фотография",
+    "level": 3
+  },
+  "DIY(do it yourself)": {
+    "ru": "делать своими руками",
+    "level": 3
+  },
+  "expensive": {
+    "ru": "дорогой",
+    "level": 3
+  },
+  "good luck": {
+    "ru": "удачи!",
+    "level": 3
+  },
+  "common": {
+    "ru": "распространенный",
+    "level": 3
+  },
+  "skydiving (parachute jumping)": {
+    "ru": "прыгать с парашютом",
+    "level": 3
+  },
+  "visiting friends/relatives": {
+    "ru": "ходить в гости",
+    "level": 3
+  },
+  "work out at the gym": {
+    "ru": "заниматься в тренажерном зале",
+    "level": 3
+  },
+  "fishing": {
+    "ru": "рыбалка",
+    "level": 3
+  },
+  "painting": {
+    "ru": "живопись",
+    "level": 3
+  },
+  "foreign languages": {
+    "ru": "иностранные языки",
+    "level": 3
+  },
+  "gardening": {
+    "ru": "садоводство",
+    "level": 3
+  },
+  "knitting": {
+    "ru": "вязание",
+    "level": 3
+  },
+  "cycling": {
+    "ru": "велосипедирование",
+    "level": 3
+  },
+  "jogging": {
+    "ru": "бег",
+    "level": 3
+  },
+  "sewing": {
+    "ru": "шитьё",
+    "level": 3
+  },
+  "as soon as": {
+    "ru": "кактолько",
+    "level": 3
+  },
+  "offer, suggest": {
+    "ru": "предлагать",
+    "level": 3
+  },
+  "with pleasure": {
+    "ru": "с удовольствием",
+    "level": 3
+  },
+  "invitation": {
+    "ru": "приглашение",
+    "level": 3
+  },
+  "invite": {
+    "ru": "приглашать",
+    "level": 3
+  },
+  "in this case": {
+    "ru": "в этом случае",
+    "level": 3
+  },
+  "arrive in/at": {
+    "ru": "приехать, прибыть к-то",
+    "level": 3
+  },
+  "scream": {
+    "ru": "крик, кричать",
+    "level": 3
+  },
+  "plate": {
+    "ru": "тарелка",
+    "level": 3
+  },
+  "suddenly": {
+    "ru": "вдруг, неожиданно",
+    "level": 3
+  },
+  "fall off the ladder": {
+    "ru": "упасть со стремянки",
+    "level": 3
+  },
+  "take a photograph": {
+    "ru": "сфотографировать",
+    "level": 3
+  },
+  "wait for smb": {
+    "ru": "ждать кого-то",
+    "level": 3
+  },
+  "come in": {
+    "ru": "входить",
+    "level": 3
+  },
+  "lounge": {
+    "ru": "гостиная, комната отдыха",
+    "level": 3
+  },
+  "Pardon?": {
+    "ru": "Простите, не понял",
+    "level": 3
+  },
+  "actually": {
+    "ru": "на самом деле",
+    "level": 3
+  },
+  "married": {
+    "ru": "женатый; замужняя",
+    "level": 3
+  },
+  "the trouble is": {
+    "ru": "проблема в том, что",
+    "level": 3
+  },
+  "useful": {
+    "ru": "полезный",
+    "level": 3
+  },
+  "expression": {
+    "ru": "выражение",
+    "level": 3
+  },
+  "shall = should": {
+    "ru": "следует, нужно",
+    "level": 3
+  },
+  "pickup": {
+    "ru": "подбирать, заезжать за",
+    "level": 3
+  },
+  "finally": {
+    "ru": "в заключение",
+    "level": 3
+  },
+  "let'spractice": {
+    "ru": "давай попрактикуемся",
+    "level": 3
+  },
+  "try": {
+    "ru": "пытаться, пробовать",
+    "level": 3
+  },
+  "go for a walk": {
+    "ru": "гулять",
+    "level": 3
+  },
+  "Super!": {
+    "ru": "Супер!",
+    "level": 3
+  },
+  "In the morning": {
+    "ru": "Утром",
+    "level": 2
+  },
+  "wake up": {
+    "ru": "просыпаться",
+    "level": 2
+  },
+  "lie in bed": {
+    "ru": "лежать в кровати",
+    "level": 2
+  },
+  "get up": {
+    "ru": "вставать",
+    "level": 2
+  },
+  "oversleep": {
+    "ru": "проспать",
+    "level": 2
+  },
+  "make breakfast": {
+    "ru": "готовить завтрак",
+    "level": 2
+  },
+  "have breakfast": {
+    "ru": "завтракать",
+    "level": 2
+  },
+  "feed pets": {
+    "ru": "кормить животных",
+    "level": 2
+  },
+  "clean (brush) my teeth": {
+    "ru": "чистить зубы",
+    "level": 2
+  },
+  "get dressed": {
+    "ru": "одеваться",
+    "level": 2
+  },
+  "put on make-up": {
+    "ru": "краситься",
+    "level": 2
+  },
+  "have a piss (pee), to do number one/two": {
+    "ru": "ходить в туалет",
+    "level": 2
+  },
+  "have/take a shower (bath)": {
+    "ru": "принимать душ, ванну",
+    "level": 2
+  },
+  "have a wash": {
+    "ru": "умываться",
+    "level": 2
+  },
+  "(have a) shave": {
+    "ru": "бриться",
+    "level": 2
+  },
+  "leave home": {
+    "ru": "уходить из дома",
+    "level": 2
+  },
+  "get to work by car": {
+    "ru": "добираться до работы на машине",
+    "level": 2
+  },
+  "on foot": {
+    "ru": "пешком",
+    "level": 2
+  },
+  "by bus": {
+    "ru": "на автобусе",
+    "level": 2
+  },
+  "in the afternoon": {
+    "ru": "днем",
+    "level": 2
+  },
+  "make my bed": {
+    "ru": "заправлять кровать",
+    "level": 2
+  },
+  "have a nap": {
+    "ru": "вздремнуть",
+    "level": 2
+  },
+  "have a snack": {
+    "ru": "перекусить",
+    "level": 2
+  },
+  "have a break": {
+    "ru": "сделать перерыв",
+    "level": 2
+  },
+  "make lunch": {
+    "ru": "готовить обед",
+    "level": 2
+  },
+  "have lunch": {
+    "ru": "обедать",
+    "level": 2
+  },
+  "in the evening": {
+    "ru": "вечером",
+    "level": 2
+  },
+  "watch TV": {
+    "ru": "смотреть телевизор",
+    "level": 2
+  },
+  "call somebody": {
+    "ru": "звонить кому-нибудь",
+    "level": 2
+  },
+  "сhat/talk with friends on the phone": {
+    "ru": "болтать с друзьями по телефону",
+    "level": 2
+  },
+  "stay in": {
+    "ru": "оставаться дома, сидеть дома",
+    "level": 2
+  },
+  "have a rest": {
+    "ru": "отдыхать",
+    "level": 2
+  },
+  "go out": {
+    "ru": "выходить в свет",
+    "level": 2
+  },
+  "go for a walk": {
+    "ru": "идти на прогулку",
+    "level": 2
+  },
+  "spend time on the Internet / surf the Internet": {
+    "ru": "сидеть в интернете",
+    "level": 2
+  },
+  "have a ball": {
+    "ru": "колбаситься",
+    "level": 2
+  },
+  "check my e-mail/page on Facebook": {
+    "ru": "проверять почту/страницу в ФБ",
+    "level": 2
+  },
+  "watch the news": {
+    "ru": "смотреть новости",
+    "level": 2
+  },
+  "read some magazines": {
+    "ru": "читать журналы",
+    "level": 2
+  },
+  "go to bed": {
+    "ru": "ложиться спать",
+    "level": 2
+  },
+  "go to bed early": {
+    "ru": "поздно ложиться спать",
+    "level": 2
+  },
+  "fall asleep": {
+    "ru": "засыпать",
+    "level": 2
+  },
+  "come home": {
+    "ru": "приходить домой",
+    "level": 2
+  },
+  "I have to/ he has to": {
+    "ru": "мне надо / ему надо",
+    "level": 2
+  },
+  "don’t pull my leg": {
+    "ru": "не вешай мне лапшу на уши",
+    "level": 2
+  },
+  "about": {
+    "ru": "около (I’m about 13 мне около 13)",
+    "level": 2
+  },
+  "thick": {
+    "ru": "толстый (о предметах)",
+    "level": 2
+  },
+  "wear": {
+    "ru": "носить",
+    "level": 2
+  },
+  "funny": {
+    "ru": "смешной",
+    "level": 2
+  },
+  "glasses": {
+    "ru": "очки",
+    "level": 2
+  },
+  "the problem is": {
+    "ru": "проблема в том, что",
+    "level": 2
+  },
+  "different": {
+    "ru": "разнообразный, разный",
+    "level": 2
+  },
+  "that’s why": {
+    "ru": "вот почему",
+    "level": 2
+  },
+  "awesome": {
+    "ru": "потрясающий",
+    "level": 2
+  },
+  "I’d like to tell you": {
+    "ru": "Я бы хотел рассказать тебе",
+    "level": 2
+  },
+  "alarm clock": {
+    "ru": "будильник",
+    "level": 2
+  },
+  "again": {
+    "ru": "опять, снова",
+    "level": 2
+  },
+  "turn off": {
+    "ru": "выключить",
+    "level": 2
+  },
+  "something strange": {
+    "ru": "что-то странное",
+    "level": 2
+  },
+  "I’m bored": {
+    "ru": "мне скучно",
+    "level": 2
+  },
+  "I'm boring": {
+    "ru": "я скучный",
+    "level": 2
+  },
+  "turn over": {
+    "ru": "переворачивать(ся)",
+    "level": 2
+  },
+  "throw": {
+    "ru": "кидать",
+    "level": 2
+  },
+  "across (the room)": {
+    "ru": "через (комнату)",
+    "level": 2
+  },
+  "go downstairs / upstairs": {
+    "ru": "спускаться вниз по лестнице, подниматься вверх",
+    "level": 2
+  },
+  "while": {
+    "ru": "пока, в то время как",
+    "level": 2
+  },
+  "in a hurry": {
+    "ru": "в спешке",
+    "level": 2
+  },
+  "catch a bus": {
+    "ru": "сесть в автобус",
+    "level": 2
+  },
+  "at once": {
+    "ru": "сразу",
+    "level": 2
+  },
+  "slang": {
+    "ru": "cленг",
+    "level": 2
+  },
+  "chicken": {
+    "ru": "трус",
+    "level": 2
+  },
+  "buddy": {
+    "ru": "дружище",
+    "level": 2
+  },
+  "You are nuts!": {
+    "ru": "Ты сумасшедший!",
+    "level": 2
+  },
+  "jerk": {
+    "ru": "болван",
+    "level": 2
+  },
+  "Move it!": {
+    "ru": "Шевелись!",
+    "level": 2
+  },
+  "Damn!": {
+    "ru": "Чёрт!",
+    "level": 2
+  },
+  "Piss off! Get lost!": {
+    "ru": "Иди куда подальше!",
+    "level": 2
+  },
+  "It’s a piece of cake!": {
+    "ru": "Проще простого!",
+    "level": 2
+  },
+  "You pissed me off!": {
+    "ru": "Заколебал!",
+    "level": 2
+  },
+  "Give me five!": {
+    "ru": "Дай пять!",
+    "level": 2
+  },
+  "What’s up?": {
+    "ru": "Как дела? Что случилось?",
+    "level": 2
+  },
+  "Later!": {
+    "ru": "Пока!",
+    "level": 2
+  },
+  "Hey!": {
+    "ru": "Привет!",
+    "level": 2
+  },
+  "Chill out!": {
+    "ru": "Расслабься!",
+    "level": 2
+  },
+  "I don’t give a damn!": {
+    "ru": "Мне всё равно!",
+    "level": 2
+  },
+  "dude": {
+    "ru": "чувак",
+    "level": 2
+  },
+  "nobody": {
+    "ru": "никто",
+    "level": 2
+  },
+  "everybody": {
+    "ru": "все",
+    "level": 2
+  },
+  "something": {
+    "ru": "что-то",
+    "level": 2
+  },
+  "by the way": {
+    "ru": "кстати",
+    "level": 2
+  },
+  "it seems to me": {
+    "ru": "мне кажется",
+    "level": 2
+  },
+  "well…": {
+    "ru": "ну…",
+    "level": 2
+  },
+  "cool": {
+    "ru": "круто",
+    "level": 2
+  },
+  "stand on a chair": {
+    "ru": "стоять на стуле",
+    "level": 2
+  },
+  "the sun shines": {
+    "ru": "солнце светит",
+    "level": 2
+  },
+  "run": {
+    "ru": "бежать",
+    "level": 2
+  },
+  "cycle/ride a bicycle": {
+    "ru": "ездить на велосипеде",
+    "level": 2
+  },
+  "believe": {
+    "ru": "верить",
+    "level": 2
+  },
+  "ask a question": {
+    "ru": "задавать вопрос",
+    "level": 2
+  },
+  "answer a question": {
+    "ru": "отвечать на вопрос",
+    "level": 2
+  },
+  "find out": {
+    "ru": "узнать, выяснить",
+    "level": 2
+  },
+  "you look great": {
+    "ru": "хорошо выглядишь",
+    "level": 2
+  },
+  "midnight": {
+    "ru": "полночь",
+    "level": 2
+  },
+  "special": {
+    "ru": "особенный",
+    "level": 2
+  },
+  "prefer": {
+    "ru": "предпочитать",
+    "level": 2
+  },
+  "it pisses me off": {
+    "ru": "меня это раздражает",
+    "level": 2
+  },
+  "change": {
+    "ru": "менять(ся)",
+    "level": 2
+  },
+  "play cards": {
+    "ru": "играть в карты",
+    "level": 2
+  },
+  "dig": {
+    "ru": "копать",
+    "level": 2
+  },
+  "lie on the grass": {
+    "ru": "лежать на траве",
+    "level": 2
+  },
+  "Guess what?": {
+    "ru": "Угадай, что?",
+    "level": 2
+  },
+  "pick flowers": {
+    "ru": "рвать цветы",
+    "level": 2
+  },
+  "open/close the door": {
+    "ru": "закрывать/открывать дверь",
+    "level": 2
+  },
+  "play volleyball": {
+    "ru": "играть в волейбол",
+    "level": 2
+  },
+  "housework": {
+    "ru": "работа по дому",
+    "level": 2
+  },
+  "do some gardening": {
+    "ru": "работать в саду",
+    "level": 2
+  },
+  "do some cooking, cook": {
+    "ru": "готовить",
+    "level": 2
+  },
+  "do some dusting, dust": {
+    "ru": "вытирать  пыль",
+    "level": 2
+  },
+  "tidy up": {
+    "ru": "прибираться",
+    "level": 2
+  },
+  "wash smth": {
+    "ru": "стирать, мыть",
+    "level": 2
+  },
+  "wash up": {
+    "ru": "мыть посуду",
+    "level": 2
+  },
+  "sweep the floor": {
+    "ru": "подметать пол",
+    "level": 2
+  },
+  "go shopping": {
+    "ru": "ходить по магазинам",
+    "level": 2
+  },
+  "mend/fix/repair smth": {
+    "ru": "чинить",
+    "level": 2
+  },
+  "to iron smth": {
+    "ru": "гладить",
+    "level": 2
+  },
+  "vacuum  smth": {
+    "ru": "пылесосить",
+    "level": 2
+  },
+  "lay the table": {
+    "ru": "накрывать на стол",
+    "level": 2
+  },
+  "clean off the table": {
+    "ru": "убирать со стола",
+    "level": 2
+  },
+  "take / throw out the trash": {
+    "ru": "выбрасывать мусор",
+    "level": 2
+  },
+  "both": {
+    "ru": "оба",
+    "level": 2
+  },
+  "neighbor": {
+    "ru": "сосед",
+    "level": 2
+  },
+  "I don’t care (about)": {
+    "ru": "мне все равно",
+    "level": 2
+  },
+  "above": {
+    "ru": "над",
+    "level": 2
+  },
+  "on": {
+    "ru": "на",
+    "level": 2
+  },
+  "in": {
+    "ru": "в",
+    "level": 2
+  },
+  "by": {
+    "ru": "около",
+    "level": 2
+  },
+  "under": {
+    "ru": "под",
+    "level": 2
+  },
+  "appearance": {
+    "ru": "внешность",
+    "level": 1
+  },
+  "beautiful": {
+    "ru": "красивая",
+    "level": 1
+  },
+  "handsome": {
+    "ru": "красивый",
+    "level": 1
+  },
+  "ugly": {
+    "ru": "уродливый",
+    "level": 1
+  },
+  "plain": {
+    "ru": "страшненькая, простая внешность",
+    "level": 1
+  },
+  "tall": {
+    "ru": "высокий",
+    "level": 1
+  },
+  "short": {
+    "ru": "низкий",
+    "level": 1
+  },
+  "fat": {
+    "ru": "жирный",
+    "level": 1
+  },
+  "slim": {
+    "ru": "стройный",
+    "level": 1
+  },
+  "skinny": {
+    "ru": "тощий",
+    "level": 1
+  },
+  "well-built": {
+    "ru": "хорошо сложенный",
+    "level": 1
+  },
+  "overweight": {
+    "ru": "полный",
+    "level": 1
+  },
+  "(un)attractive": {
+    "ru": "(не)привлекательный",
+    "level": 1
+  },
+  "good-looking": {
+    "ru": "симпатичный",
+    "level": 1
+  },
+  "bald": {
+    "ru": "лысый",
+    "level": 1
+  },
+  "straight hair": {
+    "ru": "прямые волосы",
+    "level": 1
+  },
+  "wavy hair": {
+    "ru": "волнистые волосы",
+    "level": 1
+  },
+  "curly hair": {
+    "ru": "кудрявые волосы",
+    "level": 1
+  },
+  "old": {
+    "ru": "старый",
+    "level": 1
+  },
+  "young": {
+    "ru": "молодой",
+    "level": 1
+  },
+  "kind": {
+    "ru": "добрый",
+    "level": 1
+  },
+  "unkind": {
+    "ru": "злой",
+    "level": 1
+  },
+  "angry": {
+    "ru": "сердитый",
+    "level": 1
+  },
+  "pessimistic": {
+    "ru": "пессимистичный",
+    "level": 1
+  },
+  "optimistic": {
+    "ru": "оптимистичный",
+    "level": 1
+  },
+  "sad": {
+    "ru": "грустный",
+    "level": 1
+  },
+  "hungry": {
+    "ru": "голодный",
+    "level": 1
+  },
+  "full": {
+    "ru": "сытый",
+    "level": 1
+  },
+  "tired": {
+    "ru": "уставший",
+    "level": 1
+  },
+  "energetic": {
+    "ru": "энергичный",
+    "level": 1
+  },
+  "lazy": {
+    "ru": "ленивый",
+    "level": 1
+  },
+  "hard-working": {
+    "ru": "трудолюбивый",
+    "level": 1
+  },
+  "happy": {
+    "ru": "счастливый, радостный",
+    "level": 1
+  },
+  "unhappy": {
+    "ru": "несчастный",
+    "level": 1
+  },
+  "clever": {
+    "ru": "умный",
+    "level": 1
+  },
+  "silly": {
+    "ru": "глупый",
+    "level": 1
+  },
+  "polite": {
+    "ru": "вежливый",
+    "level": 1
+  },
+  "selfish": {
+    "ru": "эгоистичный",
+    "level": 1
+  },
+  "shy": {
+    "ru": "стеснительный",
+    "level": 1
+  },
+  "nervous": {
+    "ru": "нервный",
+    "level": 1
+  },
+  "pushy": {
+    "ru": "наглый",
+    "level": 1
+  },
+  "calm": {
+    "ru": "спокойный",
+    "level": 1
+  },
+  "thin": {
+    "ru": "тонкий",
+    "level": 1
+  },
+  "thick": {
+    "ru": "толстый",
+    "level": 1
+  },
+  "parts of the body": {
+    "ru": "части тела",
+    "level": 1
+  },
+  "head": {
+    "ru": "голова",
+    "level": 1
+  },
+  "nose": {
+    "ru": "нос",
+    "level": 1
+  },
+  "ears": {
+    "ru": "уши",
+    "level": 1
+  },
+  "lips": {
+    "ru": "губы",
+    "level": 1
+  },
+  "mouth": {
+    "ru": "рот",
+    "level": 1
+  },
+  "eyes": {
+    "ru": "глаза",
+    "level": 1
+  },
+  "eyebrows": {
+    "ru": "брови",
+    "level": 1
+  },
+  "cheek": {
+    "ru": "щека",
+    "level": 1
+  },
+  "chin": {
+    "ru": "подбородок",
+    "level": 1
+  },
+  "neck": {
+    "ru": "шея",
+    "level": 1
+  },
+  "shoulders": {
+    "ru": "плечи",
+    "level": 1
+  },
+  "chest": {
+    "ru": "мужская грудь",
+    "level": 1
+  },
+  "breasts": {
+    "ru": "женскаягрудь",
+    "level": 1
+  },
+  "arm": {
+    "ru": "рука",
+    "level": 1
+  },
+  "hand": {
+    "ru": "кисть руки",
+    "level": 1
+  },
+  "fingers": {
+    "ru": "пальцы",
+    "level": 1
+  },
+  "move": {
+    "ru": "двигать",
+    "level": 1
+  },
+  "rub": {
+    "ru": "тереть",
+    "level": 1
+  },
+  "lift": {
+    "ru": "поднимать",
+    "level": 1
+  },
+  "play computer games": {
+    "ru": "играть в компьютерные игры",
+    "level": 1
+  },
+  "watch films": {
+    "ru": "смотреть фильмы",
+    "level": 1
+  },
+  "listen to music": {
+    "ru": "слушать музыку",
+    "level": 1
+  },
+  "eat meat": {
+    "ru": "есть мясо",
+    "level": 1
+  },
+  "play cards": {
+    "ru": "играть в карты",
+    "level": 1
+  },
+  "drink alcohol": {
+    "ru": "пить алкоголь",
+    "level": 1
+  },
+  "get up": {
+    "ru": "вставать",
+    "level": 1
+  },
+  "tummy": {
+    "ru": "живот",
+    "level": 1
+  },
+  "bottom": {
+    "ru": "мягкое место",
+    "level": 1
+  },
+  "legs": {
+    "ru": "ноги",
+    "level": 1
+  },
+  "knees": {
+    "ru": "колени",
+    "level": 1
+  },
+  "foot (feet)": {
+    "ru": "нога (ноги)",
+    "level": 1
+  },
+  "toes": {
+    "ru": "пальцы на ногах",
+    "level": 1
+  },
+  "difficult": {
+    "ru": "трудный",
+    "level": 1
+  },
+  "easy-going": {
+    "ru": "легкий в общении",
+    "level": 1
+  },
+  "relaxed": {
+    "ru": "расслабленный, беззаботный",
+    "level": 1
+  },
+  "special features:": {
+    "ru": "особенности",
+    "level": 1
+  },
+  "short hair": {
+    "ru": "короткие волосы",
+    "level": 1
+  },
+  "long hair": {
+    "ru": "длинные волосы",
+    "level": 1
+  },
+  "pointed": {
+    "ru": "острый",
+    "level": 1
+  },
+  "muscular": {
+    "ru": "мускулистый",
+    "level": 1
+  },
+  "beard": {
+    "ru": "борода",
+    "level": 1
+  },
+  "moustache": {
+    "ru": "усы",
+    "level": 1
+  },
+  "freckles": {
+    "ru": "веснушки",
+    "level": 1
+  },
+  "hairy": {
+    "ru": "волосатый",
+    "level": 1
+  },
+  "scar": {
+    "ru": "шрам",
+    "level": 1
+  },
+  "tattoo": {
+    "ru": "татуировка",
+    "level": 1
+  },
+  "round": {
+    "ru": "круглый",
+    "level": 1
+  },
+  "oval": {
+    "ru": "овальный",
+    "level": 1
+  },
+  "square": {
+    "ru": "квадратный",
+    "level": 1
+  },
+  "jobs": {
+    "ru": "профессии",
+    "level": 1
+  },
+  "writer": {
+    "ru": "писатель",
+    "level": 1
+  },
+  "economist": {
+    "ru": "экономист",
+    "level": 1
+  },
+  "photographer": {
+    "ru": "фотограф",
+    "level": 1
+  },
+  "dancer": {
+    "ru": "танцор",
+    "level": 1
+  },
+  "singer": {
+    "ru": "певец",
+    "level": 1
+  },
+  "driver": {
+    "ru": "водитель",
+    "level": 1
+  },
+  "farmer": {
+    "ru": "фермер",
+    "level": 1
+  },
+  "cook": {
+    "ru": "готовить",
+    "level": 1
+  },
+  "lawyer": {
+    "ru": "юрист",
+    "level": 1
+  },
+  "hairdresser": {
+    "ru": "парикмахер",
+    "level": 1
+  },
+  "dentist": {
+    "ru": "стоматолог",
+    "level": 1
+  },
+  "engineer": {
+    "ru": "инженер",
+    "level": 1
+  },
+  "salesperson": {
+    "ru": "продавец",
+    "level": 1
+  },
+  "policeman": {
+    "ru": "полицейский",
+    "level": 1
+  },
+  "fireman": {
+    "ru": "пожарный",
+    "level": 1
+  },
+  "journalist": {
+    "ru": "журналист",
+    "level": 1
+  },
+  "postman": {
+    "ru": "почтальон",
+    "level": 1
+  },
+  "smile": {
+    "ru": "улыбаться",
+    "level": 1
+  },
+  "cry": {
+    "ru": "плакать",
+    "level": 1
+  },
+  "tense": {
+    "ru": "напряжённый ,",
+    "level": 1
+  },
+  "(un)friendly": {
+    "ru": "(не)дружелюбный",
+    "level": 1
+  },
+  "strong": {
+    "ru": "сильный",
+    "level": 1
+  },
+  "weak": {
+    "ru": "слабый",
+    "level": 1
+  },
+  "do some exercise": {
+    "ru": "делать упражнения",
+    "level": 1
+  },
+  "tell a lie": {
+    "ru": "лгать",
+    "level": 1
+  },
+  "read a book": {
+    "ru": "читать книгу",
+    "level": 1
+  },
+  "clean the house": {
+    "ru": "убираться дома",
+    "level": 1
+  },
+  "stay up all night": {
+    "ru": "не спать всю ночь",
+    "level": 1
+  },
+  "drive too fast": {
+    "ru": "водить слишком быстро",
+    "level": 1
+  },
+  "drink champagne": {
+    "ru": "пить шампанское",
+    "level": 1
+  },
+  "go to the cinema/movies": {
+    "ru": "ходить в кино",
+    "level": 1
+  },
+  "spend too much money": {
+    "ru": "тратить слишком много денег",
+    "level": 1
+  },
+  "not very often": {
+    "ru": "не очень часто",
+    "level": 1
+  },
+  "on Monday": {
+    "ru": "в понедельник",
+    "level": 1
+  },
+  "touch": {
+    "ru": "прикасаться",
+    "level": 1
+  },
+  "washup": {
+    "ru": "мыть посуду,",
+    "level": 1
+  },
+  "do homework": {
+    "ru": "делать дом работу",
+    "level": 1
+  },
+  "swim": {
+    "ru": "плавать",
+    "level": 1
+  },
+  "do/pass exams": {
+    "ru": "сдавать экзамены",
+    "level": 1
+  },
+  "go to a dentist": {
+    "ru": "идти к стоматологу",
+    "level": 1
+  },
+  "chew": {
+    "ru": "жевать",
+    "level": 1
+  },
+  "chewing gum": {
+    "ru": "жевательная резинка",
+    "level": 1
+  },
+  "go to night clubs": {
+    "ru": "ходить в ночные клубы",
+    "level": 1
+  },
+  "study English": {
+    "ru": "изучать англ.",
+    "level": 1
+  },
+  "ride a bicycle": {
+    "ru": "ездить на велосипеде",
+    "level": 1
+  },
+  "same with me": {
+    "ru": "я тоже",
+    "level": 1
   }
 }

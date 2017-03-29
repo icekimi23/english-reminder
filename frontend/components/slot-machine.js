@@ -2,11 +2,11 @@
  * Created by icekimi on 20.03.2017.
  */
 
-class SlotMachine{
+class SlotMachine extends Component{
 
     constructor(options){
         // вся слот машина
-        this._el = options.el;
+        super(options);
 
         // общая длина ul прокрутки
         this._slotHeight = 0;
@@ -15,9 +15,9 @@ class SlotMachine{
         this._oneSpinStepHeight = 0;
 
         // 3 слота(блоки в которых крутятся слова)
-        this._slot1 = new Slot( { el : this._el.querySelector('.slot1'), minSpeedAddition : 0, maxSpeedAddition : 100} );
-        this._slot2 = new Slot( { el : this._el.querySelector('.slot2'), minSpeedAddition : 100, maxSpeedAddition : 200} );
-        this._slot3 = new Slot( { el : this._el.querySelector('.slot3'), minSpeedAddition : 200, maxSpeedAddition : 300} );
+        this._slot1 = new Slot( { el : this._el.querySelector('.slot1'), minSpeedAddition : 0, maxSpeedAddition : 50} );
+        this._slot2 = new Slot( { el : this._el.querySelector('.slot2'), minSpeedAddition : 50, maxSpeedAddition : 100} );
+        this._slot3 = new Slot( { el : this._el.querySelector('.slot3'), minSpeedAddition : 100, maxSpeedAddition : 150} );
 
         this._allSlots = [this._slot1,this._slot2,this._slot3];
 
@@ -81,13 +81,14 @@ class SlotMachine{
         // добавляем новые элементы в слот
         words.forEach( (item) => {
             let newLi = document.createElement('li');
-            newLi.innerHTML = item;
+            newLi.innerHTML = item.toShow;
             slot.appendChild(newLi);
         });
 
         // элемент, который должен отобразиться последним, в конце вращения
         let theLastLi = document.createElement('li');
-        theLastLi.innerHTML = theOne;
+        theLastLi.innerHTML = theOne.toShow;
+        theLastLi.setAttribute('translation',theOne.translation);
         slot.insertBefore(theLastLi,slot.firstElementChild);
 
     }
@@ -125,7 +126,8 @@ class Slot {
 
         // если еще есть что прокрутить, то крутим, предварительно снизив скорость
         if (this._currentHeight < 0) {
-            this.speed += (200 + this._randomSpeenAddition);
+            this.speed += (100 + this._randomSpeenAddition);
+            console.log(this.speed);
             this._spinOnce();
         }
 
@@ -133,7 +135,7 @@ class Slot {
 
     startSpining(slotHeight,oneSpinStepHeight){
         
-        this.speed = 300 + this._randomSpeenAddition;
+        this.speed = 200 + this._randomSpeenAddition;
         this._currentHeight = slotHeight;
         this._oneSpinStepHeight = -oneSpinStepHeight;
         this._spinOnce();
