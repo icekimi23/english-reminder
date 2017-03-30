@@ -194,8 +194,10 @@
     <script src="frontend/components/app-settings.js" defer></script>
     <script src="frontend/components/app-card.js" defer></script>
     <script src="frontend/components/app-menu.js" defer></script>
+    <script src="frontend/components/app-about.js" defer></script>
     <script src="frontend/components/app-page.js" defer></script>
     <script src="frontend/components/slot-machine.js" defer></script>
+
     <script src="frontend/libs/jquery.js" defer></script>
     <script src="frontend/app.js" defer></script>
 
@@ -209,7 +211,7 @@
         <div class="header clearfix" data-component="menu">
             <nav>
                 <ul class="nav nav-pills pull-right">
-                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"  data-action="show-about"><a href="#">About</a></li>
                     <li role="presentation" data-action="show-settings"><a href="#!/settings"><i class="fa fa-cog fa-3x"
                                                                                                  aria-hidden="true"></i></a>
                     </li>
@@ -217,26 +219,6 @@
             </nav>
             <h3 class="text-muted">Easy reminder</h3>
         </div>
-
-        <!--<ul class = "menu" data-component = "menu">
-
-            <li data-action = "show-about">
-                <a href="#!/about">
-                    About
-                </a>
-
-            </li>
-
-            <li data-action = "show-settings">
-                <a href="#!/settings">
-                    <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
-                </a>
-
-            </li>
-            <li></li>
-        </ul>
-
-        <!--<button data-action = "show-settings"> Settings </button>-->
     </div>
 
 
@@ -423,6 +405,14 @@
                     </ul>
 
                 </div>
+
+            </div>
+
+            <div class="about js-hidden" data-component = "about">
+
+                <a href="#!/" data-action="back"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
+
+                Hello!
 
             </div>
 

@@ -8,6 +8,7 @@ class AppPage extends Component{
         this._initSettings();
         this._initCard();
         this._initSlotMachine();
+        this._initAbout();
     }
 
     _initMenu(){
@@ -20,10 +21,14 @@ class AppPage extends Component{
             let target = event.target;
 
             if (target.closest('[data-action = "show-settings"]')) {
-                this._card.hide();
-                this._settings.show();
+                //this._card.hide();
+                //this._settings.show();
+                this.showComponent(this._settings);
+            } else if  (target.closest('[data-action = "show-about"]')) {
+                //this._card.hide();
+                //this._settings.show();
+                this.showComponent(this._about);
             }
-
         });
 
     }
@@ -70,23 +75,12 @@ class AppPage extends Component{
             if (!backEl) return;
 
             window.history.back();
-            this._settings.hide();
-            this._card.show();
+            //this._settings.hide();
+            //this._card.show();
+            this.showComponent(this._card);
 
         });
 
-        // назначение обработчиков на кнопки
-        /*this._settings.on('click',(event) => {
-
-            let target = event.target;
-
-            let li = target.closest('[data-item = "settings-level"]') || target.closest('[data-item = "settings-tence"]');
-
-            if (!li) return;
-
-            this._settings.changeItemStatus(li);
-
-        });*/
     }
 
     _initSlotMachine() {
@@ -115,5 +109,35 @@ class AppPage extends Component{
         });
     }
 
+    _initAbout(){
+        this._about = new AppAbout( { el : this._el.querySelector('[data-component = "about"]') } );
 
+        this._about.on('click',()=>{
+
+            let target = event.target;
+
+            let backEl = target.closest('[data-action = "back"]');
+
+            if (!backEl) return;
+
+            window.history.back();
+            //this._settings.hide();
+            //this._card.show();
+            this.showComponent(this._card);
+
+        });
+    }
+
+    showComponent(component){
+
+        let components = this._el.querySelectorAll('[data-component]');
+
+        components.forEach((el)=>{
+            if (el.dataset.component === 'menu' || el.dataset.component === 'slot-machine') return;
+            el.classList.add('js-hidden');
+        });
+
+        component.show();
+
+    }
 }
