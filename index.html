@@ -12,6 +12,11 @@
 
     <style>
 
+        html{
+            font-size: 26px;
+        }
+
+
         /* changes in bootstrap styles*/
         .container {
             max-width: 800px
@@ -32,6 +37,17 @@
             padding: 0px;
         }
 
+        .logo{
+            color : #EB1C24;
+        }
+        .logo span{
+            color : white;
+            background: #EB1C24;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+
         .menu {
             height: 50px;
             background: aqua;
@@ -47,6 +63,7 @@
         }
 
         .settings_item_wrapper{
+            text-align: center;
             margin-top : 50px;
         }
 
@@ -106,7 +123,7 @@
         }
 
         .tences label {
-            padding: 10px;
+            padding: 7px;
             border: 2px solid rgba(0, 63, 71, .7);
             border-radius: 5px;
             margin: 2px;
@@ -149,11 +166,16 @@
 
         .slot_machine_wrapper .slot {
             position: relative;
-            /*position: absolute;*/
             float : left;
             width : 85%;
+        }
 
+        .slot_machine_wrapper .slot_type_tences {
+            width : 100%;
+        }
 
+        .slot_machine_wrapper .slot_type_sentence-forms {
+            width : 100%;
         }
 
         .slot_machine_wrapper .translation_btn_wrapper {
@@ -171,12 +193,20 @@
         }
 
         .slot_machine_wrapper .slot li{
-            height: 78px;
+            /*height: 78px;*/
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
         }
+
+        /*.slot_machine_wrapper .slot4 li{
+            height: 39px;
+        }
+
+        .slot_machine_wrapper .slot5 li{
+            height: 39px;
+        }*/
 
         .slot_machine_wrapper li {
             height: 80px;
@@ -212,12 +242,12 @@
             <nav>
                 <ul class="nav nav-pills pull-right">
                     <li role="presentation"  data-action="show-about"><a href="#">About</a></li>
-                    <li role="presentation" data-action="show-settings"><a href="#!/settings"><i class="fa fa-cog fa-3x"
-                                                                                                 aria-hidden="true"></i></a>
+                    <li role="presentation" data-action="show-settings"><a href="#!/settings">
+                        <i class="fa fa-cog fa-3x" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </nav>
-            <h3 class="text-muted">Easy reminder</h3>
+            <h3 class="text-muted logo"><span>EASY</span> reminder</h3>
         </div>
     </div>
 
@@ -230,25 +260,37 @@
 
                 <div class="slot-machine" data-component="slot-machine">
                     <div class="slot_machine_wrapper">
-                        <ul class="slot slot1">
+                        <ul class="slot slot1 slot_type_words">
                         </ul>
                         <div class = "translation_btn_wrapper" data-action="switch-translation">
                             <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="slot_machine_wrapper">
-                        <ul class="slot slot2">
+                        <ul class="slot slot2 slot_type_words">
                         </ul>
                         <div class = "translation_btn_wrapper" data-action="switch-translation">
                             <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
                     <div class="slot_machine_wrapper">
-                        <ul class="slot slot3">
+                        <ul class="slot slot3 slot_type_words">
                         </ul>
                         <div class = "translation_btn_wrapper" data-action="switch-translation">
                             <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
                         </div>
+                    </div>
+
+                    <div class="slot_machine_wrapper">
+                        <ul class="slot slot4 slot_type_tences">
+                        </ul>
+
+                    </div>
+
+                    <div class="slot_machine_wrapper">
+                        <ul class="slot slot5 slot_type_sentence-forms">
+                        </ul>
+
                     </div>
 
                     <ul class="start_btn">
@@ -388,11 +430,6 @@
                         </li>
 
                         <li data-item="settings-tence">
-                            <input type="checkbox" id = "tence-present-perfect" value = "Present Perfect">
-                            <label for="tence-present-perfect">Present Perfect</label>
-                        </li>
-
-                        <li data-item="settings-tence">
                             <input type="checkbox" id = "tence-present-continues" value = "Present Continues">
                             <label for="tence-present-continues">Present Continues</label>
                         </li>
@@ -401,6 +438,44 @@
                             <input type="checkbox" id = "tence-past-continues" value = "Past Continues">
                             <label for="tence-past-continues">Past Continues</label>
                         </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-future-continues" value = "Future Continues">
+                            <label for="tence-future-continues">Future Continues</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-present-perfect" value = "Present Perfect">
+                            <label for="tence-present-perfect">Present Perfect</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-past-perfect" value = "Past Perfect">
+                            <label for="tence-past-perfect">Past Perfect</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-future-perfect" value = "Future Perfect">
+                            <label for="tence-future-perfect">Future Perfect</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-present-perfect-continues" value = "Present Perfect Continues">
+                            <label for="tence-present-perfect-continues">Present Perfect Continues</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-past-perfect-continues" value = "Past Perfect Continues">
+                            <label for="tence-past-perfect-continues">Past Perfect Continues</label>
+                        </li>
+
+                        <li data-item="settings-tence">
+                            <input type="checkbox" id = "tence-future-perfect-continues" value = "Future Perfect Continues">
+                            <label for="tence-future-perfect-continues">Future Perfect Continues</label>
+                        </li>
+
+
+
                         
                     </ul>
 

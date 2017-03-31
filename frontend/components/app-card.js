@@ -6,7 +6,6 @@ class AppCard extends Component {
         super(options);
         this._render();
         this._words = null; // Объект со словами загруженными с сервера
-        //this._el.addEventListener('click', this._onStartButtonClick.bind(this));
     }
 
 
@@ -40,11 +39,10 @@ class AppCard extends Component {
 
         let chosenLevels = settings.levels;
         let chosenTences = settings.tences;
-        let chosenSentTypes = settings.sentenceTypes;
         let rusFrequency = settings.rusFrequency;
 
-        let tences = ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues'];
-
+        let tences = ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues','Future Continues','Present Perfect Continues','Past Perfect','Past Perfect Continues','Future Perfect','Future Perfect Continues'];
+        let sentenceTypes = ['Positive', 'Negative', 'Question'];
 
         let wordsToChooseOf = [];
 
@@ -67,43 +65,23 @@ class AppCard extends Component {
             }
         }
 
-        // выбираем слова только из выбранных в настройках левелов
-        /*let wordsToChooseOf = words.filter((word) => {
-            return chosenLevels.indexOf(word.level) !== -1;
-        });*/
-
-        // импользуем map и возвращаем не объект, а значение, английской или русское в зависимости от параметра rusFrequency
-        /*let wordsToChooseOf = words.map((word) => {
-             if (chosenLevels.indexOf(word.level) !== -1) {
-                 return (Math.random() > rusFrequency) ? word.en : word.ru;
-             }
-        });*/
-
-        // выбираем времена только из выбранных в настройках времен
-        let tencesToChooseOf = tences.filter((tence) => {
-            return chosenTences.indexOf(tence) !== -1;
-        });
-
         // случайные слова, которые в конце вращения слот машины отобразятся пользователю
         let chosenWords = Randomizer.getArrayOfRandomElements(wordsToChooseOf,3);
-
         // случайные слова для вращения в слот машине, перед тем как выпадет нужное
         let wordsForSlots = Randomizer.getArrayOfRandomElements(wordsToChooseOf,50);
-        let tence = Randomizer.getRandomElementFromArray(tencesToChooseOf);
+        // случайное время, которые в конце вращения слот машины отобразятся пользователю
+        let tence = Randomizer.getRandomElementFromArray(chosenTences);
+        // случайный тип предложения, который в конце вращения слот машины отобразится пользователю
+        let sentenceType = Randomizer.getRandomElementFromArray(sentenceTypes);
 
         return {
             'chosenWords' : chosenWords,
             'wordsForSlotMachine' : wordsForSlots,
-            'tence' : tence
-        }
-
-        /*let str = 'words : ';
-
-        chosenWords.forEach((item) => {
-            str += item.en + ', ';
-        });
-
-        alert(str + "tence : " + tence);*/
+            'tence' : tence,
+            'tencesForSlot' : tences,
+            'sentenceType' : sentenceType,
+            'sentenceTypes' : sentenceTypes
+        };
 
     }
 

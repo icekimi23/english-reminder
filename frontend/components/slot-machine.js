@@ -9,17 +9,19 @@ class SlotMachine extends Component{
         super(options);
 
         // общая длина ul прокрутки
-        this._slotHeight = 0;
+        //this._slotHeight = 0;
 
         // длина прокрутки после которой нужно замедлить скорость прокрутки, вплоть до полной остановки в конце
-        this._oneSpinStepHeight = 0;
+        //this._oneSpinStepHeight = 0;
 
         // 3 слота(блоки в которых крутятся слова)
         this._slot1 = new Slot( { el : this._el.querySelector('.slot1'), minSpeedAddition : 0, maxSpeedAddition : 50} );
         this._slot2 = new Slot( { el : this._el.querySelector('.slot2'), minSpeedAddition : 50, maxSpeedAddition : 100} );
         this._slot3 = new Slot( { el : this._el.querySelector('.slot3'), minSpeedAddition : 100, maxSpeedAddition : 150} );
+        this._slot4 = new Slot( { el : this._el.querySelector('.slot4'), minSpeedAddition : 0, maxSpeedAddition : 50} );
+        this._slot5 = new Slot( { el : this._el.querySelector('.slot5'), minSpeedAddition : 0, maxSpeedAddition : 50} );
 
-        this._allSlots = [this._slot1,this._slot2,this._slot3];
+        this._allSlots = [this._slot1,this._slot2,this._slot3,this._slot4,this._slot5];
 
         this._dataForSlots = {};
         this._inProgress = false;
@@ -41,58 +43,97 @@ class SlotMachine extends Component{
 
         //зяполняем слот для очередной прокрутки
         this._allSlots.forEach((slot,i,arr)=>{
-            this._prepareSlot( slot.el, {
+            this._prepareSlot( slot, {
                 'words' : this._dataForSlots.wordsForSlotMachine,
-                'theOne' : this._dataForSlots.chosenWords[i]
+                'theOne' : this._dataForSlots.chosenWords[i],
+                'tence' : this._dataForSlots.tence,
+                'tencesForSlot' : this._dataForSlots.tencesForSlot,
+                'sentenceType' : this._dataForSlots.sentenceType,
+                'sentenceTypes' : this._dataForSlots.sentenceTypes
             });
         });
 
         // начинаем крутить все слоты
         this._allSlots.forEach((slot)=>{
-            slot.startSpining(this._slotHeight, this._oneSpinStepHeight);
+            //slot.startSpining(this._slotHeight, this._oneSpinStepHeight);
+            slot.startSpining();
         });
 
     }
 
     _prepareSlot(slot,options){
 
-        
-        let theOne = options.theOne || 'Oopps! Something  is wrong!';
+        // подготавливаем слоты, они могут быть раного типа, разного размера и с разным количеством элементов
 
-        let words = options.words || [];
+        if (slot.type === 'words'){
+            var theOne = options.theOne || 'Oopps! Something is wrong!';
+            var elementsForSlots = options.words || [];
+        } else if (slot.type === 'tences'){
+            var theOne = options.tence || 'Oopps! Something is wrong!';
+            var elementsForSlots = options.tencesForSlot || [];
+        } else if (slot.type === 'sentence-forms'){
+            var theOne = options.sentenceType || 'Oopps! Something is wrong!';
+            var elementsForSlots = options.sentenceTypes || [];
+        }
 
-        let wordsInSlot = words.length;
+        let elementsInSlot = elementsForSlots.length;
 
-        let liHeight = this._el.querySelector('.slot_machine_wrapper').clientHeight;
+        let liHeight = slot.el.closest('.slot_machine_wrapper').clientHeight;
 
         // общая длина ul прокрутки
-        this._slotHeight = -(liHeight * wordsInSlot);
+        slot._slotHeight = -(liHeight * elementsInSlot);
 
         // длина прокрутки после которой нужно замедлить скорость прокрутки, вплоть до полной остановки в конце
-        this._oneSpinStepHeight = this._slotHeight / (wordsInSlot / 10);
 
-        let slotItems = slot.querySelectorAll('li');
+        let divider = 1;
+
+        if (elementsInSlot > 12) {
+            divider = elementsInSlot / 10;
+        }
+
+        slot._oneSpinStepHeight = -(slot._slotHeight / divider);
+
+        let slotItems = slot.el.querySelectorAll('li');
 
         // удаляем все элементы из слота
         slotItems.forEach( (item) => {
-            slot.removeChild(item);
+            slot.el.removeChild(item);
         });
 
-        // добавляем новые элементы в слот
-        words.forEach( (item) => {
-            let newLi = document.createElement('li');
-            newLi.innerHTML = item.toShow;
-            slot.appendChild(newLi);
-        });
 
-        // элемент, который должен отобразиться последним, в конце вращения
-        let theLastLi = document.createElement('li');
-        theLastLi.innerHTML = theOne.toShow;
-        theLastLi.setAttribute('translation',theOne.translation);
-        slot.insertBefore(theLastLi,slot.firstElementChild);
+        // для слов создаем перевод(в виде атрибута), для остальных слотов возможно только одно значение
+        if (slot.type === 'words') {
+
+            // добавляем новые элементы в слот
+            elementsForSlots.forEach( (item) => {
+                let newLi = document.createElement('li');
+                newLi.innerHTML = item.toShow;
+                slot.el.appendChild(newLi);
+            });
+
+            // элемент, который должен отобразиться последним, в конце вращения
+            let theLastLi = document.createElement('li');
+            theLastLi.innerHTML = theOne.toShow;
+            theLastLi.setAttribute('translation',theOne.translation);
+            slot.el.insertBefore(theLastLi,slot.el.firstElementChild);
+
+        } else {
+
+            // добавляем новые элементы в слот
+            elementsForSlots.forEach( (item) => {
+                let newLi = document.createElement('li');
+                newLi.innerHTML = item;
+                slot.el.appendChild(newLi);
+            });
+
+            // элемент, который должен отобразиться последним, в конце вращения
+            let theLastLi = document.createElement('li');
+            theLastLi.innerHTML = theOne;
+            slot.el.insertBefore(theLastLi,slot.el.firstElementChild);
+
+        }
 
     }
-
 
     _render(){
 
@@ -104,17 +145,34 @@ class Slot {
 
     constructor(options){
         this.el = options.el;
+        this.type = this._getSlotType();
         this._randomSpeenAddition = Randomizer.getRandomInteger(options.minSpeedAddition,options.maxSpeedAddition);
+    }
+
+    _getSlotType(){
+
+        // по умолчанию пусть будет словом
+        let type = 'words';
+
+        if (this.el.classList.contains('slot_type_tences')) {
+            type = 'tences';
+        } else if (this.el.classList.contains('slot_type_sentence-forms')){
+            type = 'sentence-forms';
+        }
+
+        return type;
     }
 
     _spinOnce(){
 
         // величина, c которой нужно начинать скролить на текущем шаге
-        let startingHeight = this._currentHeight;
+        //let startingHeight = this._currentHeight;
+        let startingHeight = this._slotHeight;
         // величина, до которой нужно скролить на текущем шаге
-        let heightToScroll = this._currentHeight + this._oneSpinStepHeight;
+        let heightToScroll = this._slotHeight + this._oneSpinStepHeight;
 
-        this._currentHeight = heightToScroll;
+        //this._currentHeight = heightToScroll;
+        this._slotHeight = heightToScroll;
 
         // пробуем прокрутить слот
         $(this.el).css('top',startingHeight).animate({ 'top' : heightToScroll + 'px' },this.speed,'linear',() => {
@@ -125,9 +183,9 @@ class Slot {
     _decreaseSpeed(){
 
         // если еще есть что прокрутить, то крутим, предварительно снизив скорость
-        if (this._currentHeight < 0) {
+        if (this._slotHeight < 0) {
             this.speed += (100 + this._randomSpeenAddition);
-            console.log(this.speed);
+            //console.log(this.speed);
             this._spinOnce();
         }
 
@@ -136,8 +194,8 @@ class Slot {
     startSpining(slotHeight,oneSpinStepHeight){
         
         this.speed = 200 + this._randomSpeenAddition;
-        this._currentHeight = slotHeight;
-        this._oneSpinStepHeight = -oneSpinStepHeight;
+        //this._currentHeight = slotHeight;
+        //this._oneSpinStepHeight = -oneSpinStepHeight;
         this._spinOnce();
     }
 

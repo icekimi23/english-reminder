@@ -14,7 +14,7 @@ class Randomizer {
 
     }
 
-    static getArrayOfRandomElements(arr,quantity){
+    static getArrayOfRandomElements(arr,quantity = arr.length){
 
         // скопируем в новый массив, чтобы не менять изначальный
         let copiedArr = arr.slice();
