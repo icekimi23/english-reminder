@@ -132,7 +132,7 @@ class AppPage extends Component{
 
         let components = this._el.querySelectorAll('[data-component]');
 
-        components.forEach((el)=>{
+        [].forEach.call(components,(el)=>{
             if (el.dataset.component === 'menu' || el.dataset.component === 'slot-machine') return;
             el.classList.add('js-hidden');
         });

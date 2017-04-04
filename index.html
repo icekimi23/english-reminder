@@ -10,214 +10,6 @@
     <link href="frontend/css/style.css" rel="stylesheet">
     <link href="frontend/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <style>
-
-        html{
-            font-size: 26px;
-        }
-
-
-        /* changes in bootstrap styles*/
-        .container {
-            max-width: 800px
-        }
-
-        .header {
-            padding-left: 15px;
-        }
-
-        .nav li:first-child {
-            font-size: 30px;
-        }
-
-        /* main styles */
-
-        ul {
-            list-style: none;
-            padding: 0px;
-        }
-
-        .logo{
-            color : #EB1C24;
-        }
-        .logo span{
-            color : white;
-            background: #EB1C24;
-            padding: 3px;
-            border-radius: 5px;
-        }
-
-
-        .menu {
-            height: 50px;
-            background: aqua;
-            margin-bottom: 10px;
-        }
-
-        .menu li {
-            display: inline;
-        }
-
-        .card {
-
-        }
-
-        .settings_item_wrapper{
-            text-align: center;
-            margin-top : 50px;
-        }
-
-        .settings_item_wrapper li {
-            display : inline-block;
-        }
-
-        .settings span {
-            text-align: center;
-            display: block;
-            font-size: 26px;
-            color: #337ab7;
-        }
-
-        input{
-            vertical-align: top;
-            margin: 0 3px 0 0;
-            width: 17px;
-            height: 17px;
-            display: none;
-        }
-
-        input + label{
-            border : 2px solid black;
-            padding : 5px;
-            cursor: pointer;
-        }
-
-        label{
-            font-weight: normal;
-        }
-
-        input:checked + label{
-            color : green;
-            border-color: green;
-        }
-
-        .levels {
-            max-width : 400px;
-            margin : 20px auto;
-        }
-
-        .levels label {
-            width: 50px;
-            height: 50px;
-            border: 2px solid rgba(0, 63, 71, .7);
-            border-radius: 50%;
-            text-align: center;
-            padding-top: 7px;
-            font-size: 26px;
-            margin: 5px;
-        }
-
-        .tences{
-            max-width : 400px;
-            margin : 20px auto;
-        }
-
-        .tences label {
-            padding: 7px;
-            border: 2px solid rgba(0, 63, 71, .7);
-            border-radius: 5px;
-            margin: 2px;
-        }
-
-        .frequencies {
-            max-width : 600px;
-            margin : 20px auto;
-            text-align: center;
-        }
-
-        .frequencies label {
-            padding : 5px;
-            border: 2px solid rgba(0, 63, 71, .7);
-            border-radius: 5px;
-            font-weight: normal;
-        }
-
-        .js-hidden {
-            display: none;
-        }
-
-        /* styles for slot machine */
-        .slot-machine {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-
-        .slot_machine_wrapper {
-            overflow: hidden;
-           /* height: 38px;
-            width: 360px;*/
-            height: 80px;
-            max-width: 440px;
-            border: 2px solid rgba(0, 63, 71, .7);
-            border-radius: 5px;
-            margin: 10px auto;
-            /*display: inline-block;*/
-        }
-
-        .slot_machine_wrapper .slot {
-            position: relative;
-            float : left;
-            width : 85%;
-        }
-
-        .slot_machine_wrapper .slot_type_tences {
-            width : 100%;
-        }
-
-        .slot_machine_wrapper .slot_type_sentence-forms {
-            width : 100%;
-        }
-
-        .slot_machine_wrapper .translation_btn_wrapper {
-            float : right;
-            width : 15%;
-            padding-top: 20px;
-            color : #337ab7;
-            text-align: center;
-            cursor : pointer;
-            opacity: 0.85;
-        }
-
-        .slot_machine_wrapper .translation_btn_wrapper:hover {
-            opacity: 1;
-        }
-
-        .slot_machine_wrapper .slot li{
-            /*height: 78px;*/
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /*.slot_machine_wrapper .slot4 li{
-            height: 39px;
-        }
-
-        .slot_machine_wrapper .slot5 li{
-            height: 39px;
-        }*/
-
-        .slot_machine_wrapper li {
-            height: 80px;
-            font-size: 26px;
-            text-align: center;
-            font-family: 'Gravitas One', serif;
-        }
-
-
-    </style>
-
     <script src="frontend/services/cookie.js" defer></script>
     <script src="frontend/services/randomizer-service.js" defer></script>
     <script src="frontend/components/component.js" defer></script>
@@ -247,7 +39,7 @@
                     </li>
                 </ul>
             </nav>
-            <h3 class="text-muted logo"><span>EASY</span> reminder</h3>
+            <h3 class="text-muted logo"><a href="#"><span>EASY</span> reminder</a></h3>
         </div>
     </div>
 
@@ -273,6 +65,7 @@
                             <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
+
                     <div class="slot_machine_wrapper">
                         <ul class="slot slot3 slot_type_words">
                         </ul>
@@ -284,13 +77,11 @@
                     <div class="slot_machine_wrapper">
                         <ul class="slot slot4 slot_type_tences">
                         </ul>
-
                     </div>
 
                     <div class="slot_machine_wrapper">
                         <ul class="slot slot5 slot_type_sentence-forms">
                         </ul>
-
                     </div>
 
                     <ul class="start_btn">
@@ -487,7 +278,44 @@
 
                 <a href="#!/" data-action="back"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
 
-                Hello!
+                <div class="container">
+                    <div class="row">
+
+                        <div class = "about_text-wrapper">
+
+                            <h2 class = "about_header">Добро пожаловать на easy-reminder.ru!</h2>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp; Общепринятая рекомендация гласит, что, уделяя английскому по крайней мере 15 минут в день, можно достичь большего,
+                                чем занимаясь по часу и более, но всего пару раз в неделю. К сожалению, это не всегда получается.
+                            </p>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Поэтому появилась идея создать простой и легкий сайт, который позволил бы в любой момент уделить немного времени повторению и освежению своих
+                                знаний.
+                            </p>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Чем удобен именно этот сайт? Он простой, хорошо отображается на смартфонах и планшетах и, главное, сделан специально
+                                для студентов школы easy-school, таким образом, среди слов для повторения, есть все слова из всех левелов. Выбирайте левелы, слова из которых
+                                вы хотели бы повторить, выбирайте частоту появления английского или русского вариантов слова и вперед!:)
+                            </p>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Вместе со словами случайным образом
+                                выбирается время, а также тип предложения. Идея заключается в том, чтобы из получившегося набора (слова, время и тип предложения) составить
+                                предложение, тем самым повторяя время и как в этом времени строится утверждение, отрицание и вопрос. Если такая функция вам не интересна, ее легко можно
+                                отключить в настройках.
+                            </p>
+
+                            <h2 class = "about_footer">Good luck and have fun!</h2>
+
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;    <span class = "about_PS">P.S.:</span> Свои пожелания, советы, а также сообщения о найденных ошибках или недочетах вы можете отправлять на почту
+                                <a href="mailto:feedback@easy-reminder.ru">feedback@easy-reminder.ru</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
 
             </div>
 
@@ -497,14 +325,7 @@
 
 </div>
 
-
-<!-- Negative, Positive, Question -->
-<!-- have to -->
-<!-- to be going to -->
-<!-- Passive Voice -->
-<!-- Gerund -->
-<!-- Infinitive -->
-<!-- Conditionals -->
+<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43953019 = new Ya.Metrika({ id:43953019, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/43953019" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 
 </body>
 

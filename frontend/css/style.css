@@ -127,3 +127,246 @@ a.green:hover {
 .green span {
     background: rgba(0,63,71,.7);
 }
+
+html{
+    font-size: 26px;
+}
+
+
+/* changes in bootstrap styles*/
+.container {
+    max-width: 800px
+}
+
+.header {
+    padding-left: 15px;
+}
+
+.nav li:first-child {
+    font-size: 30px;
+}
+
+/* main styles */
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.logo{
+    color : #EB1C24;
+}
+.logo span{
+    color : white;
+    background: #EB1C24;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.logo a:hover{
+    color : #337ab7;
+    text-decoration: none;
+}
+
+.logo a:focus{
+    color : #337ab7;
+    text-decoration: none;
+}
+
+
+
+.menu {
+    height: 50px;
+    background: aqua;
+    margin-bottom: 10px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.about_text-wrapper{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.about_text-wrapper h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.about_text-wrapper p{
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.about_header{
+    color: #337ab7;
+}
+
+.about_footer{
+    color: #EB1C24;
+}
+
+.about_PS{
+    color: #337ab7;
+}
+
+.settings_item_wrapper{
+    text-align: center;
+    margin-top : 50px;
+}
+
+.settings_item_wrapper li {
+    display : inline-block;
+}
+
+.settings span {
+    text-align: center;
+    display: block;
+    font-size: 26px;
+    color: #337ab7;
+}
+
+input{
+    vertical-align: top;
+    margin: 0 3px 0 0;
+    width: 17px;
+    height: 17px;
+    display: none;
+}
+
+input + label{
+    border : 2px solid black;
+    padding : 5px;
+    cursor: pointer;
+}
+
+label{
+    font-weight: normal;
+}
+
+input:checked + label{
+    color : green;
+    border-color: green;
+}
+
+.levels {
+    max-width : 400px;
+    margin : 20px auto;
+}
+
+.levels label {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(0, 63, 71, .7);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 26px;
+    margin: 5px;
+}
+
+.tences{
+    max-width : 400px;
+    margin : 20px auto;
+}
+
+.tences label {
+    padding: 7px;
+    border: 2px solid rgba(0, 63, 71, .7);
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.frequencies {
+    max-width : 600px;
+    margin : 20px auto;
+    text-align: center;
+}
+
+.frequencies label {
+    padding : 5px;
+    border: 2px solid rgba(0, 63, 71, .7);
+    border-radius: 5px;
+    font-weight: normal;
+}
+
+.js-hidden {
+    display: none;
+}
+
+/* styles for slot machine */
+.slot-machine {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.slot_machine_wrapper {
+    overflow: hidden;
+    height: 82px;
+    max-width: 440px;
+    border: 2px solid rgba(0, 63, 71, .7);
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.slot_machine_wrapper .slot {
+    position: relative;
+    float : left;
+    width : 85%;
+}
+
+.slot_machine_wrapper .slot_type_tences {
+    width : 100%;
+}
+
+.slot_machine_wrapper .slot_type_sentence-forms {
+    width : 100%;
+}
+
+.slot_machine_wrapper .translation_btn_wrapper {
+    float : right;
+    width : 15%;
+    padding-top: 20px;
+    color : #337ab7;
+    text-align: center;
+    cursor : pointer;
+    opacity: 0.85;
+}
+
+.slot_machine_wrapper .translation_btn_wrapper:hover {
+    opacity: 1;
+}
+
+.slot_machine_wrapper .slot li{
+    line-height: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slot_machine_wrapper li {
+    height: 80px;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Gravitas One', serif;
+}
+
+.spinning{
+    transition: top 2.5s ease-out;
+}
+
+@media screen and (max-width: 440px){
+    .slot_machine_wrapper li {
+        font-size: 22px;
+    }
+
+    .logo{
+        font-size: 20px;
+        line-height: 1.3;
+    }
+}

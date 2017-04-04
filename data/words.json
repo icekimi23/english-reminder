@@ -5706,5 +5706,369 @@
   "harassing": {
     "ru": "назойливый, причиняющий беспокойство",
     "level": 13
+  },
+  "van": {
+    "ru": "микроавтобус",
+    "level": 14
+  },
+  "band": {
+    "ru": "группа (музыкальная)",
+    "level": 14
+  },
+  "brag to smb about/of smth": {
+    "ru": "хвастать кому-то о чем-то",
+    "level": 14
+  },
+  "chameleon": {
+    "ru": "хамелеон",
+    "level": 14
+  },
+  "stuffy (about a person)": {
+    "ru": "старомодный, неинтересный",
+    "level": 14
+  },
+  "apparently": {
+    "ru": "по всей видимости, судя по всему",
+    "level": 14
+  },
+  "keep score": {
+    "ru": "вести счет",
+    "level": 14
+  },
+  "make compromises": {
+    "ru": "идтинакомпромисс",
+    "level": 14
+  },
+  "get rid of smth": {
+    "ru": "избавиться от чего-то",
+    "level": 14
+  },
+  "think smth through": {
+    "ru": "хорошо продумать",
+    "level": 14
+  },
+  "for God’s sake": {
+    "ru": "ради Бога",
+    "level": 14
+  },
+  "May I ask you for a favour?": {
+    "ru": "Можно попросить об одолжении?",
+    "level": 14
+  },
+  "likewise": {
+    "ru": "мне тоже",
+    "level": 14
+  },
+  "flip a coin (tails/heads)": {
+    "ru": "подбросить монетку(решка/орел)",
+    "level": 14
+  },
+  "pass smth along to sb": {
+    "ru": "передать что-то кому-то",
+    "level": 14
+  },
+  "to insult": {
+    "ru": "оскорблять",
+    "level": 14
+  },
+  "stipulation": {
+    "ru": "условие, оговорка",
+    "level": 14
+  },
+  "reasonable price": {
+    "ru": "приемлемая цена",
+    "level": 14
+  },
+  "haunted": {
+    "ru": "заколдованный, с призраками",
+    "level": 14
+  },
+  "a stomach bug": {
+    "ru": "внезапноеостроерасстройствопищеварения",
+    "level": 14
+  },
+  "testify under oath": {
+    "ru": "давать показания под присягой",
+    "level": 14
+  },
+  "a court (of law)": {
+    "ru": "суд",
+    "level": 14
+  },
+  "get away with (a crime)": {
+    "ru": "остаться безнаказанным; выйти сухим из воды",
+    "level": 14
+  },
+  "illicit": {
+    "ru": "тайный, преступный, внебрачный",
+    "level": 14
+  },
+  "affair": {
+    "ru": "роман, связь",
+    "level": 14
+  },
+  "bogus": {
+    "ru": "фальшивый, поддельный",
+    "level": 14
+  },
+  "put on weight": {
+    "ru": "набрать вес",
+    "level": 14
+  },
+  "be taken in": {
+    "ru": "быть обманутым",
+    "level": 14
+  },
+  "spread malicious gossip": {
+    "ru": "распространять злостные сплетни",
+    "level": 14
+  },
+  "exaggerate": {
+    "ru": "преувеличивать",
+    "level": 14
+  },
+  "tell tales": {
+    "ru": "ябедничать",
+    "level": 14
+  },
+  "commit perjury": {
+    "ru": "лжесвидет-ть, давать ложные показания под присягой",
+    "level": 14
+  },
+  "con people out of money": {
+    "ru": "обманом выманивать деньги",
+    "level": 14
+  },
+  "tell a fib": {
+    "ru": "наврать, нагородить",
+    "level": 14
+  },
+  "cheat on someone": {
+    "ru": "изменитькому-то",
+    "level": 14
+  },
+  "make an excuse": {
+    "ru": "придумывать оправдание",
+    "level": 14
+  },
+  "tell a white lie": {
+    "ru": "безобидная, невинная ложь, «ложь во спасение»",
+    "level": 14
+  },
+  "commit forgery": {
+    "ru": "совершатьподделку",
+    "level": 14
+  },
+  "tell a few home truths": {
+    "ru": "сказать «горькую правду»",
+    "level": 14
+  },
+  "carry out a hoax": {
+    "ru": "«надуть» кого-то, обмануть, пользуясь чьей-то доверчивостью",
+    "level": 14
+  },
+  "second-rate": {
+    "ru": "второсортный",
+    "level": 14
+  },
+  "delete": {
+    "ru": "удалить",
+    "level": 14
+  },
+  "irresistible": {
+    "ru": "неотразимый; неопровержимый",
+    "level": 14
+  },
+  "consumer": {
+    "ru": "потребитель",
+    "level": 14
+  },
+  "dig deeper into pockets": {
+    "ru": "раскошелиться, залезть в кошелек",
+    "level": 14
+  },
+  "go to great lengths": {
+    "ru": "приложить большие усилия: делать все возможное",
+    "level": 14
+  },
+  "refer to": {
+    "ru": "относиться к чему-то",
+    "level": 14
+  },
+  "tricky": {
+    "ru": "хитрый, коварный",
+    "level": 14
+  },
+  "overuse": {
+    "ru": "злоупотребление, чрезмерное использование",
+    "level": 14
+  },
+  "numb": {
+    "ru": "бесчувственный, онемевший",
+    "level": 14
+  },
+  "mass casualties": {
+    "ru": "массовые людские потери",
+    "level": 14
+  },
+  "a suspect": {
+    "ru": "подозреваемый",
+    "level": 14
+  },
+  "brief": {
+    "ru": "короткий, непродолжительный",
+    "level": 14
+  },
+  "to last (for…)": {
+    "ru": "длиться (в течение…)",
+    "level": 14
+  },
+  "conceal": {
+    "ru": "скрывать",
+    "level": 14
+  },
+  "shrugs houlders": {
+    "ru": "пожимать, передергивать плечами",
+    "level": 14
+  },
+  "contradict": {
+    "ru": "противоречить, возражать",
+    "level": 14
+  },
+  "to fake smth.": {
+    "ru": "подделывать что-то, притворяться",
+    "level": 14
+  },
+  "contempt/scorn": {
+    "ru": "презрение, неуважение, неприязнь",
+    "level": 14
+  },
+  "rigid repetition": {
+    "ru": "механическое повторение",
+    "level": 14
+  },
+  "oblique": {
+    "ru": "скошенный",
+    "level": 14
+  },
+  "shift": {
+    "ru": "перемещать(ся), переносить",
+    "level": 14
+  },
+  "gaze": {
+    "ru": "взгляд",
+    "level": 14
+  },
+  "afling": {
+    "ru": "роман, связь",
+    "level": 14
+  },
+  "trunk": {
+    "ru": "сундук",
+    "level": 14
+  },
+  "fail to do smth": {
+    "ru": "не удаваться, терпеть неудачу",
+    "level": 14
+  },
+  "gust of wind": {
+    "ru": "порывветра",
+    "level": 14
+  },
+  "challenging": {
+    "ru": "испытьвающий",
+    "level": 14
+  },
+  "workload": {
+    "ru": "нагрузка, загруженность работой",
+    "level": 14
+  },
+  "rip": {
+    "ru": "рвать",
+    "level": 14
+  },
+  "the study": {
+    "ru": "кабинет",
+    "level": 14
+  },
+  "apocalypse": {
+    "ru": "апокалипсис, конец света",
+    "level": 14
+  },
+  "keep a secret": {
+    "ru": "хранить секрет",
+    "level": 14
+  },
+  "give away a secret; reveal a secret": {
+    "ru": "раскрыть секрет",
+    "level": 14
+  },
+  "spill the beans": {
+    "ru": "проболтаться, выдать секрет",
+    "level": 14
+  },
+  "keep yourself to yourself": {
+    "ru": "быть скрытным человеком, держать всё в себе",
+    "level": 14
+  },
+  "make up": {
+    "ru": "помириться",
+    "level": 14
+  },
+  "grow closer": {
+    "ru": "становиться ближе",
+    "level": 14
+  },
+  "outcome": {
+    "ru": "результат",
+    "level": 14
+  },
+  "be frowned upon": {
+    "ru": "относиться с неодобрением",
+    "level": 14
+  },
+  "scam/hustle (Am)": {
+    "ru": "мошенничество, афера",
+    "level": 14
+  },
+  "snatch": {
+    "ru": "схватить, выхватить, похитить",
+    "level": 14
+  },
+  "swap smth for …": {
+    "ru": "поменять, подменить что-то ч-то",
+    "level": 14
+  },
+  "conartist": {
+    "ru": "аферист, мошенник",
+    "level": 14
+  },
+  "fall for": {
+    "ru": "попасться на удочку, «клюнуть»",
+    "level": 14
+  },
+  "deceive": {
+    "ru": "обманывать",
+    "level": 14
+  },
+  "deception": {
+    "ru": "обман",
+    "level": 14
+  },
+  "gullible": {
+    "ru": "доверчивый",
+    "level": 14
+  },
+  "divert someone's attention": {
+    "ru": "отвлекать чье-то внимание",
+    "level": 14
+  },
+  "genuine": {
+    "ru": "настоящий, искренний",
+    "level": 14
+  },
+  "counterfeit": {
+    "ru": "поддельный, подделка",
+    "level": 14
   }
 }

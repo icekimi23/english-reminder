@@ -67,20 +67,36 @@ class AppSettings extends Component{
         let tencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
         let frequencyItems = this._el.querySelector('[data-item = "settings-frequencies"]').querySelectorAll('li');
 
-        levelsItems.forEach((liElem)=>{
+        [].forEach.call(levelsItems,(liElem)=>{
             //if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) liElem.firstElementChild.checked = true;
             if (this._currentSettings.levels.indexOf(+liElem.firstElementChild.value) !== -1) this.changeItemStatus(liElem);
         });
 
-        tencesItems.forEach((liElem)=>{
+        // используем одалживание так как на коллекции NodeList forEach работает только в Chrome
+        /*levelsItems.forEach((liElem)=>{
+            //if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) liElem.firstElementChild.checked = true;
+            if (this._currentSettings.levels.indexOf(+liElem.firstElementChild.value) !== -1) this.changeItemStatus(liElem);
+        });*/
+
+        [].forEach.call(tencesItems,(liElem)=>{
             //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
             if (this._currentSettings.tences.indexOf(liElem.firstElementChild.value.trim()) !== -1) this.changeItemStatus(liElem);
         });
 
-        frequencyItems.forEach((liElem)=>{
+        /*tencesItems.forEach((liElem)=>{
+            //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
+            if (this._currentSettings.tences.indexOf(liElem.firstElementChild.value.trim()) !== -1) this.changeItemStatus(liElem);
+        });*/
+
+        [].forEach.call(frequencyItems,(liElem)=>{
             //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
             if (this._currentSettings.rusFrequency === +liElem.firstElementChild.value) this.changeItemStatus(liElem);
         });
+
+        /*frequencyItems.forEach((liElem)=>{
+            //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
+            if (this._currentSettings.rusFrequency === +liElem.firstElementChild.value) this.changeItemStatus(liElem);
+        });*/
 
     }
 

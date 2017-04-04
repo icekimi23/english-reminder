@@ -74,6 +74,7 @@ class SlotMachine extends Component{
         } else if (slot.type === 'sentence-forms'){
             var theOne = options.sentenceType || 'Oopps! Something is wrong!';
             var elementsForSlots = options.sentenceTypes || [];
+
         }
 
         let elementsInSlot = elementsForSlots.length;
@@ -96,10 +97,9 @@ class SlotMachine extends Component{
         let slotItems = slot.el.querySelectorAll('li');
 
         // удаляем все элементы из слота
-        slotItems.forEach( (item) => {
+        [].forEach.call(slotItems,(item) => {
             slot.el.removeChild(item);
         });
-
 
         // для слов создаем перевод(в виде атрибута), для остальных слотов возможно только одно значение
         if (slot.type === 'words') {
@@ -116,6 +116,7 @@ class SlotMachine extends Component{
             theLastLi.innerHTML = theOne.toShow;
             theLastLi.setAttribute('translation',theOne.translation);
             slot.el.insertBefore(theLastLi,slot.el.firstElementChild);
+            slot.el.style.top = '' + slot._slotHeight + 'px';
 
         } else {
 
@@ -130,7 +131,7 @@ class SlotMachine extends Component{
             let theLastLi = document.createElement('li');
             theLastLi.innerHTML = theOne;
             slot.el.insertBefore(theLastLi,slot.el.firstElementChild);
-
+            slot.el.style.top = '' + slot._slotHeight + 'px';
         }
 
     }
@@ -175,9 +176,16 @@ class Slot {
         this._slotHeight = heightToScroll;
 
         // пробуем прокрутить слот
-        $(this.el).css('top',startingHeight).animate({ 'top' : heightToScroll + 'px' },this.speed,'linear',() => {
+        /*$(this.el).css('top',startingHeight).animate({ 'top' : heightToScroll + 'px' },this.speed,'linear',() => {
             this._decreaseSpeed();
-        });
+        });*/
+        //$(this.el).css('top',startingHeight);
+        this.el.classList.add('spinning');
+        this.el.style.top = '0px';
+        setTimeout(()=>{
+            this.el.classList.remove('spinning');
+        },2500)
+
     }
 
     _decreaseSpeed(){
@@ -192,11 +200,29 @@ class Slot {
     }
 
     startSpining(slotHeight,oneSpinStepHeight){
+
+        /*console.log("Анимация начата");*/
+
+        this.el.classList.add('spinning');
+        this.el.style.top = '0px';
+
+        let self = this;
+
+        this.el.addEventListener('transitionend',function onTransitionEnd(){
+            /*console.log("Анимация окончена");*/
+            self.el.classList.remove('spinning');
+            self.el.removeEventListener('transitionend',onTransitionEnd);
+        });
+
+
+        /*setTimeout(()=>{
+            this.el.classList.remove('spinning');
+        },2500)*/
         
-        this.speed = 200 + this._randomSpeenAddition;
+        //this.speed = 200 + this._randomSpeenAddition;
         //this._currentHeight = slotHeight;
         //this._oneSpinStepHeight = -oneSpinStepHeight;
-        this._spinOnce();
+        //this._spinOnce();
     }
 
 }
