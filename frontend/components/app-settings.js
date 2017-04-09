@@ -14,7 +14,7 @@ class AppSettings extends Component{
             'rusFrequency' : 0.25
         };
 
-        //this._el.onmousedown = () => false;
+        this._el.onmousedown = () => false;
 
         this._getSettings();
         this._render();

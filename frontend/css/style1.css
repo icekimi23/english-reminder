@@ -242,15 +242,19 @@ input + label{
     border : 2px solid black;
     padding : 5px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 label{
     font-weight: normal;
 }
 
+
 input:checked + label{
-    color : green;
-    border-color: green;
+    background-color: #679d3d;
+    color : white;
+    border-color: #679d3d;
+    transition: all 0.3s;
 }
 
 .levels {

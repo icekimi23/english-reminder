@@ -9,6 +9,25 @@ class AppPage extends Component{
         this._initCard();
         this._initSlotMachine();
         this._initAbout();
+
+        let self = this;
+        let prevPage = "/";
+
+        // простой роутинг
+        let app = $.sammy(function(){
+            this.get('/',()=>{
+                self.showComponent(self._card);
+            });
+            this.get('#about',()=>{
+                self.showComponent(self._about);
+            });
+            this.get('#settings',()=>{
+                self.showComponent(self._settings);
+            });
+        });
+
+        app.run();
+
     }
 
     _initMenu(){
@@ -21,12 +40,8 @@ class AppPage extends Component{
             let target = event.target;
 
             if (target.closest('[data-action = "show-settings"]')) {
-                //this._card.hide();
-                //this._settings.show();
                 this.showComponent(this._settings);
             } else if  (target.closest('[data-action = "show-about"]')) {
-                //this._card.hide();
-                //this._settings.show();
                 this.showComponent(this._about);
             }
         });
@@ -75,8 +90,6 @@ class AppPage extends Component{
             if (!backEl) return;
 
             window.history.back();
-            //this._settings.hide();
-            //this._card.show();
             this.showComponent(this._card);
 
         });
@@ -121,8 +134,6 @@ class AppPage extends Component{
             if (!backEl) return;
 
             window.history.back();
-            //this._settings.hide();
-            //this._card.show();
             this.showComponent(this._card);
 
         });
@@ -140,4 +151,5 @@ class AppPage extends Component{
         component.show();
 
     }
+
 }
