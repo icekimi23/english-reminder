@@ -6,23 +6,19 @@ class AppSettings extends Component{
         super(options);
 
         this._el.addEventListener('click',this._onBackClick.bind(this));
+        this._el.addEventListener('click',this._onShowOnlyWordsClick.bind(this),false);
 
         this._currentSettings = {
             'levels' : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
             'tences' : ['Present Simple', 'Past Simple', 'Future Simple','Present Perfect', 'Present Continues', 'Past Continues'],
             'sentenceTypes' : ['positive','negative','question'],
-            'rusFrequency' : 0.25
+            'rusFrequency' : 0.25,
+            'onlyWords' : false
         };
 
         this._el.onmousedown = () => false;
 
-        this._getSettings();
-        this._render();
-    }
-
-    // поменяем внешний вид после выбора или отмены выбора элемента и отразим это в настройках
-    changeItemStatus(li){
-        li.firstElementChild.checked = !li.firstElementChild.checked;
+        /*this._render();*/
     }
 
     // установим cookie с текущими настройками
@@ -36,6 +32,7 @@ class AppSettings extends Component{
         setCookie('levels',this._currentSettings.levels.toString(),{ expires : expirationDate });
         setCookie('tences',this._currentSettings.tences.toString(),{ expires : expirationDate });
         setCookie('rusFrequency',this._currentSettings.rusFrequency,{ expires : expirationDate });
+        setCookie('onlyWords',this._currentSettings.onlyWords,{ expires : expirationDate });
     }
 
     // получим настройки хранимые в cookie
@@ -43,6 +40,7 @@ class AppSettings extends Component{
         let levelsCookie = getCookie('levels');
         let tencesCookie = getCookie('tences');
         let rusFrequencyCookie = getCookie('rusFrequency');
+        let onlyWords = getCookie('onlyWords');
 
         if (levelsCookie) {
             this._currentSettings.levels =  levelsCookie.split(',');
@@ -57,6 +55,11 @@ class AppSettings extends Component{
             this._currentSettings.rusFrequency = +rusFrequencyCookie;
         }
 
+        if (onlyWords === 'true') {
+            this._currentSettings.onlyWords = true;
+        }
+
+
         // заполним чекбоксы согласно настройкам
         this._displaySettingsFlags();
     }
@@ -66,38 +69,51 @@ class AppSettings extends Component{
         let levelsItems = this._el.querySelector('[data-item = "settings-levels"]').querySelectorAll('li');
         let tencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
         let frequencyItems = this._el.querySelector('[data-item = "settings-frequencies"]').querySelectorAll('li');
+        let onlyWords = this._el.querySelector('[data-item="only_words_settings"]').querySelector('input');
 
         [].forEach.call(levelsItems,(liElem)=>{
             //if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.levels.indexOf(+liElem.firstElementChild.value) !== -1) this.changeItemStatus(liElem);
+            if (this._currentSettings.levels.indexOf(+liElem.firstElementChild.value) !== -1) {
+                this.changeItemStatus(liElem,true);
+            } else {
+                this.changeItemStatus(liElem,false);
+            }
         });
 
         // используем одалживание так как на коллекции NodeList forEach работает только в Chrome
-        /*levelsItems.forEach((liElem)=>{
-            //if (this._currentSettings.levels.indexOf(+liElem.lastChild.data) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.levels.indexOf(+liElem.firstElementChild.value) !== -1) this.changeItemStatus(liElem);
-        });*/
-
         [].forEach.call(tencesItems,(liElem)=>{
             //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.tences.indexOf(liElem.firstElementChild.value.trim()) !== -1) this.changeItemStatus(liElem);
+            if (this._currentSettings.tences.indexOf(liElem.firstElementChild.value.trim()) !== -1) {
+                this.changeItemStatus(liElem,true);
+            } else {
+                this.changeItemStatus(liElem,false);
+            }
         });
 
-        /*tencesItems.forEach((liElem)=>{
-            //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.tences.indexOf(liElem.firstElementChild.value.trim()) !== -1) this.changeItemStatus(liElem);
-        });*/
 
         [].forEach.call(frequencyItems,(liElem)=>{
             //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.rusFrequency === +liElem.firstElementChild.value) this.changeItemStatus(liElem);
+            if (this._currentSettings.rusFrequency === +liElem.firstElementChild.value) {
+                this.changeItemStatus(liElem,true);
+            } else {
+                this.changeItemStatus(liElem,false);
+            };
         });
 
-        /*frequencyItems.forEach((liElem)=>{
-            //if (this._currentSettings.tences.indexOf(liElem.lastChild.data.trim()) !== -1) liElem.firstElementChild.checked = true;
-            if (this._currentSettings.rusFrequency === +liElem.firstElementChild.value) this.changeItemStatus(liElem);
-        });*/
+        if (this._currentSettings.onlyWords) {
+            onlyWords.checked = true;
+            /*let el = document.querySelector('.not_words_slots_wrapper');
+            if (el) el.classList.add('js-hidden');*/
+        } else {
+            onlyWords.checked = false;
+            /*let el = document.querySelector('.not_words_slots_wrapper');
+            if (el) el.classList.remove('js-hidden');*/
+        }
+    }
 
+    // поменяем внешний вид после выбора или отмены выбора элемента и отразим это в настройках
+    changeItemStatus(li,state){
+        li.firstElementChild.checked = state;
     }
 
     _getSettingsFromPage(){
@@ -108,6 +124,7 @@ class AppSettings extends Component{
         let levelsItems = this._el.querySelector('[data-item = "settings-levels"]').querySelectorAll('li');
         let tencesItems = this._el.querySelector('[data-item = "settings-tences"]').querySelectorAll('li');
         let frequencyItems = this._el.querySelector('[data-item = "settings-frequencies"]').querySelectorAll('li');
+        let onlyWords = this._el.querySelector('[data-item="only_words_settings"]').querySelector('input');
 
         for (let i = 0; i < levelsItems.length ; i++) {
 
@@ -130,18 +147,11 @@ class AppSettings extends Component{
             break;
         }
 
+        this._currentSettings.onlyWords = onlyWords.checked;
+
     }
 
     _onBackClick(event){
-
-        /*let target = event.target;
-
-        if (!target.dataset.action) return;
-
-        if (target.dataset.action === 'back') {
-            // запишем настройки в cookie
-            this._setSettings();
-        }*/
 
         let target = event.target;
 
@@ -151,6 +161,26 @@ class AppSettings extends Component{
 
         this._setSettings();
 
+    }
+
+    _onShowOnlyWordsClick(event){
+/*
+        // назначение обработчика на переклаючатель "Show only words"
+        let target = event.target;
+
+        // обрабатываем только клик на label
+        if (target.tagName === 'INPUT') return;
+
+        let el = target.closest('.only_words_settings');
+
+        if (!el) return;
+
+        let elToHide = document.querySelector('.not_words_slots_wrapper');
+
+        if (!elToHide) return;
+
+        elToHide.classList.toggle('js-hidden');
+*/
 
     }
 
@@ -159,7 +189,7 @@ class AppSettings extends Component{
     }
 
     _render(){
-
+        this._getSettings();
     }
 
 }

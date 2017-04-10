@@ -40,7 +40,7 @@
                     </li>
                 </ul>
             </nav>
-            <h3 class="text-muted logo"><a href="#"><span>EASY</span> reminder</a></h3>
+            <h3 class="text-muted logo"><a href="/"><span>EASY</span> reminder</a></h3>
         </div>
     </div>
 
@@ -75,15 +75,21 @@
                         </div>
                     </div>
 
-                    <div class="slot_machine_wrapper">
-                        <ul class="slot slot4 slot_type_tences">
-                        </ul>
+                    <div class = "not_words_slots_wrapper">
+
+                        <div class="slot_machine_wrapper">
+                            <ul class="slot slot4 slot_type_tences">
+                            </ul>
+                        </div>
+
+                        <div class="slot_machine_wrapper">
+                            <ul class="slot slot5 slot_type_sentence-forms">
+                            </ul>
+                        </div>
+
                     </div>
 
-                    <div class="slot_machine_wrapper">
-                        <ul class="slot slot5 slot_type_sentence-forms">
-                        </ul>
-                    </div>
+
 
                     <ul class="start_btn">
                         <li data-action="start"><a href="#" class="round green">Start<span class="round">Click here to get some random words!</span></a>
@@ -96,7 +102,7 @@
 
             <div class="settings js-hidden" data-component="settings">
 
-                <a href="#!/" data-action="back"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
+                <a href="/" data-action="back"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i><span class="save_and_exit"> save and exit </span></a>
                 <br>
 
                 <div class = "settings_item_wrapper">
@@ -201,6 +207,13 @@
 
                 </div>
 
+                <div class="settings_item_wrapper" data-item="only_words_settings">
+
+                    <input type="checkbox" class = "only_words_btn" id = "only_words_btn">
+                    <label for="only_words_btn"> Show only words </label>
+
+                </div>
+
                 <div class = "settings_item_wrapper">
 
                     <span> Choose tences: </span>
@@ -277,7 +290,7 @@
 
             <div class="about js-hidden" data-component = "about">
 
-                <a href="#!/" data-action="back"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
+                <!--<a href="/" data-action="back"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>-->
 
                 <div class="container">
                     <div class="row">
@@ -286,22 +299,22 @@
 
                             <h2 class = "about_header">Добро пожаловать на easy-reminder.ru!</h2>
                             <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp; Общепринятая рекомендация гласит, что, уделяя английскому по крайней мере 15 минут в день, можно достичь большего,
+                                &nbsp;&nbsp;&nbsp;&nbsp; Нередко можно услышать рекомендацию, что, уделяя английскому по крайней мере 15 минут в день, можно достичь большего,
                                 чем занимаясь по часу и более, но всего пару раз в неделю. К сожалению, это не всегда получается.
                             </p>
                             <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;Поэтому появилась идея создать простой и легкий сайт, который позволил бы в любой момент уделить немного времени повторению и освежению своих
+                                &nbsp;&nbsp;&nbsp;&nbsp;Поэтому появилась идея создать простой сайт, который позволил бы в любой момент уделить немного времени повторению и "освежению" своих
                                 знаний.
                             </p>
                             <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;Чем удобен именно этот сайт? Он простой, хорошо отображается на смартфонах и планшетах и, главное, сделан специально
+                                &nbsp;&nbsp;&nbsp;&nbsp;Чем удобен именно этот сайт? Он простой, хорошо отображается на смартфонах и, главное, сделан специально
                                 для студентов школы easy-school, таким образом, среди слов для повторения, есть все слова из всех левелов. Выбирайте левелы, слова из которых
                                 вы хотели бы повторить, выбирайте частоту появления английского или русского вариантов слова и вперед!:)
                             </p>
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Вместе со словами случайным образом
                                 выбирается время, а также тип предложения. Идея заключается в том, чтобы из получившегося набора (слова, время и тип предложения) составить
-                                предложение, тем самым повторяя время и как в этом времени строится утверждение, отрицание и вопрос. Если такая функция вам не интересна, ее легко можно
+                                предложение, тем самым повторяя время и как в этом времени строится утверждение, отрицание и вопрос. Если такая функция придется вам не по вкусу, ее легко можно
                                 отключить в настройках.
                             </p>
 

@@ -185,6 +185,10 @@ ul {
     display: inline;
 }
 
+.about{
+    margin-top: 35px;
+}
+
 .about_text-wrapper{
     max-width: 600px;
     margin: 0px auto;
@@ -230,6 +234,20 @@ ul {
     color: #337ab7;
 }
 
+.settings .fa-arrow-left{
+    margin-top: 25px;
+}
+
+.settings .save_and_exit{
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 15px;
+}
+
+.settings .save_and_exit:hover{
+    color : #23527c;
+}
+
 input{
     vertical-align: top;
     margin: 0 3px 0 0;
@@ -239,10 +257,11 @@ input{
 }
 
 input + label{
-    border : 2px solid black;
+    border : 2px solid rgba(0, 63, 71, .7);
     padding : 5px;
     cursor: pointer;
     transition: all 0.3s;
+    font-size: 17px;
 }
 
 label{
@@ -362,6 +381,11 @@ input:checked + label{
 
 .spinning{
     transition: top 2.5s ease-out;
+}
+
+.only_words_btn + label{
+    border-radius: 5px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 440px){

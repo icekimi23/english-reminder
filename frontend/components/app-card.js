@@ -4,12 +4,22 @@ class AppCard extends Component {
 
     constructor(options) {
         super(options);
-        this._render();
+        /*this._render();*/
         this._words = null; // Объект со словами загруженными с сервера
     }
 
 
-    _render() {
+    _render(settings) {
+
+        let onlyWordsBlock = this._el.querySelector('.not_words_slots_wrapper');
+
+        if (!onlyWordsBlock) return;
+
+        if (settings.onlyWords) {
+            onlyWordsBlock.classList.add('js-hidden');
+        } else {
+            onlyWordsBlock.classList.remove('js-hidden');
+        }
 
     }
 

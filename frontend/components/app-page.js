@@ -35,7 +35,7 @@ class AppPage extends Component{
         this._menu = new AppMenu( { el : this._el.querySelector('[data-component = "menu"]') } )
 
         // назначение обработчиков на кнопки
-        this._menu.on('click',(event) => {
+        /*this._menu.on('click',(event) => {
 
             let target = event.target;
 
@@ -44,7 +44,7 @@ class AppPage extends Component{
             } else if  (target.closest('[data-action = "show-about"]')) {
                 this.showComponent(this._about);
             }
-        });
+        });*/
 
     }
 
@@ -80,7 +80,7 @@ class AppPage extends Component{
     _initSettings(){
         this._settings = new AppSettings( { el : this._el.querySelector('[data-component = "settings"]') } );
 
-        // назначение обработчиков на кнопки
+        // назначение обработчика на back
         this._settings.on('click',(event) => {
 
             let target = event.target;
@@ -89,7 +89,6 @@ class AppPage extends Component{
 
             if (!backEl) return;
 
-            window.history.back();
             this.showComponent(this._card);
 
         });
@@ -125,7 +124,7 @@ class AppPage extends Component{
     _initAbout(){
         this._about = new AppAbout( { el : this._el.querySelector('[data-component = "about"]') } );
 
-        this._about.on('click',()=>{
+        /*this._about.on('click',()=>{
 
             let target = event.target;
 
@@ -136,7 +135,7 @@ class AppPage extends Component{
             window.history.back();
             this.showComponent(this._card);
 
-        });
+        });*/
     }
 
     showComponent(component){
@@ -147,6 +146,13 @@ class AppPage extends Component{
             if (el.dataset.component === 'menu' || el.dataset.component === 'slot-machine') return;
             el.classList.add('js-hidden');
         });
+
+        // костыль((
+        if (component === this._card) {
+            component._render(this._settings.returnCurrentSettings());
+        } else if (component === this._settings) {
+            component._render();
+        }
 
         component.show();
 
